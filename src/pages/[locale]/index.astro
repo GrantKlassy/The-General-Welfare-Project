@@ -15,7 +15,7 @@ const locale = Astro.params.locale as Locale;
 ---
 
 <Base title={t(locale, "site.title")} lang={locale} currentPath="/">
-  <div class="mx-auto max-w-3xl px-6 py-16">
+  <div class="mx-auto max-w-3xl px-6 py-16 text-center">
     <h1 class="text-4xl font-bold">{t(locale, "site.title")}</h1>
     <p class="mt-4 text-lg text-gray-300">{t(locale, "site.tagline")}</p>
 
