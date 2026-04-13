@@ -8,6 +8,8 @@ tasks:
       - task: check:readme
       - task: check:license
       - task: check:history
+      - task: check:format
+      - task: check:types
 
   check:author:
     desc: Verify git identity is GrantKlassy
@@ -39,6 +41,16 @@ tasks:
           exit 1
         fi
         echo "OK: LICENSE.txt exists"
+
+  check:format:
+    desc: Check code formatting
+    cmds:
+      - pnpm run format:check
+
+  check:types:
+    desc: Run astro check (type checking)
+    cmds:
+      - pnpm run check
 
   check:history:
     desc: Verify no Co-Authored-By in git history

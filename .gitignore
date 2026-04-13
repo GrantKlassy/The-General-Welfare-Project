@@ -1,0 +1,17 @@
+# Astro
+dist/
+.astro/
+
+# Dependencies
+node_modules/
+
+# Playwright
+test-results/
+playwright-report/
+
+# Editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store

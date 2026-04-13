@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inclusive Sans", sans-serif;
+}

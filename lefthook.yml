@@ -19,6 +19,10 @@ pre-commit:
           exit 1
         fi
 
+    - name: format-check
+      glob: "*.{astro,js,mjs,ts,css,json,md}"
+      run: pnpm exec prettier --check {staged_files}
+
 commit-msg:
   jobs:
     - name: no-coauthor
