@@ -12,6 +12,12 @@ These rules apply to all GrantKlassy repos. Enforced by lefthook hooks and `task
 
 The only allowed plugin is `frontend-design@claude-plugins-official`. Do not enable, install, or suggest any other plugins.
 
+## Hosting
+
+Cloudflare Pages. Project name: `the-general-welfare-project`. Custom domain: `generalwelfareproject.com` + `www.generalwelfareproject.com`.
+
+Deploy: `pnpm run build && wrangler pages deploy dist/ --project-name=the-general-welfare-project --branch=main`
+
 ## Directives
 
 - `directives/` is the user's space. **Never create, edit, or delete files in `directives/`.** Enforced by lefthook, but do not rely on the hook.
