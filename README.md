@@ -1,1 +1,1 @@
-# The-General-Welfare-Project
+# [generalwelfareproject.com ↗](https://generalwelfareproject.com)
