@@ -2,17 +2,25 @@
 import Nav from "../components/Nav.astro";
 import Footer from "../components/Footer.astro";
 import "../styles/global.css";
+import type { Locale } from "../i18n";
 
 interface Props {
   title: string;
   description?: string;
+  lang?: Locale;
+  currentPath?: string;
 }
 
-const { title, description = "The General Welfare Project" } = Astro.props;
+const {
+  title,
+  description = "The General Welfare Project",
+  lang = "en",
+  currentPath = "/",
+} = Astro.props;
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang={lang}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -59,9 +67,19 @@ const { title, description = "The General Welfare Project" } = Astro.props;
         font-display: block;
       }
     </style>
+    {
+      lang === "zh" && (
+        <style is:inline>
+          body {
+            font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans SC",
+              sans-serif;
+          }
+        </style>
+      )
+    }
   </head>
   <body class="min-h-screen font-sans antialiased">
-    <Nav />
+    <Nav locale={lang} currentPath={currentPath} />
     <main>
       <slot />
     </main>

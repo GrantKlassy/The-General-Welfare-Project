@@ -16,7 +16,7 @@ test("homepage has visible heading", async ({ page }) => {
 
 test("nav and footer are present", async ({ page }) => {
   await page.goto("/");
-  await expect(page.locator("nav")).toBeVisible();
+  await expect(page.locator("nav").first()).toBeVisible();
   await expect(page.locator("footer")).toBeVisible();
 });
 

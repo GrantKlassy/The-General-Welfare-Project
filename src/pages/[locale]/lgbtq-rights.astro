@@ -1,0 +1,90 @@
+---
+import Base from "../../layouts/Base.astro";
+import ResourceLink from "../../components/ResourceLink.astro";
+import { t, localePath, type Locale } from "../../i18n";
+
+export function getStaticPaths() {
+  return [
+    { params: { locale: "es" } },
+    { params: { locale: "zh" } },
+    { params: { locale: "vi" } },
+  ];
+}
+
+const locale = Astro.params.locale as Locale;
+---
+
+<Base
+  title={`${t(locale, "lgbtq.title")} — ${t(locale, "site.title")}`}
+  lang={locale}
+  currentPath="/lgbtq-rights"
+>
+  <div class="mx-auto max-w-3xl px-6 py-16">
+    <h1 class="text-4xl font-bold">{t(locale, "lgbtq.title")}</h1>
+    <p class="mt-4 text-lg text-gray-300">
+      {t(locale, "lgbtq.pageDesc")}
+    </p>
+
+    <section class="mt-10">
+      <h2 class="text-2xl font-bold">{t(locale, "common.knowYourRights")}</h2>
+      <div class="mt-4 grid gap-3">
+        <ResourceLink
+          href="#"
+          title={t(locale, "lgbtq.antiDiscrimination")}
+          description={t(locale, "lgbtq.antiDiscriminationDesc")}
+        />
+        <ResourceLink
+          href="#"
+          title={t(locale, "lgbtq.transRights")}
+          description={t(locale, "lgbtq.transRightsDesc")}
+        />
+      </div>
+    </section>
+
+    <section class="mt-10">
+      <h2 class="text-2xl font-bold">{t(locale, "common.getHelp")}</h2>
+      <div class="mt-4 grid gap-3">
+        <ResourceLink
+          href="#"
+          title={t(locale, "lgbtq.legalSupport")}
+          description={t(locale, "lgbtq.legalSupportDesc")}
+        />
+        <ResourceLink
+          href="#"
+          title={t(locale, "lgbtq.crisisResources")}
+          description={t(locale, "lgbtq.crisisResourcesDesc")}
+        />
+      </div>
+    </section>
+
+    <section class="mt-10">
+      <h2 class="text-2xl font-bold">{t(locale, "common.callNow")}</h2>
+      <div class="mt-4 grid gap-3">
+        <a
+          href="tel:988"
+          class="block rounded-lg border border-gray-800 px-5 py-4 transition-colors hover:border-gray-600 hover:bg-gray-900"
+        >
+          <span class="font-bold">{t(locale, "lgbtq.phone988")}</span>
+          <span class="mt-1 block text-sm text-gray-400"
+            >{t(locale, "lgbtq.phone988Desc")}</span
+          >
+        </a>
+        <a
+          href="tel:866-488-7386"
+          class="block rounded-lg border border-gray-800 px-5 py-4 transition-colors hover:border-gray-600 hover:bg-gray-900"
+        >
+          <span class="font-bold">{t(locale, "lgbtq.phoneTrevor")}</span>
+          <span class="mt-1 block text-sm text-gray-400"
+            >{t(locale, "lgbtq.phoneTrevorDesc")}</span
+          >
+        </a>
+      </div>
+    </section>
+
+    <a
+      href={localePath(locale, "/")}
+      class="mt-12 inline-block text-gray-400 hover:text-white"
+      >&larr; {t(locale, "common.allTopics")}</a
+    >
+  </div>
+</Base>

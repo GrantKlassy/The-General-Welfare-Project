@@ -1,0 +1,81 @@
+---
+import Base from "../../layouts/Base.astro";
+import ResourceLink from "../../components/ResourceLink.astro";
+import { t, localePath, type Locale } from "../../i18n";
+
+export function getStaticPaths() {
+  return [
+    { params: { locale: "es" } },
+    { params: { locale: "zh" } },
+    { params: { locale: "vi" } },
+  ];
+}
+
+const locale = Astro.params.locale as Locale;
+---
+
+<Base
+  title={`${t(locale, "freeSpeech.title")} — ${t(locale, "site.title")}`}
+  lang={locale}
+  currentPath="/free-speech"
+>
+  <div class="mx-auto max-w-3xl px-6 py-16">
+    <h1 class="text-4xl font-bold">{t(locale, "freeSpeech.title")}</h1>
+    <p class="mt-4 text-lg text-gray-300">
+      {t(locale, "freeSpeech.pageDesc")}
+    </p>
+
+    <section class="mt-10">
+      <h2 class="text-2xl font-bold">{t(locale, "common.knowYourRights")}</h2>
+      <div class="mt-4 grid gap-3">
+        <ResourceLink
+          href="#"
+          title={t(locale, "freeSpeech.firstAmendment")}
+          description={t(locale, "freeSpeech.firstAmendmentDesc")}
+        />
+        <ResourceLink
+          href="#"
+          title={t(locale, "freeSpeech.protest")}
+          description={t(locale, "freeSpeech.protestDesc")}
+        />
+      </div>
+    </section>
+
+    <section class="mt-10">
+      <h2 class="text-2xl font-bold">{t(locale, "common.getHelp")}</h2>
+      <div class="mt-4 grid gap-3">
+        <ResourceLink
+          href="#"
+          title={t(locale, "freeSpeech.legalSupport")}
+          description={t(locale, "freeSpeech.legalSupportDesc")}
+        />
+        <ResourceLink
+          href="#"
+          title={t(locale, "freeSpeech.knowRightsProtest")}
+          description={t(locale, "freeSpeech.knowRightsProtestDesc")}
+        />
+      </div>
+    </section>
+
+    <section class="mt-10">
+      <h2 class="text-2xl font-bold">{t(locale, "common.callNow")}</h2>
+      <div class="mt-4 grid gap-3">
+        <a
+          href="tel:#"
+          class="block rounded-lg border border-gray-800 px-5 py-4 transition-colors hover:border-gray-600 hover:bg-gray-900"
+        >
+          <span class="font-bold">{t(locale, "freeSpeech.phone")}</span>
+          <span class="mt-1 block text-sm text-gray-400"
+            >{t(locale, "freeSpeech.phoneDesc")}</span
+          >
+        </a>
+      </div>
+    </section>
+
+    <a
+      href={localePath(locale, "/")}
+      class="mt-12 inline-block text-gray-400 hover:text-white"
+      >&larr; {t(locale, "common.allTopics")}</a
+    >
+  </div>
+</Base>

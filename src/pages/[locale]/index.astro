@@ -1,0 +1,50 @@
+---
+import Base from "../../layouts/Base.astro";
+import CategoryCard from "../../components/CategoryCard.astro";
+import { t, localePath, type Locale } from "../../i18n";
+
+export function getStaticPaths() {
+  return [
+    { params: { locale: "es" } },
+    { params: { locale: "zh" } },
+    { params: { locale: "vi" } },
+  ];
+}
+
+const locale = Astro.params.locale as Locale;
+---
+
+<Base title={t(locale, "site.title")} lang={locale} currentPath="/">
+  <div class="mx-auto max-w-3xl px-6 py-16">
+    <h1 class="text-4xl font-bold">{t(locale, "site.title")}</h1>
+    <p class="mt-4 text-lg text-gray-300">{t(locale, "site.tagline")}</p>
+
+    <div class="mt-10 grid gap-4">
+      <CategoryCard
+        title={t(locale, "housing.title")}
+        description={t(locale, "housing.cardDesc")}
+        href={localePath(locale, "/housing")}
+      />
+      <CategoryCard
+        title={t(locale, "voting.title")}
+        description={t(locale, "voting.cardDesc")}
+        href={localePath(locale, "/voting")}
+      />
+      <CategoryCard
+        title={t(locale, "lgbtq.title")}
+        description={t(locale, "lgbtq.cardDesc")}
+        href={localePath(locale, "/lgbtq-rights")}
+      />
+      <CategoryCard
+        title={t(locale, "freeSpeech.title")}
+        description={t(locale, "freeSpeech.cardDesc")}
+        href={localePath(locale, "/free-speech")}
+      />
+      <CategoryCard
+        title={t(locale, "workers.title")}
+        description={t(locale, "workers.cardDesc")}
+        href={localePath(locale, "/workers-rights")}
+      />
+    </div>
+  </div>
+</Base>
