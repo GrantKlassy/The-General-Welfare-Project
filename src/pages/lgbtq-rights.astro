@@ -1,0 +1,73 @@
+---
+import Base from "../layouts/Base.astro";
+import ResourceLink from "../components/ResourceLink.astro";
+---
+
+<Base title="LGBTQ+ Rights — The General Welfare Project">
+  <div class="mx-auto max-w-3xl px-6 py-16">
+    <h1 class="text-4xl font-bold">LGBTQ+ Rights</h1>
+    <p class="mt-4 text-lg text-gray-300">
+      Anti-discrimination protections, trans rights, and support organizations.
+    </p>
+
+    <section class="mt-10">
+      <h2 class="text-2xl font-bold">Know Your Rights</h2>
+      <div class="mt-4 grid gap-3">
+        <ResourceLink
+          href="#"
+          title="Anti-Discrimination Protections"
+          description="Federal and state laws protecting against discrimination based on sexual orientation and gender identity"
+        />
+        <ResourceLink
+          href="#"
+          title="Transgender Rights"
+          description="Legal protections, name and gender marker changes, healthcare access"
+        />
+      </div>
+    </section>
+
+    <section class="mt-10">
+      <h2 class="text-2xl font-bold">Get Help</h2>
+      <div class="mt-4 grid gap-3">
+        <ResourceLink
+          href="#"
+          title="Legal Support Organizations"
+          description="Free legal help for discrimination, employment, housing, and identity document issues"
+        />
+        <ResourceLink
+          href="#"
+          title="Support & Crisis Resources"
+          description="Mental health support, community organizations, and crisis intervention"
+        />
+      </div>
+    </section>
+
+    <section class="mt-10">
+      <h2 class="text-2xl font-bold">Call Now</h2>
+      <div class="mt-4 grid gap-3">
+        <a
+          href="tel:988"
+          class="block rounded-lg border border-gray-800 px-5 py-4 transition-colors hover:border-gray-600 hover:bg-gray-900"
+        >
+          <span class="font-bold">988</span>
+          <span class="mt-1 block text-sm text-gray-400"
+            >Suicide & Crisis Lifeline — press 3 for LGBTQ+ support</span
+          >
+        </a>
+        <a
+          href="tel:866-488-7386"
+          class="block rounded-lg border border-gray-800 px-5 py-4 transition-colors hover:border-gray-600 hover:bg-gray-900"
+        >
+          <span class="font-bold">866-488-7386</span>
+          <span class="mt-1 block text-sm text-gray-400"
+            >The Trevor Project — crisis support for LGBTQ+ youth</span
+          >
+        </a>
+      </div>
+    </section>
+
+    <a href="/" class="mt-12 inline-block text-gray-400 hover:text-white"
+      >&larr; All topics</a
+    >
+  </div>
+</Base>

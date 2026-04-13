@@ -1,0 +1,64 @@
+---
+import Base from "../layouts/Base.astro";
+import ResourceLink from "../components/ResourceLink.astro";
+---
+
+<Base title="Housing — The General Welfare Project">
+  <div class="mx-auto max-w-3xl px-6 py-16">
+    <h1 class="text-4xl font-bold">Housing</h1>
+    <p class="mt-4 text-lg text-gray-300">
+      Tenant rights, eviction defense, and housing assistance programs.
+    </p>
+
+    <section class="mt-10">
+      <h2 class="text-2xl font-bold">Know Your Rights</h2>
+      <div class="mt-4 grid gap-3">
+        <ResourceLink
+          href="#"
+          title="Tenant Rights Overview"
+          description="Learn about your rights as a renter — leases, security deposits, habitability standards"
+        />
+        <ResourceLink
+          href="#"
+          title="Eviction Protections"
+          description="Understand the eviction process and your legal protections"
+        />
+      </div>
+    </section>
+
+    <section class="mt-10">
+      <h2 class="text-2xl font-bold">Get Help</h2>
+      <div class="mt-4 grid gap-3">
+        <ResourceLink
+          href="#"
+          title="Housing Assistance Programs"
+          description="Federal and state programs for rental assistance, Section 8, and emergency housing"
+        />
+        <ResourceLink
+          href="#"
+          title="Legal Aid for Tenants"
+          description="Free or low-cost legal help for housing disputes and eviction defense"
+        />
+      </div>
+    </section>
+
+    <section class="mt-10">
+      <h2 class="text-2xl font-bold">Call Now</h2>
+      <div class="mt-4 grid gap-3">
+        <a
+          href="tel:211"
+          class="block rounded-lg border border-gray-800 px-5 py-4 transition-colors hover:border-gray-600 hover:bg-gray-900"
+        >
+          <span class="font-bold">211</span>
+          <span class="mt-1 block text-sm text-gray-400"
+            >Local housing assistance and social services referrals</span
+          >
+        </a>
+      </div>
+    </section>
+
+    <a href="/" class="mt-12 inline-block text-gray-400 hover:text-white"
+      >&larr; All topics</a
+    >
+  </div>
+</Base>

@@ -3,3 +3,10 @@
 @theme {
   --font-sans: "Inclusive Sans", sans-serif;
 }
+
+@layer base {
+  html {
+    background-color: #000;
+    color: #fff;
+  }
+}

@@ -1,10 +1,39 @@
 ---
 import Base from "../layouts/Base.astro";
+import CategoryCard from "../components/CategoryCard.astro";
 ---
 
 <Base title="The General Welfare Project">
   <div class="mx-auto max-w-3xl px-6 py-16">
     <h1 class="text-4xl font-bold">The General Welfare Project</h1>
-    <p class="mt-4 text-lg text-gray-700">Coming soon.</p>
+    <p class="mt-4 text-lg text-gray-300">Know your rights. Find help.</p>
+
+    <div class="mt-10 grid gap-4">
+      <CategoryCard
+        title="Housing"
+        description="Tenant rights, eviction defense, housing assistance"
+        href="/housing"
+      />
+      <CategoryCard
+        title="Voting"
+        description="Registration, polling info, voter ID, election protection"
+        href="/voting"
+      />
+      <CategoryCard
+        title="LGBTQ+ Rights"
+        description="Anti-discrimination, trans rights, support organizations"
+        href="/lgbtq-rights"
+      />
+      <CategoryCard
+        title="Free Speech"
+        description="First amendment, protest rights, press freedom"
+        href="/free-speech"
+      />
+      <CategoryCard
+        title="Workers' Rights"
+        description="Wage theft, workplace safety, labor board, unemployment"
+        href="/workers-rights"
+      />
+    </div>
   </div>
 </Base>

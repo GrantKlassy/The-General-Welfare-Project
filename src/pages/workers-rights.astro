@@ -1,0 +1,65 @@
+---
+import Base from "../layouts/Base.astro";
+import ResourceLink from "../components/ResourceLink.astro";
+---
+
+<Base title="Workers' Rights — The General Welfare Project">
+  <div class="mx-auto max-w-3xl px-6 py-16">
+    <h1 class="text-4xl font-bold">Workers' Rights</h1>
+    <p class="mt-4 text-lg text-gray-300">
+      Wage theft, workplace safety, labor board complaints, and unemployment
+      insurance.
+    </p>
+
+    <section class="mt-10">
+      <h2 class="text-2xl font-bold">Know Your Rights</h2>
+      <div class="mt-4 grid gap-3">
+        <ResourceLink
+          href="#"
+          title="Wage & Hour Rights"
+          description="Minimum wage, overtime, tip protections, and what to do about wage theft"
+        />
+        <ResourceLink
+          href="#"
+          title="Workplace Safety"
+          description="Your right to a safe workplace and how to report unsafe conditions"
+        />
+      </div>
+    </section>
+
+    <section class="mt-10">
+      <h2 class="text-2xl font-bold">Get Help</h2>
+      <div class="mt-4 grid gap-3">
+        <ResourceLink
+          href="#"
+          title="File a Labor Complaint"
+          description="How to file complaints with the Department of Labor or your state labor board"
+        />
+        <ResourceLink
+          href="#"
+          title="Unemployment Insurance"
+          description="How to apply for unemployment benefits in your state"
+        />
+      </div>
+    </section>
+
+    <section class="mt-10">
+      <h2 class="text-2xl font-bold">Call Now</h2>
+      <div class="mt-4 grid gap-3">
+        <a
+          href="tel:1-866-487-2365"
+          class="block rounded-lg border border-gray-800 px-5 py-4 transition-colors hover:border-gray-600 hover:bg-gray-900"
+        >
+          <span class="font-bold">1-866-4-USWAGE (1-866-487-2365)</span>
+          <span class="mt-1 block text-sm text-gray-400"
+            >Department of Labor — wage and hour violations</span
+          >
+        </a>
+      </div>
+    </section>
+
+    <a href="/" class="mt-12 inline-block text-gray-400 hover:text-white"
+      >&larr; All topics</a
+    >
+  </div>
+</Base>

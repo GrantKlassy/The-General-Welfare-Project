@@ -1,0 +1,64 @@
+---
+import Base from "../layouts/Base.astro";
+import ResourceLink from "../components/ResourceLink.astro";
+---
+
+<Base title="Free Speech — The General Welfare Project">
+  <div class="mx-auto max-w-3xl px-6 py-16">
+    <h1 class="text-4xl font-bold">Free Speech</h1>
+    <p class="mt-4 text-lg text-gray-300">
+      First amendment rights, protest rights, and press freedom.
+    </p>
+
+    <section class="mt-10">
+      <h2 class="text-2xl font-bold">Know Your Rights</h2>
+      <div class="mt-4 grid gap-3">
+        <ResourceLink
+          href="#"
+          title="First Amendment Basics"
+          description="What the First Amendment protects — and what it doesn't"
+        />
+        <ResourceLink
+          href="#"
+          title="Right to Protest"
+          description="Your rights at demonstrations, marches, and public assemblies"
+        />
+      </div>
+    </section>
+
+    <section class="mt-10">
+      <h2 class="text-2xl font-bold">Get Help</h2>
+      <div class="mt-4 grid gap-3">
+        <ResourceLink
+          href="#"
+          title="Legal Support for Free Speech"
+          description="Organizations that defend free speech and press freedom"
+        />
+        <ResourceLink
+          href="#"
+          title="Know Your Rights at Protests"
+          description="What to do if you're arrested, detained, or confronted by police at a protest"
+        />
+      </div>
+    </section>
+
+    <section class="mt-10">
+      <h2 class="text-2xl font-bold">Call Now</h2>
+      <div class="mt-4 grid gap-3">
+        <a
+          href="tel:#"
+          class="block rounded-lg border border-gray-800 px-5 py-4 transition-colors hover:border-gray-600 hover:bg-gray-900"
+        >
+          <span class="font-bold">Legal Hotline</span>
+          <span class="mt-1 block text-sm text-gray-400"
+            >Free speech and civil liberties legal assistance</span
+          >
+        </a>
+      </div>
+    </section>
+
+    <a href="/" class="mt-12 inline-block text-gray-400 hover:text-white"
+      >&larr; All topics</a
+    >
+  </div>
+</Base>
