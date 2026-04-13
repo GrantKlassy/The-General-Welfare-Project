@@ -4,4 +4,4 @@
 
 ![American flag](public/flag_usa.svg)
 
-*The Congress shall have Power To lay and collect Taxes, Duties, Imposts and Excises, to pay the Debts and provide for the common Defence and **general Welfare of the United States**; but all Duties, Imposts and Excises shall be uniform throughout the United States;*
+*We the People of the United States, in Order to form a more perfect Union, establish Justice, insure domestic Tranquility, provide for the common defence, promote the **general Welfare**, and secure the Blessings of Liberty to ourselves and our Posterity, do ordain and establish this Constitution for the United States of America.*
