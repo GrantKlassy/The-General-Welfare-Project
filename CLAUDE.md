@@ -8,6 +8,10 @@ These rules apply to all GrantKlassy repos. Enforced by lefthook hooks and `task
 - All commits must be authored as `GrantKlassy`. The git identity is managed by `~/.gitconfig` includeIf — do not set it locally.
 - Push via the `github.com-gk` SSH alias only.
 
+## Plugins
+
+The only allowed plugin is `frontend-design@claude-plugins-official`. Do not enable, install, or suggest any other plugins.
+
 ## Directives
 
 - `directives/` is the user's space. **Never create, edit, or delete files in `directives/`.** Enforced by lefthook, but do not rely on the hook.
