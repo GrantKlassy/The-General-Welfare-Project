@@ -1,6 +1,11 @@
 version: "3"
 
 tasks:
+  dev:
+    desc: Start Astro dev server
+    cmds:
+      - pnpm dev
+
   check:
     desc: Run all standard repo checks
     cmds:
