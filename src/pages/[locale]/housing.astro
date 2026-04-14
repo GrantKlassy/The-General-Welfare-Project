@@ -20,13 +20,13 @@ const locale = Astro.params.locale as Locale;
   currentPath="/housing"
 >
   <div class="mx-auto max-w-3xl px-6 py-16">
-    <h1 class="text-4xl font-bold">{t(locale, "housing.title")}</h1>
-    <p class="mt-4 text-lg text-gray-300">
+    <h1 class="text-center text-4xl font-bold">{t(locale, "housing.title")}</h1>
+    <p class="mt-4 text-center text-lg text-gray-300">
       {t(locale, "housing.pageDesc")}
     </p>
 
     <section class="mt-10">
-      <h2 class="text-2xl font-bold"><span class="text-flag-red">[[[</span> ★ {t(locale, "common.knowYourRights")} ★ <span class="text-flag-red">]]]</span></h2>
+      <h2 class="text-center text-2xl font-bold"><span class="text-flag-red">[[[</span> ★ {t(locale, "common.knowYourRights")} ★ <span class="text-flag-red">]]]</span></h2>
       <div class="mt-4 grid gap-3">
         <ResourceLink
           href="https://www.hud.gov/topics/rental_assistance/tenantrights"
@@ -34,7 +34,7 @@ const locale = Astro.params.locale as Locale;
           description={t(locale, "housing.tenantRightsDesc")}
         />
         <ResourceLink
-          href="https://www.usa.gov/legal-aid"
+          href="https://www.lawhelp.org"
           title={t(locale, "housing.eviction")}
           description={t(locale, "housing.evictionDesc")}
         />
@@ -42,7 +42,7 @@ const locale = Astro.params.locale as Locale;
     </section>
 
     <section class="mt-10">
-      <h2 class="text-2xl font-bold">[[[ ★ {t(locale, "common.getHelp")} ★ ]]]</h2>
+      <h2 class="text-center text-2xl font-bold">[[[ ★ {t(locale, "common.getHelp")} ★ ]]]</h2>
       <div class="mt-4 grid gap-3">
         <ResourceLink
           href="https://www.hud.gov/topics/rental_assistance"
@@ -58,7 +58,7 @@ const locale = Astro.params.locale as Locale;
     </section>
 
     <section class="mt-10">
-      <h2 class="text-2xl font-bold"><span class="text-flag-blue">[[[</span> ★ {t(locale, "common.callNow")} ★ <span class="text-flag-blue">]]]</span></h2>
+      <h2 class="text-center text-2xl font-bold"><span class="text-flag-blue">[[[</span> ★ {t(locale, "common.callNow")} ★ <span class="text-flag-blue">]]]</span></h2>
       <div class="mt-4 grid gap-3">
         <a
           href="tel:211"
@@ -74,7 +74,7 @@ const locale = Astro.params.locale as Locale;
 
     <a
       href={localePath(locale, "/")}
-      class="mt-12 inline-block text-gray-400 hover:text-white"
+      class="mt-12 block text-center text-gray-400 hover:text-white"
       >&larr; {t(locale, "common.allTopics")}</a
     >
   </div>
