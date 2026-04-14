@@ -15,13 +15,22 @@ const locale = Astro.params.locale as Locale;
 ---
 
 <Base title={t(locale, "site.title")} lang={locale} currentPath="/">
-  <div class="mx-auto max-w-3xl px-4 py-16 text-center sm:px-6">
-    <h1 class="text-4xl font-bold">{t(locale, "site.title")}</h1>
-    <p class="mt-4 text-lg"><span class="text-flag-red">[[[</span> ★ {t(locale, "common.knowYourRights")} ★ <span class="text-flag-red">]]]</span></p>
-    <p class="text-lg">[[[ ★ {t(locale, "common.getHelp")} ★ ]]]</p>
-    <p class="text-lg"><span class="text-flag-blue">[[[</span> ★ {t(locale, "common.callNow")} ★ <span class="text-flag-blue">]]]</span></p>
+  <div
+    class="mx-auto max-w-3xl px-4 py-10 text-center sm:px-6 sm:py-16 lg:max-w-5xl"
+  >
+    <h1 class="text-3xl font-bold sm:text-4xl">{t(locale, "site.title")}</h1>
+    <p class="mt-4 text-lg sm:text-xl">
+      <span class="text-flag-red">[[[</span> ★ {
+        t(locale, "common.knowYourRights")
+      } ★ <span class="text-flag-red">]]]</span>
+    </p>
+    <p class="text-lg sm:text-xl">[[[ ★ {t(locale, "common.getHelp")} ★ ]]]</p>
+    <p class="text-lg sm:text-xl">
+      <span class="text-flag-blue">[[[</span> ★ {t(locale, "common.callNow")} ★ <span
+        class="text-flag-blue">]]]</span>
+    </p>
 
-    <div class="mt-10 grid gap-4">
+    <div class="mt-8 grid gap-3 sm:mt-10 sm:gap-4 lg:grid-cols-2">
       <CategoryCard
         title={t(locale, "housing.title")}
         description={t(locale, "housing.cardDesc")}
@@ -49,13 +58,17 @@ const locale = Astro.params.locale as Locale;
       />
     </div>
 
-    <img src="/flag_usa.svg" alt="American flag" class="mx-auto mt-10 w-1/2" />
+    <img
+      src="/flag_usa.svg"
+      alt="American flag"
+      class="mx-auto mt-8 w-1/2 sm:mt-10"
+    />
     <p class="mx-auto mt-4 max-w-xl text-xs text-gray-400">
-      We the People of the United States, in Order to form a more perfect
-      Union, establish Justice, insure domestic Tranquility, provide for the
-      common defence, promote the GENERAL WELFARE, and secure the Blessings of
-      Liberty to ourselves and our Posterity, do ordain and establish this
-      Constitution for the United States of America.
+      We the People of the United States, in Order to form a more perfect Union,
+      establish Justice, insure domestic Tranquility, provide for the common
+      defence, promote the GENERAL WELFARE, and secure the Blessings of Liberty
+      to ourselves and our Posterity, do ordain and establish this Constitution
+      for the United States of America.
     </p>
   </div>
 </Base>
