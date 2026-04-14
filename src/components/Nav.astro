@@ -1,6 +1,6 @@
 ---
 import LanguageSwitcher from "./LanguageSwitcher.astro";
-import { localePath, type Locale } from "../i18n";
+import { type Locale } from "../i18n";
 
 interface Props {
   locale?: Locale;
@@ -10,11 +10,6 @@ interface Props {
 const { locale = "en", currentPath = "/" } = Astro.props;
 ---
 
-<nav class="border-b border-neutral-800 px-6 py-4">
-  <div class="flex items-center justify-between">
-    <a href={localePath(locale, "/")} class="text-lg font-bold"
-      >The General Welfare Project</a
-    >
-    <LanguageSwitcher currentLocale={locale} currentPath={currentPath} />
-  </div>
+<nav class="border-b border-neutral-800 px-6 py-3">
+  <LanguageSwitcher currentLocale={locale} currentPath={currentPath} />
 </nav>
