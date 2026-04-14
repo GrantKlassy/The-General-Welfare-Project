@@ -15,6 +15,7 @@ tasks:
       - task: check:history
       - task: check:format
       - task: check:types
+      - task: check:i18n
 
   check:author:
     desc: Verify git identity is GrantKlassy
@@ -68,3 +69,34 @@ tasks:
           exit 1
         fi
         echo "OK: no Co-Authored-By contamination"
+
+  check:i18n:
+    desc: Verify translations are not stale vs en.ts
+    cmds:
+      - bash scripts/check-translations-fresh.sh
+
+  translate:
+    desc: Translate en.ts to target locale(s) using Claude
+    vars:
+      LOCALE: '{{.LOCALE | default "all"}}'
+      MODEL: '{{.MODEL | default "sonnet"}}'
+    cmds:
+      - |
+        if [ "{{.LOCALE}}" = "all" ]; then
+          MODEL={{.MODEL}} bash scripts/translate.sh
+        else
+          MODEL={{.MODEL}} bash scripts/translate.sh {{.LOCALE}}
+        fi
+
+  translate:review:
+    desc: Review translation quality using LLM-as-Judge
+    vars:
+      LOCALE: '{{.LOCALE | default "all"}}'
+      MODEL: '{{.MODEL | default "sonnet"}}'
+    cmds:
+      - |
+        if [ "{{.LOCALE}}" = "all" ]; then
+          MODEL={{.MODEL}} bash scripts/review-translation.sh
+        else
+          MODEL={{.MODEL}} bash scripts/review-translation.sh {{.LOCALE}}
+        fi
