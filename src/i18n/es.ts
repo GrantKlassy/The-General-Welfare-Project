@@ -13,12 +13,12 @@ export default {
     "Derechos del inquilino, defensa contra desalojo, ayuda con vivienda",
   "housing.pageDesc":
     "Derechos del inquilino, defensa contra desalojo y programas de asistencia de vivienda.",
-  "housing.tenantRights": "Tu Casero No Puede Hacer Eso",
+  "housing.tenantRights": "Tu Casero No Puede Hacer Ciertas Cosas",
   "housing.tenantRightsDesc":
-    "Tienes el derecho legal a un hogar seguro, a recuperar tu dep\u00f3sito y a un contrato justo. Esto es lo que los caseros NO te pueden hacer.",
+    "Tienes derechos legales a un hogar seguro, a que te devuelvan tu dep\u00f3sito de seguridad, y a un contrato justo y honesto. Esto explicar\u00e1 lo que los caseros NO tienen permitido hacer.",
   "housing.eviction": "Puedes Luchar Contra un Desalojo",
   "housing.evictionDesc":
-    "No tienes que irte sin m\u00e1s. Tienes derechos legales en el proceso de desalojo \u2014 y abogados gratis que te ayudar\u00e1n a luchar.",
+    "No tienes que irte sin m\u00e1s. Tienes derechos legales en el proceso de desalojo --- y abogados gratis que te ayudar\u00e1n a luchar.",
   "housing.assistance": "Solicita Ayuda para el Alquiler Ahora",
   "housing.assistanceDesc":
     "Puede que califiques para ayuda con el alquiler ahora mismo. Solicita asistencia de emergencia, Section 8 o vivienda p\u00fablica a trav\u00e9s de la autoridad de vivienda de tu \u00e1rea.",
@@ -39,7 +39,7 @@ export default {
     "Solo toma 2 minutos. Verifica si est\u00e1s registrado y, si no, reg\u00edstrate en l\u00ednea aqu\u00ed mismo.",
   "voting.voterId": "Averigua Qu\u00e9 ID Necesitas para Votar",
   "voting.voterIdDesc":
-    "Cada estado es diferente. Busca exactamente qu\u00e9 ID requiere tu estado \u2014 algunos no piden ninguno.",
+    "Cada estado es diferente. Busca exactamente qu\u00e9 ID requiere tu estado --- algunos no piden ninguno.",
   "voting.pollingPlace": "Encuentra Exactamente D\u00f3nde Votas",
   "voting.pollingPlaceDesc":
     "Ingresa tu direcci\u00f3n y obt\u00e9n tu lugar de votaci\u00f3n exacto, los horarios y lo que est\u00e1 en tu boleta.",
@@ -49,7 +49,7 @@ export default {
     "Si alguien trata de impedir que votes, eso es un delito federal. Rep\u00f3rtalo y obt\u00e9n ayuda inmediata de voluntarios legales capacitados.",
   "voting.phone": "866-OUR-VOTE (866-687-8683)",
   "voting.phoneDesc":
-    "L\u00ednea de Protecci\u00f3n Electoral \u2014 asistencia no partidista para votantes",
+    "L\u00ednea de Protecci\u00f3n Electoral --- asistencia no partidista para votantes",
   // LGBTQ+
   "lgbtq.title": "Derechos LGBTQ+",
   "lgbtq.cardDesc":
@@ -62,19 +62,19 @@ export default {
   "lgbtq.transRights":
     "Puedes Actualizar Tu Nombre y Documentos de Identificaci\u00f3n",
   "lgbtq.transRightsDesc":
-    "Gu\u00edas paso a paso para cambiar tu nombre, el marcador de g\u00e9nero en tus documentos y acceder a atenci\u00f3n m\u00e9dica \u2014 para cada estado.",
+    "Gu\u00edas paso a paso para cambiar tu nombre, el marcador de g\u00e9nero en tus documentos y acceder a atenci\u00f3n m\u00e9dica --- para cada estado.",
   "lgbtq.legalSupport": "Consigue Ayuda Legal Gratis Ahora Mismo",
   "lgbtq.legalSupportDesc":
-    "El centro de ayuda de Lambda Legal toma casos gratis. Si te han discriminado, despedido, negado vivienda o atenci\u00f3n m\u00e9dica por ser quien eres \u2014 ellos quieren escucharte.",
+    "El centro de ayuda de Lambda Legal toma casos gratis. Si te han discriminado, despedido, negado vivienda o atenci\u00f3n m\u00e9dica por ser quien eres --- ellos quieren escucharte.",
   "lgbtq.crisisResources": "Habla con Alguien que Te Entiende",
   "lgbtq.crisisResourcesDesc":
-    "Apoyo confidencial de personas que entienden lo que vives. Chatea, manda un mensaje o llama \u2014 para cualquier persona LGBTQ+ que necesite hablar, no solo en crisis.",
+    "Apoyo confidencial de personas que entienden lo que vives. Chatea, manda un mensaje o llama --- para cualquier persona LGBTQ+ que necesite hablar, no solo en crisis.",
   "lgbtq.phone988": "988",
   "lgbtq.phone988Desc":
-    "L\u00ednea de Crisis y Suicidio \u2014 presiona 3 para apoyo LGBTQ+",
+    "L\u00ednea de Crisis y Suicidio --- presiona 3 para apoyo LGBTQ+",
   "lgbtq.phoneTrevor": "866-488-7386",
   "lgbtq.phoneTrevorDesc":
-    "The Trevor Project \u2014 apoyo en crisis para j\u00f3venes LGBTQ+",
+    "The Trevor Project --- apoyo en crisis para j\u00f3venes LGBTQ+",
   // Free Speech
   "freeSpeech.title": "Libertad de Expresi\u00f3n",
   "freeSpeech.cardDesc":
@@ -105,19 +105,19 @@ export default {
     "Robo de salario, seguridad en el trabajo, quejas ante la junta laboral y seguro de desempleo.",
   "workers.wageHour": "Tu Jefe Te Debe Cada D\u00f3lar que Ganaste",
   "workers.wageHourDesc":
-    "El robo de salario es el robo m\u00e1s grande en Am\u00e9rica. Si no te pagaron el salario m\u00ednimo, las horas extra, o te quitaron las propinas \u2014 la ley est\u00e1 de tu lado.",
+    "El robo de salario es el robo m\u00e1s grande en Am\u00e9rica. Si no te pagaron el salario m\u00ednimo, las horas extra, o te quitaron las propinas --- la ley est\u00e1 de tu lado.",
   "workers.safety":
     "Puedes Reportar Condiciones de Trabajo Inseguras de Forma An\u00f3nima",
   "workers.safetyDesc":
     "OSHA te protege. Puedes presentar una queja confidencial sobre condiciones inseguras, y tu empleador no puede tomar represalias contra ti.",
   "workers.complaint":
-    "Presenta una Queja por Robo de Salario \u2014 Es Gratis",
+    "Presenta una Queja por Robo de Salario --- Es Gratis",
   "workers.complaintDesc":
     "El Department of Labor investigar\u00e1 a tu empleador gratis. No necesitas abogado. Presenta tu queja en l\u00ednea ahora mismo.",
   "workers.unemployment": "Solicita el Seguro de Desempleo Hoy",
   "workers.unemploymentDesc":
-    "Si perdiste tu trabajo, probablemente calificas. Cada estado tiene una solicitud en l\u00ednea. T\u00fa pagaste al sistema \u2014 este es TU dinero.",
+    "Si perdiste tu trabajo, probablemente calificas. Cada estado tiene una solicitud en l\u00ednea. T\u00fa pagaste al sistema --- este es TU dinero.",
   "workers.phone": "1-866-4-USWAGE (1-866-487-2365)",
   "workers.phoneDesc":
-    "Department of Labor \u2014 violaciones de salario y horas",
+    "Department of Labor --- violaciones de salario y horas",
 } as Record<string, string>;

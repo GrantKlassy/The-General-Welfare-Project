@@ -14,12 +14,12 @@ export default {
   "housing.cardDesc": "Tenant rights, eviction defense, housing assistance",
   "housing.pageDesc":
     "Tenant rights, eviction defense, and housing assistance programs.",
-  "housing.tenantRights": "Your Landlord Can\u2019t Do That",
+  "housing.tenantRights": "Your Landlord Cannot Do Certain Things",
   "housing.tenantRightsDesc":
-    "You have the legal right to a safe home, your deposit back, and a fair lease. Here\u2019s what landlords are NOT allowed to do to you.",
+    "You have legal rights to a safe home, returning your security deposit money, and a fair and honest lease. This will explain what landlords are NOT allowed to do.",
   "housing.eviction": "You Can Fight an Eviction",
   "housing.evictionDesc":
-    "You don\u2019t have to just leave. You have legal rights in the eviction process \u2014 and free lawyers who will help you fight it.",
+    "You don\u2019t have to just leave. You have legal rights in the eviction process --- and free lawyers who will help you fight it.",
   "housing.assistance": "Apply for Rental Assistance Now",
   "housing.assistanceDesc":
     "You may qualify for help paying rent right now. Apply for emergency rental assistance, Section 8, or public housing through your local housing authority.",
@@ -40,7 +40,7 @@ export default {
   "voting.registrationDesc":
     "It takes 2 minutes. Check if you\u2019re registered, and if not, register online right here.",
   "voting.voterId": "Check What ID You Need to Vote",
-  "voting.voterIdDesc": "Every state is different. Look up exactly what ID your state requires \u2014 some states require none at all.",
+  "voting.voterIdDesc": "Every state is different. Look up exactly what ID your state requires --- some states require none at all.",
   "voting.pollingPlace": "Find Exactly Where You Vote",
   "voting.pollingPlaceDesc":
     "Enter your address and get your exact polling location, hours, and what\u2019s on your ballot.",
@@ -49,7 +49,7 @@ export default {
     "If someone tries to stop you from voting, that\u2019s a federal crime. Report it and get immediate help from trained legal volunteers.",
   "voting.phone": "866-OUR-VOTE (866-687-8683)",
   "voting.phoneDesc":
-    "Election Protection Hotline \u2014 nonpartisan voter assistance",
+    "Election Protection Hotline --- nonpartisan voter assistance",
 
   // LGBTQ+
   "lgbtq.title": "LGBTQ+ Rights",
@@ -62,19 +62,19 @@ export default {
     "Federal law protects you from discrimination at work, in housing, and in public spaces based on who you are. Know what\u2019s illegal.",
   "lgbtq.transRights": "You Can Update Your Name and ID Documents",
   "lgbtq.transRightsDesc":
-    "Step-by-step guides to changing your name, gender marker on IDs, and accessing healthcare \u2014 for every state.",
+    "Step-by-step guides to changing your name, gender marker on IDs, and accessing healthcare --- for every state.",
   "lgbtq.legalSupport": "Get Free Legal Help Right Now",
   "lgbtq.legalSupportDesc":
-    "Lambda Legal\u2019s help desk takes cases for free. If you\u2019ve been discriminated against, fired, denied housing, or denied healthcare because of who you are \u2014 they want to hear from you.",
+    "Lambda Legal\u2019s help desk takes cases for free. If you\u2019ve been discriminated against, fired, denied housing, or denied healthcare because of who you are --- they want to hear from you.",
   "lgbtq.crisisResources": "Talk to Someone Who Understands",
   "lgbtq.crisisResourcesDesc":
-    "Confidential peer support from people who get it. Chat, text, or call \u2014 for any LGBTQ+ person who needs to talk, not just crisis situations.",
+    "Confidential peer support from people who get it. Chat, text, or call --- for any LGBTQ+ person who needs to talk, not just crisis situations.",
   "lgbtq.phone988": "988",
   "lgbtq.phone988Desc":
-    "Suicide & Crisis Lifeline \u2014 press 3 for LGBTQ+ support",
+    "Suicide & Crisis Lifeline --- press 3 for LGBTQ+ support",
   "lgbtq.phoneTrevor": "866-488-7386",
   "lgbtq.phoneTrevorDesc":
-    "The Trevor Project \u2014 crisis support for LGBTQ+ youth",
+    "The Trevor Project --- crisis support for LGBTQ+ youth",
 
   // Free Speech
   "freeSpeech.title": "Free Speech",
@@ -105,16 +105,16 @@ export default {
     "Wage theft, workplace safety, labor board complaints, and unemployment insurance.",
   "workers.wageHour": "Your Boss Owes You Every Dollar You Earned",
   "workers.wageHourDesc":
-    "Wage theft is the largest form of theft in America. If you weren\u2019t paid minimum wage, overtime, or your tips were taken \u2014 the law is on your side.",
+    "Wage theft is the largest form of theft in America. If you weren\u2019t paid minimum wage, overtime, or your tips were taken --- the law is on your side.",
   "workers.safety": "You Can Report Unsafe Working Conditions Anonymously",
   "workers.safetyDesc":
     "OSHA protects you. You can file a confidential complaint about unsafe conditions, and your employer can\u2019t legally retaliate against you.",
-  "workers.complaint": "File a Wage Theft Complaint \u2014 It\u2019s Free",
+  "workers.complaint": "File a Wage Theft Complaint --- It\u2019s Free",
   "workers.complaintDesc":
     "The Department of Labor will investigate your employer for free. You don\u2019t need a lawyer. File online right now.",
   "workers.unemployment": "Apply for Unemployment Benefits Today",
   "workers.unemploymentDesc":
-    "If you lost your job, you likely qualify. Every state has an online application. You paid into this system \u2014 this is YOUR money.",
+    "If you lost your job, you likely qualify. Every state has an online application. You paid into this system --- this is YOUR money.",
   "workers.phone": "1-866-4-USWAGE (1-866-487-2365)",
-  "workers.phoneDesc": "Department of Labor \u2014 wage and hour violations",
+  "workers.phoneDesc": "Department of Labor --- wage and hour violations",
 } as Record<string, string>;
