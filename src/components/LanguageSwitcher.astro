@@ -1,5 +1,5 @@
 ---
-import { LOCALES, localePath, type Locale } from "../i18n";
+import { LOCALES, localePath, t, type Locale } from "../i18n";
 
 interface Props {
   currentLocale: Locale;
@@ -10,6 +10,12 @@ const { currentLocale, currentPath } = Astro.props;
 ---
 
 <nav aria-label="Language" class="flex flex-wrap justify-center gap-x-4 gap-y-1 text-sm">
+  <a
+    href={localePath(currentLocale, "/")}
+    class="text-gray-400 hover:text-white"
+  >
+    &larr; {t(currentLocale, "common.allTopics")}
+  </a>
   {
     LOCALES.map(({ code, nativeName }) =>
       code === currentLocale ? (
