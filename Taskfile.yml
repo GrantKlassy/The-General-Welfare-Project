@@ -16,6 +16,7 @@ tasks:
       - task: check:format
       - task: check:types
       - task: check:i18n
+      - task: check:translations
       - task: check:locale-links
 
   check:author:
@@ -75,6 +76,11 @@ tasks:
     desc: Verify translations are not stale vs en.ts
     cmds:
       - bash scripts/check-translations-fresh.sh
+
+  check:translations:
+    desc: LLM quality review of changed translations (skips if none changed)
+    cmds:
+      - bash scripts/check-translations-quality.sh
 
   check:locale-links:
     desc: Verify no hardcoded internal links that lose language context
