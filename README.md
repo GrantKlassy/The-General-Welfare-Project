@@ -1,10 +1,10 @@
 # [The General Welfare Project](https://generalwelfareproject.com)
 
-## 🟥🟥🟥 Know your rights 🟥🟥🟥
+### 🟥🟥🟥 Know your rights 🟥🟥🟥
 
-## ⬜⬜⬜ Find help ⬜⬜⬜
+### ⬜⬜⬜ Find help ⬜⬜⬜
 
-## 🟦🟦🟦 Call now 🟦🟦🟦
+### 🟦🟦🟦 Call now 🟦🟦🟦
 
 ![American flag](public/flag_usa.svg)
 
