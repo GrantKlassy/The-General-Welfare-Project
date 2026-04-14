@@ -1,15 +1,16 @@
 ---
 import Base from "../layouts/Base.astro";
+import { t } from "../i18n";
 ---
 
-<Base title="Donate --- The General Welfare Project" currentPath="/donate">
-  <div class="mx-auto max-w-3xl px-6 py-16 text-center">
+<Base title={`${t("en", "donate.title")} — ${t("en", "site.title")}`} currentPath="/donate">
+  <div class="mx-auto max-w-3xl px-4 py-16 text-center sm:px-6">
     <h1 class="text-4xl font-bold uppercase">
-      Donate to The General Welfare Project by voting in the 2026 midterm elections
+      {t("en", "donate.message")}
     </h1>
 
     <a href="/" class="mt-12 inline-block text-gray-400 hover:text-white"
-      >&larr; All topics</a
+      >&larr; {t("en", "common.allTopics")}</a
     >
   </div>
 </Base>

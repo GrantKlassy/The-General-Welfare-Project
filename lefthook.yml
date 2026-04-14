@@ -23,6 +23,10 @@ pre-commit:
       glob: "*.{astro,js,mjs,ts,css,json,md}"
       run: pnpm exec prettier --check {staged_files}
 
+    - name: locale-links
+      glob: "src/**/*.astro"
+      run: bash scripts/check-locale-links.sh
+
     - name: i18n-reminder
       run: |
         if git diff --cached --name-only | grep -q '^src/i18n/en\.ts$'; then

@@ -121,4 +121,9 @@ export default {
     "If you lost your job, you likely qualify. Every state has an online application. You have paid into this system --- these are benefits you have earned.",
   "workers.phone": "1-866-4-USWAGE (1-866-487-2365)",
   "workers.phoneDesc": "Department of Labor --- wage and hour violations",
+
+  // Donate
+  "donate.title": "Donate",
+  "donate.message":
+    "Donate to The General Welfare Project by voting in the 2026 midterm elections",
 } as Record<string, string>;

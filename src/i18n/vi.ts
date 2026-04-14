@@ -121,4 +121,9 @@ export default {
   "workers.phone": "1-866-4-USWAGE (1-866-487-2365)",
   "workers.phoneDesc":
     "B\u1ed9 Lao \u0111\u1ed9ng --- b\u00e1o c\u00e1o vi ph\u1ea1m l\u01b0\u01a1ng v\u00e0 gi\u1edd l\u00e0m",
+
+  // Donate
+  "donate.title": "Quy\u00ean g\u00f3p",
+  "donate.message":
+    "Quy\u00ean g\u00f3p cho D\u1ef1 \u00c1n Ph\u00fac L\u1ee3i Chung b\u1eb1ng c\u00e1ch b\u1ea7u c\u1eed trong cu\u1ed9c b\u1ea7u c\u1eed gi\u1eefa nhi\u1ec7m k\u1ef3 2026",
 } as Record<string, string>;

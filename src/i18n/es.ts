@@ -120,4 +120,9 @@ export default {
   "workers.phone": "1-866-4-USWAGE (1-866-487-2365)",
   "workers.phoneDesc":
     "Department of Labor --- violaciones de salario y horas",
+
+  // Donate
+  "donate.title": "Donar",
+  "donate.message":
+    "Dona al General Welfare Project votando en las elecciones intermedias de 2026",
 } as Record<string, string>;

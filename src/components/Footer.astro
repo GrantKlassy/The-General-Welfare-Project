@@ -1,10 +1,16 @@
 ---
+import { localePath, t, type Locale } from "../i18n";
 
+interface Props {
+  locale?: Locale;
+}
+
+const { locale = "en" } = Astro.props;
 ---
 
 <footer class="border-t border-neutral-800 px-6 py-4 text-sm text-gray-400">
   <div class="flex items-center justify-between">
-    <p>&copy; {new Date().getFullYear()} The General Welfare Project</p>
-    <a href="/donate" class="hover:text-white transition-colors">Donate</a>
+    <p>&copy; {new Date().getFullYear()} <a href="https://github.com/GrantKlassy/The-General-Welfare-Project" class="hover:text-white transition-colors">The General Welfare Project</a></p>
+    <a href={localePath(locale, "/donate")} class="hover:text-white transition-colors">{t(locale, "donate.title")}</a>
   </div>
 </footer>

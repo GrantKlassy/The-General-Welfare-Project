@@ -19,14 +19,14 @@ const locale = Astro.params.locale as Locale;
   lang={locale}
   currentPath="/workers-rights"
 >
-  <div class="mx-auto max-w-3xl px-6 py-16">
+  <div class="mx-auto max-w-3xl px-4 py-16 sm:px-6">
     <h1 class="text-center text-4xl font-bold">{t(locale, "workers.title")}</h1>
     <p class="mt-4 text-center text-lg text-gray-300">
       {t(locale, "workers.pageDesc")}
     </p>
 
     <section class="mt-10">
-      <h2 class="text-center text-2xl font-bold"><span class="text-flag-red">[[[</span> ★ {t(locale, "common.knowYourRights")} ★ <span class="text-flag-red">]]]</span></h2>
+      <h2 class="text-center text-xl font-bold sm:text-2xl"><span class="text-flag-red">[[[</span> ★ {t(locale, "common.knowYourRights")} ★ <span class="text-flag-red">]]]</span></h2>
       <div class="mt-4 grid gap-3">
         <ResourceLink
           href="https://www.dol.gov/agencies/whd/workers"
@@ -42,7 +42,7 @@ const locale = Astro.params.locale as Locale;
     </section>
 
     <section class="mt-10">
-      <h2 class="text-center text-2xl font-bold">[[[ ★ {t(locale, "common.getHelp")} ★ ]]]</h2>
+      <h2 class="text-center text-xl font-bold sm:text-2xl">[[[ ★ {t(locale, "common.getHelp")} ★ ]]]</h2>
       <div class="mt-4 grid gap-3">
         <ResourceLink
           href="https://www.dol.gov/agencies/whd/contact/complaints"
@@ -58,7 +58,7 @@ const locale = Astro.params.locale as Locale;
     </section>
 
     <section class="mt-10">
-      <h2 class="text-center text-2xl font-bold"><span class="text-flag-blue">[[[</span> ★ {t(locale, "common.callNow")} ★ <span class="text-flag-blue">]]]</span></h2>
+      <h2 class="text-center text-xl font-bold sm:text-2xl"><span class="text-flag-blue">[[[</span> ★ {t(locale, "common.callNow")} ★ <span class="text-flag-blue">]]]</span></h2>
       <div class="mt-4 grid gap-3">
         <a
           href="tel:1-866-487-2365"

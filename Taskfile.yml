@@ -16,6 +16,7 @@ tasks:
       - task: check:format
       - task: check:types
       - task: check:i18n
+      - task: check:locale-links
 
   check:author:
     desc: Verify git identity is GrantKlassy
@@ -74,6 +75,11 @@ tasks:
     desc: Verify translations are not stale vs en.ts
     cmds:
       - bash scripts/check-translations-fresh.sh
+
+  check:locale-links:
+    desc: Verify no hardcoded internal links that lose language context
+    cmds:
+      - bash scripts/check-locale-links.sh
 
   translate:
     desc: Translate en.ts to target locale(s) using Claude
