@@ -1,6 +1,12 @@
-# Repo Standards
+# The General Welfare Project
 
-These rules apply to all GrantKlassy repos. Enforced by lefthook hooks and `task check`.
+America first. Pro-freedom. Pro-human-rights. Every line of code, every page, every design decision in this repo serves the people of the United States. When a law, regulation, or system puts corporations over human beings --- that is what this project exists to push back against. Human beings always win. America always win. USA forever.
+
+This is a resource site that connects Americans to their rights. It is designed for the underprivileged --- low-end devices, slow networks, zero tracking. Black background for battery life, Inclusive Sans for readability, aggressive privacy. When building features, writing copy, or making architecture decisions, always ask: does this serve the person on the other end?
+
+## Repo Standards
+
+Enforced by lefthook hooks and `task check`.
 
 ## Commits
 
