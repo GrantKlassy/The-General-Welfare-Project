@@ -14,7 +14,7 @@ export default {
   "housing.cardDesc": "Tenant rights, eviction defense, housing assistance",
   "housing.pageDesc":
     "Tenant rights, eviction defense, and housing assistance programs.",
-  "housing.tenantRights": "Your Landlord Cannot Do Certain Things",
+  "housing.tenantRights": "Know What Your Landlord Cannot Do",
   "housing.tenantRightsDesc":
     "You have legal rights to a safe home, returning your security deposit money, and a fair and honest lease. This will explain what landlords are NOT allowed to do.",
   "housing.eviction": "You Can Challenge an Eviction",
@@ -44,7 +44,7 @@ export default {
     "Every state is different. Look up exactly what ID your state requires --- some states require none at all.",
   "voting.pollingPlace": "Find Your Polling Place",
   "voting.pollingPlaceDesc":
-    "Enter your address and get your exact polling location, hours, and what\u2019s on your ballot.",
+    "Enter your address and get your exact polling location, hours, and what is on your ballot.",
   "voting.electionProtection": "Report Voter Intimidation or Problems",
   "voting.electionProtectionDesc":
     "If someone tries to prevent you from voting, it is a federal crime. You can report it and get immediate help from trained legal volunteers.",
@@ -60,7 +60,7 @@ export default {
     "Anti-discrimination protections, trans rights, and support organizations.",
   "lgbtq.antiDiscrimination": "Discrimination Based on Identity Is Illegal",
   "lgbtq.antiDiscriminationDesc":
-    "Federal law protects against discrimination at work, in housing, and in public spaces based on who you are. This will explain what is prohibited.",
+    "Federal law prohibits discrimination at work, in housing, and in public spaces based on who you are. If you have experienced discrimination, you can file a charge here.",
   "lgbtq.transRights": "Updating Your Name and ID Documents",
   "lgbtq.transRightsDesc":
     "Step-by-step guides to changing your name, gender marker on IDs, and accessing healthcare --- for every state.",
@@ -97,9 +97,9 @@ export default {
     "What to Do If Arrested at a Protest",
   "freeSpeech.knowRightsProtestDesc":
     "Do not say anything except \u2018I want a lawyer.\u2019 This guide covers what to do if you are arrested, detained, or your phone is seized at a protest.",
-  "freeSpeech.phone": "Legal Hotline",
+  "freeSpeech.phone": "212-679-5100",
   "freeSpeech.phoneDesc":
-    "Free speech and civil liberties legal assistance",
+    "National Lawyers Guild --- free speech and civil liberties legal assistance",
 
   // Workers' Rights
   "workers.title": "Workers\u2019 Rights",
@@ -110,7 +110,7 @@ export default {
   "workers.wageHour": "You Are Entitled to Every Dollar You Earned",
   "workers.wageHourDesc":
     "Wage theft is the most common form of theft in America. If you were not paid minimum wage, overtime, or your tips were taken --- the law protects you.",
-  "workers.safety": "Reporting Unsafe Working Conditions",
+  "workers.safety": "You Can Report Unsafe Conditions Confidentially",
   "workers.safetyDesc":
     "OSHA protects workers. You can file a confidential complaint about unsafe conditions, and your employer cannot legally retaliate.",
   "workers.complaint": "File a Wage Theft Complaint --- No Cost",

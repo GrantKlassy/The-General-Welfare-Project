@@ -13,7 +13,7 @@ export default {
     "Derechos del inquilino, defensa contra desalojo, ayuda con vivienda",
   "housing.pageDesc":
     "Derechos del inquilino, defensa contra desalojo y programas de asistencia de vivienda.",
-  "housing.tenantRights": "Tu Casero No Puede Hacer Ciertas Cosas",
+  "housing.tenantRights": "Conozca Qu\u00e9 No Puede Hacer Su Casero",
   "housing.tenantRightsDesc":
     "Tienes derechos legales a un hogar seguro, a que te devuelvan tu dep\u00f3sito de seguridad, y a un contrato justo y honesto. Esto explicar\u00e1 lo que los caseros NO tienen permitido hacer.",
   "housing.eviction": "Puedes Luchar Contra un Desalojo",
@@ -58,7 +58,7 @@ export default {
     "Protecciones contra la discriminaci\u00f3n, derechos trans y organizaciones de apoyo.",
   "lgbtq.antiDiscrimination": "Es Ilegal Discriminarte",
   "lgbtq.antiDiscriminationDesc":
-    "La ley federal te protege de la discriminaci\u00f3n en el trabajo, en la vivienda y en espacios p\u00fablicos por ser quien eres. Sabe qu\u00e9 es ilegal.",
+    "La ley federal proh\u00edbe la discriminaci\u00f3n en el trabajo, en la vivienda y en espacios p\u00fablicos por ser quien eres. Si has experimentado discriminaci\u00f3n, puedes presentar una queja aqu\u00ed.",
   "lgbtq.transRights":
     "Puedes Actualizar Tu Nombre y Documentos de Identificaci\u00f3n",
   "lgbtq.transRightsDesc":
@@ -94,9 +94,9 @@ export default {
     "\u00bfTe Arrestaron en una Protesta? Esto es lo que Debes Hacer",
   "freeSpeech.knowRightsProtestDesc":
     "No digas nada excepto \u2018Quiero un abogado.\u2019 Esta gu\u00eda explica qu\u00e9 hacer si te arrestan, detienen o te confiscan el tel\u00e9fono en una protesta.",
-  "freeSpeech.phone": "L\u00ednea Legal",
+  "freeSpeech.phone": "212-679-5100",
   "freeSpeech.phoneDesc":
-    "Asistencia legal para libertad de expresi\u00f3n y libertades civiles",
+    "National Lawyers Guild --- asistencia legal para libertad de expresi\u00f3n y libertades civiles",
   // Workers' Rights
   "workers.title": "Derechos de los Trabajadores",
   "workers.cardDesc":
@@ -107,7 +107,7 @@ export default {
   "workers.wageHourDesc":
     "El robo de salario es el robo m\u00e1s grande en Am\u00e9rica. Si no te pagaron el salario m\u00ednimo, las horas extra, o te quitaron las propinas --- la ley est\u00e1 de tu lado.",
   "workers.safety":
-    "Puedes Reportar Condiciones de Trabajo Inseguras de Forma An\u00f3nima",
+    "Puede Reportar Condiciones Inseguras de Forma Confidencial",
   "workers.safetyDesc":
     "OSHA te protege. Puedes presentar una queja confidencial sobre condiciones inseguras, y tu empleador no puede tomar represalias contra ti.",
   "workers.complaint":
