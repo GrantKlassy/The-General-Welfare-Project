@@ -14,18 +14,18 @@ export default {
   "housing.cardDesc": "Tenant rights, eviction defense, housing assistance",
   "housing.pageDesc":
     "Tenant rights, eviction defense, and housing assistance programs.",
-  "housing.tenantRights": "Tenant Rights Overview",
+  "housing.tenantRights": "Your Landlord Can\u2019t Do That",
   "housing.tenantRightsDesc":
-    "Learn about your rights as a renter \u2014 leases, security deposits, habitability standards",
-  "housing.eviction": "Eviction Protections",
+    "You have the legal right to a safe home, your deposit back, and a fair lease. Here\u2019s what landlords are NOT allowed to do to you.",
+  "housing.eviction": "You Can Fight an Eviction",
   "housing.evictionDesc":
-    "Understand the eviction process and your legal protections",
-  "housing.assistance": "Housing Assistance Programs",
+    "You don\u2019t have to just leave. You have legal rights in the eviction process \u2014 and free lawyers who will help you fight it.",
+  "housing.assistance": "Apply for Rental Assistance Now",
   "housing.assistanceDesc":
-    "Federal and state programs for rental assistance, Section 8, and emergency housing",
-  "housing.legalAid": "Legal Aid for Tenants",
+    "You may qualify for help paying rent right now. Apply for emergency rental assistance, Section 8, or public housing through your local housing authority.",
+  "housing.legalAid": "Get a Free Lawyer for Your Housing Case",
   "housing.legalAidDesc":
-    "Free or low-cost legal help for housing disputes and eviction defense",
+    "You can get a free attorney for eviction defense, unsafe conditions, or landlord disputes. Legal aid is real, it\u2019s free, and it exists in every state.",
   "housing.phone": "211",
   "housing.phoneDesc":
     "Local housing assistance and social services referrals",
@@ -36,17 +36,17 @@ export default {
     "Registration, polling info, voter ID, election protection",
   "voting.pageDesc":
     "Registration, polling info, voter ID laws, and election protection.",
-  "voting.registration": "Voter Registration",
+  "voting.registration": "Register to Vote Right Now",
   "voting.registrationDesc":
-    "Check your registration status and register to vote in your state",
-  "voting.voterId": "Voter ID Requirements",
-  "voting.voterIdDesc": "What ID you need to vote \u2014 varies by state",
-  "voting.pollingPlace": "Find Your Polling Place",
+    "It takes 2 minutes. Check if you\u2019re registered, and if not, register online right here.",
+  "voting.voterId": "Check What ID You Need to Vote",
+  "voting.voterIdDesc": "Every state is different. Look up exactly what ID your state requires \u2014 some states require none at all.",
+  "voting.pollingPlace": "Find Exactly Where You Vote",
   "voting.pollingPlaceDesc":
-    "Locate where to vote, check hours, and see what\u2019s on your ballot",
-  "voting.electionProtection": "Election Protection Resources",
+    "Enter your address and get your exact polling location, hours, and what\u2019s on your ballot.",
+  "voting.electionProtection": "Report Voter Intimidation or Problems",
   "voting.electionProtectionDesc":
-    "Report voter intimidation and get help with voting problems",
+    "If someone tries to stop you from voting, that\u2019s a federal crime. Report it and get immediate help from trained legal volunteers.",
   "voting.phone": "866-OUR-VOTE (866-687-8683)",
   "voting.phoneDesc":
     "Election Protection Hotline \u2014 nonpartisan voter assistance",
@@ -57,18 +57,18 @@ export default {
     "Anti-discrimination, trans rights, support organizations",
   "lgbtq.pageDesc":
     "Anti-discrimination protections, trans rights, and support organizations.",
-  "lgbtq.antiDiscrimination": "Anti-Discrimination Protections",
+  "lgbtq.antiDiscrimination": "It\u2019s Illegal to Discriminate Against You",
   "lgbtq.antiDiscriminationDesc":
-    "Federal and state laws protecting against discrimination based on sexual orientation and gender identity",
-  "lgbtq.transRights": "Transgender Rights",
+    "Federal law protects you from discrimination at work, in housing, and in public spaces based on who you are. Know what\u2019s illegal.",
+  "lgbtq.transRights": "You Can Update Your Name and ID Documents",
   "lgbtq.transRightsDesc":
-    "Legal protections, name and gender marker changes, healthcare access",
-  "lgbtq.legalSupport": "Legal Support Organizations",
+    "Step-by-step guides to changing your name, gender marker on IDs, and accessing healthcare \u2014 for every state.",
+  "lgbtq.legalSupport": "Get Free Legal Help Right Now",
   "lgbtq.legalSupportDesc":
-    "Free legal help for discrimination, employment, housing, and identity document issues",
-  "lgbtq.crisisResources": "Support & Crisis Resources",
+    "Lambda Legal\u2019s help desk takes cases for free. If you\u2019ve been discriminated against, fired, denied housing, or denied healthcare because of who you are \u2014 they want to hear from you.",
+  "lgbtq.crisisResources": "Talk to Someone Who Understands",
   "lgbtq.crisisResourcesDesc":
-    "Mental health support, community organizations, and crisis intervention",
+    "Confidential peer support from people who get it. Chat, text, or call \u2014 for any LGBTQ+ person who needs to talk, not just crisis situations.",
   "lgbtq.phone988": "988",
   "lgbtq.phone988Desc":
     "Suicide & Crisis Lifeline \u2014 press 3 for LGBTQ+ support",
@@ -81,18 +81,18 @@ export default {
   "freeSpeech.cardDesc": "First amendment, protest rights, press freedom",
   "freeSpeech.pageDesc":
     "First amendment rights, protest rights, and press freedom.",
-  "freeSpeech.firstAmendment": "First Amendment Basics",
+  "freeSpeech.firstAmendment": "The Government Can\u2019t Silence You",
   "freeSpeech.firstAmendmentDesc":
-    "What the First Amendment protects \u2014 and what it doesn\u2019t",
-  "freeSpeech.protest": "Right to Protest",
+    "The First Amendment protects your right to speak, publish, worship, assemble, and petition the government. Here\u2019s what that actually means in practice.",
+  "freeSpeech.protest": "You Have the Right to Protest",
   "freeSpeech.protestDesc":
-    "Your rights at demonstrations, marches, and public assemblies",
-  "freeSpeech.legalSupport": "Legal Support for Free Speech",
+    "You can protest on public sidewalks and parks without a permit. Know what police can and can\u2019t do, and what to do if they cross the line.",
+  "freeSpeech.legalSupport": "Your Speech Was Censored? The ACLU May Take Your Case",
   "freeSpeech.legalSupportDesc":
-    "Organizations that defend free speech and press freedom",
-  "freeSpeech.knowRightsProtest": "Know Your Rights at Protests",
+    "If the government punished you for speaking, protesting, or publishing, you may have a First Amendment case. Submit your situation for review.",
+  "freeSpeech.knowRightsProtest": "Arrested at a Protest? Here\u2019s What to Do",
   "freeSpeech.knowRightsProtestDesc":
-    "What to do if you\u2019re arrested, detained, or confronted by police at a protest",
+    "Don\u2019t say anything except \u2018I want a lawyer.\u2019 This guide covers what to do if you\u2019re arrested, detained, or your phone is seized at a protest.",
   "freeSpeech.phone": "Legal Hotline",
   "freeSpeech.phoneDesc":
     "Free speech and civil liberties legal assistance",
@@ -103,18 +103,18 @@ export default {
     "Wage theft, workplace safety, labor board, unemployment",
   "workers.pageDesc":
     "Wage theft, workplace safety, labor board complaints, and unemployment insurance.",
-  "workers.wageHour": "Wage & Hour Rights",
+  "workers.wageHour": "Your Boss Owes You Every Dollar You Earned",
   "workers.wageHourDesc":
-    "Minimum wage, overtime, tip protections, and what to do about wage theft",
-  "workers.safety": "Workplace Safety",
+    "Wage theft is the largest form of theft in America. If you weren\u2019t paid minimum wage, overtime, or your tips were taken \u2014 the law is on your side.",
+  "workers.safety": "You Can Report Unsafe Working Conditions Anonymously",
   "workers.safetyDesc":
-    "Your right to a safe workplace and how to report unsafe conditions",
-  "workers.complaint": "File a Labor Complaint",
+    "OSHA protects you. You can file a confidential complaint about unsafe conditions, and your employer can\u2019t legally retaliate against you.",
+  "workers.complaint": "File a Wage Theft Complaint \u2014 It\u2019s Free",
   "workers.complaintDesc":
-    "How to file complaints with the Department of Labor or your state labor board",
-  "workers.unemployment": "Unemployment Insurance",
+    "The Department of Labor will investigate your employer for free. You don\u2019t need a lawyer. File online right now.",
+  "workers.unemployment": "Apply for Unemployment Benefits Today",
   "workers.unemploymentDesc":
-    "How to apply for unemployment benefits in your state",
+    "If you lost your job, you likely qualify. Every state has an online application. You paid into this system \u2014 this is YOUR money.",
   "workers.phone": "1-866-4-USWAGE (1-866-487-2365)",
   "workers.phoneDesc": "Department of Labor \u2014 wage and hour violations",
 } as Record<string, string>;

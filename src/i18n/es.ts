@@ -15,18 +15,18 @@ export default {
     "Derechos del inquilino, defensa contra desalojos, asistencia de vivienda",
   "housing.pageDesc":
     "Derechos del inquilino, defensa contra desalojos y programas de asistencia de vivienda.",
-  "housing.tenantRights": "Derechos del Inquilino",
+  "housing.tenantRights": "Tu Arrendador No Puede Hacer Eso",
   "housing.tenantRightsDesc":
-    "Conoce tus derechos como inquilino \u2014 contratos, dep\u00f3sitos de seguridad, est\u00e1ndares de habitabilidad",
-  "housing.eviction": "Protecciones Contra Desalojos",
+    "Tienes el derecho legal a un hogar seguro, a que te devuelvan tu dep\u00f3sito y a un contrato justo. Esto es lo que los arrendadores NO pueden hacerte.",
+  "housing.eviction": "Puedes Luchar Contra un Desalojo",
   "housing.evictionDesc":
-    "Entiende el proceso de desalojo y tus protecciones legales",
-  "housing.assistance": "Programas de Asistencia de Vivienda",
+    "No tienes que irte sin m\u00e1s. Tienes derechos legales en el proceso de desalojo \u2014 y abogados gratuitos que te ayudar\u00e1n a luchar.",
+  "housing.assistance": "Solicita Asistencia de Alquiler Ahora",
   "housing.assistanceDesc":
-    "Programas federales y estatales de asistencia de alquiler, Secci\u00f3n 8 y vivienda de emergencia",
-  "housing.legalAid": "Ayuda Legal para Inquilinos",
+    "Podr\u00edas calificar para ayuda con el alquiler ahora mismo. Solicita asistencia de alquiler de emergencia, Secci\u00f3n 8 o vivienda p\u00fablica a trav\u00e9s de tu autoridad local de vivienda.",
+  "housing.legalAid": "Obt\u00e9n un Abogado Gratuito para Tu Caso de Vivienda",
   "housing.legalAidDesc":
-    "Ayuda legal gratuita o de bajo costo para disputas de vivienda y defensa contra desalojos",
+    "Puedes obtener un abogado gratuito para defensa contra desalojos, condiciones inseguras o disputas con el arrendador. La ayuda legal es real, es gratuita y existe en cada estado.",
   "housing.phone": "211",
   "housing.phoneDesc":
     "Asistencia local de vivienda y referencias de servicios sociales",
@@ -37,18 +37,18 @@ export default {
     "Registro, informaci\u00f3n de votaci\u00f3n, identificaci\u00f3n de votante, protecci\u00f3n electoral",
   "voting.pageDesc":
     "Registro, informaci\u00f3n de votaci\u00f3n, leyes de identificaci\u00f3n de votante y protecci\u00f3n electoral.",
-  "voting.registration": "Registro de Votante",
+  "voting.registration": "Reg\u00edstrate para Votar Ahora Mismo",
   "voting.registrationDesc":
-    "Verifica tu estado de registro e inscr\u00edbete para votar en tu estado",
-  "voting.voterId": "Requisitos de Identificaci\u00f3n de Votante",
+    "Toma 2 minutos. Verifica si est\u00e1s registrado y, si no, reg\u00edstrate en l\u00ednea aqu\u00ed.",
+  "voting.voterId": "Revisa Qu\u00e9 Identificaci\u00f3n Necesitas para Votar",
   "voting.voterIdDesc":
-    "Qu\u00e9 identificaci\u00f3n necesitas para votar \u2014 var\u00eda seg\u00fan el estado",
-  "voting.pollingPlace": "Encuentra Tu Lugar de Votaci\u00f3n",
+    "Cada estado es diferente. Busca exactamente qu\u00e9 identificaci\u00f3n requiere tu estado \u2014 algunos estados no requieren ninguna.",
+  "voting.pollingPlace": "Encuentra Exactamente D\u00f3nde Votas",
   "voting.pollingPlaceDesc":
-    "Localiza d\u00f3nde votar, consulta horarios y revisa tu boleta",
-  "voting.electionProtection": "Recursos de Protecci\u00f3n Electoral",
+    "Ingresa tu direcci\u00f3n y obt\u00e9n tu lugar de votaci\u00f3n exacto, horarios y lo que hay en tu boleta.",
+  "voting.electionProtection": "Reporta Intimidaci\u00f3n de Votantes o Problemas",
   "voting.electionProtectionDesc":
-    "Reporta intimidaci\u00f3n de votantes y obt\u00e9n ayuda con problemas de votaci\u00f3n",
+    "Si alguien intenta impedirte votar, eso es un delito federal. Rep\u00f3rtalo y obt\u00e9n ayuda inmediata de voluntarios legales capacitados.",
   "voting.phone": "866-OUR-VOTE (866-687-8683)",
   "voting.phoneDesc":
     "L\u00ednea de Protecci\u00f3n Electoral \u2014 asistencia no partidista para votantes",
@@ -59,18 +59,18 @@ export default {
     "Antidiscriminaci\u00f3n, derechos trans, organizaciones de apoyo",
   "lgbtq.pageDesc":
     "Protecciones contra la discriminaci\u00f3n, derechos trans y organizaciones de apoyo.",
-  "lgbtq.antiDiscrimination": "Protecciones Contra la Discriminaci\u00f3n",
+  "lgbtq.antiDiscrimination": "Es Ilegal Discriminarte",
   "lgbtq.antiDiscriminationDesc":
-    "Leyes federales y estatales que protegen contra la discriminaci\u00f3n por orientaci\u00f3n sexual e identidad de g\u00e9nero",
-  "lgbtq.transRights": "Derechos de Personas Trans",
+    "La ley federal te protege contra la discriminaci\u00f3n en el trabajo, la vivienda y los espacios p\u00fablicos por ser quien eres. Conoce qu\u00e9 es ilegal.",
+  "lgbtq.transRights": "Puedes Actualizar Tu Nombre y Documentos de Identidad",
   "lgbtq.transRightsDesc":
-    "Protecciones legales, cambio de nombre y marcador de g\u00e9nero, acceso a atenci\u00f3n m\u00e9dica",
-  "lgbtq.legalSupport": "Organizaciones de Apoyo Legal",
+    "Gu\u00edas paso a paso para cambiar tu nombre, marcador de g\u00e9nero en identificaciones y acceder a atenci\u00f3n m\u00e9dica \u2014 para cada estado.",
+  "lgbtq.legalSupport": "Obt\u00e9n Ayuda Legal Gratuita Ahora Mismo",
   "lgbtq.legalSupportDesc":
-    "Ayuda legal gratuita para discriminaci\u00f3n, empleo, vivienda y documentos de identidad",
-  "lgbtq.crisisResources": "Apoyo y Recursos de Crisis",
+    "El servicio de ayuda de Lambda Legal acepta casos gratis. Si has sufrido discriminaci\u00f3n, te despidieron, te negaron vivienda o atenci\u00f3n m\u00e9dica por ser quien eres \u2014 quieren saber de ti.",
+  "lgbtq.crisisResources": "Habla con Alguien Que Te Entiende",
   "lgbtq.crisisResourcesDesc":
-    "Apoyo de salud mental, organizaciones comunitarias e intervenci\u00f3n en crisis",
+    "Apoyo confidencial de personas que entienden. Chat, texto o llamada \u2014 para cualquier persona LGBTQ+ que necesite hablar, no solo en situaciones de crisis.",
   "lgbtq.phone988": "988",
   "lgbtq.phone988Desc":
     "L\u00ednea de Prevenci\u00f3n del Suicidio y Crisis \u2014 presiona 3 para apoyo LGBTQ+",
@@ -84,19 +84,19 @@ export default {
     "Primera enmienda, derecho a protestar, libertad de prensa",
   "freeSpeech.pageDesc":
     "Derechos de la primera enmienda, derecho a protestar y libertad de prensa.",
-  "freeSpeech.firstAmendment": "Lo B\u00e1sico de la Primera Enmienda",
+  "freeSpeech.firstAmendment": "El Gobierno No Puede Silenciarte",
   "freeSpeech.firstAmendmentDesc":
-    "Lo que la Primera Enmienda protege \u2014 y lo que no",
-  "freeSpeech.protest": "Derecho a Protestar",
+    "La Primera Enmienda protege tu derecho a hablar, publicar, practicar tu religi\u00f3n, reunirte y peticionar al gobierno. Esto es lo que realmente significa en la pr\u00e1ctica.",
+  "freeSpeech.protest": "Tienes el Derecho a Protestar",
   "freeSpeech.protestDesc":
-    "Tus derechos en manifestaciones, marchas y asambleas p\u00fablicas",
+    "Puedes protestar en aceras y parques p\u00fablicos sin permiso. Conoce lo que la polic\u00eda puede y no puede hacer, y qu\u00e9 hacer si se pasan de la raya.",
   "freeSpeech.legalSupport":
-    "Apoyo Legal para la Libertad de Expresi\u00f3n",
+    "\u00bfCensuraron Tu Expresi\u00f3n? La ACLU Podr\u00eda Tomar Tu Caso",
   "freeSpeech.legalSupportDesc":
-    "Organizaciones que defienden la libertad de expresi\u00f3n y de prensa",
-  "freeSpeech.knowRightsProtest": "Conoce Tus Derechos en Protestas",
+    "Si el gobierno te castig\u00f3 por hablar, protestar o publicar, podr\u00edas tener un caso de Primera Enmienda. Env\u00eda tu situaci\u00f3n para revisi\u00f3n.",
+  "freeSpeech.knowRightsProtest": "\u00bf Arrestado en una Protesta? Esto es Lo Que Debes Hacer",
   "freeSpeech.knowRightsProtestDesc":
-    "Qu\u00e9 hacer si te arrestan, detienen o confrontan polic\u00edas en una protesta",
+    "No digas nada excepto \u2018Quiero un abogado.\u2019 Esta gu\u00eda cubre qu\u00e9 hacer si te arrestan, detienen o confiscan tu tel\u00e9fono en una protesta.",
   "freeSpeech.phone": "L\u00ednea Legal",
   "freeSpeech.phoneDesc":
     "Asistencia legal de libertad de expresi\u00f3n y libertades civiles",
@@ -107,18 +107,18 @@ export default {
     "Robo de salarios, seguridad laboral, junta laboral, desempleo",
   "workers.pageDesc":
     "Robo de salarios, seguridad laboral, quejas ante la junta laboral y seguro de desempleo.",
-  "workers.wageHour": "Derechos de Salario y Horario",
+  "workers.wageHour": "Tu Jefe Te Debe Cada D\u00f3lar Que Ganaste",
   "workers.wageHourDesc":
-    "Salario m\u00ednimo, horas extra, protecciones de propinas y qu\u00e9 hacer ante el robo de salarios",
-  "workers.safety": "Seguridad en el Trabajo",
+    "El robo de salarios es la forma m\u00e1s grande de robo en Estados Unidos. Si no te pagaron el salario m\u00ednimo, horas extra, o te quitaron las propinas \u2014 la ley est\u00e1 de tu lado.",
+  "workers.safety": "Puedes Reportar Condiciones de Trabajo Inseguras de Forma An\u00f3nima",
   "workers.safetyDesc":
-    "Tu derecho a un lugar de trabajo seguro y c\u00f3mo reportar condiciones peligrosas",
-  "workers.complaint": "Presentar una Queja Laboral",
+    "OSHA te protege. Puedes presentar una queja confidencial sobre condiciones inseguras, y tu empleador no puede tomar represalias legalmente.",
+  "workers.complaint": "Presenta una Queja por Robo de Salario \u2014 Es Gratis",
   "workers.complaintDesc":
-    "C\u00f3mo presentar quejas ante el Departamento del Trabajo o la junta laboral de tu estado",
-  "workers.unemployment": "Seguro de Desempleo",
+    "El Departamento del Trabajo investigar\u00e1 a tu empleador gratis. No necesitas abogado. Presenta tu queja en l\u00ednea ahora mismo.",
+  "workers.unemployment": "Solicita Beneficios de Desempleo Hoy",
   "workers.unemploymentDesc":
-    "C\u00f3mo solicitar beneficios de desempleo en tu estado",
+    "Si perdiste tu trabajo, probablemente calificas. Cada estado tiene una solicitud en l\u00ednea. T\u00fa pagaste a este sistema \u2014 este es TU dinero.",
   "workers.phone": "1-866-4-USWAGE (1-866-487-2365)",
   "workers.phoneDesc":
     "Departamento del Trabajo \u2014 violaciones de salario y horario",

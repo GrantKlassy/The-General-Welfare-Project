@@ -29,12 +29,12 @@ const locale = Astro.params.locale as Locale;
       <h2 class="text-2xl font-bold"><span class="text-flag-red">[[[</span> ★ {t(locale, "common.knowYourRights")} ★ <span class="text-flag-red">]]]</span></h2>
       <div class="mt-4 grid gap-3">
         <ResourceLink
-          href="https://duckduckgo.com/?q=voter+registration"
+          href="https://vote.gov"
           title={t(locale, "voting.registration")}
           description={t(locale, "voting.registrationDesc")}
         />
         <ResourceLink
-          href="https://duckduckgo.com/?q=voter+id+requirements"
+          href="https://www.vote.org/voter-id-laws/"
           title={t(locale, "voting.voterId")}
           description={t(locale, "voting.voterIdDesc")}
         />
@@ -45,12 +45,12 @@ const locale = Astro.params.locale as Locale;
       <h2 class="text-2xl font-bold">[[[ ★ {t(locale, "common.getHelp")} ★ ]]]</h2>
       <div class="mt-4 grid gap-3">
         <ResourceLink
-          href="https://duckduckgo.com/?q=find+your+polling+place"
+          href="https://www.vote.org/polling-place-locator/"
           title={t(locale, "voting.pollingPlace")}
           description={t(locale, "voting.pollingPlaceDesc")}
         />
         <ResourceLink
-          href="https://duckduckgo.com/?q=election+protection+resources"
+          href="https://866ourvote.org"
           title={t(locale, "voting.electionProtection")}
           description={t(locale, "voting.electionProtectionDesc")}
         />
