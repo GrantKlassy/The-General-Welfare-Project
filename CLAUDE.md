@@ -2,7 +2,20 @@
 
 America first. Pro-freedom. Pro-human-rights. Every line of code, every page, every design decision in this repo serves the people of the United States. When a law, regulation, or system puts corporations over human beings --- that is what this project exists to push back against. Human beings always win. America always win. USA forever.
 
-This is a resource site that connects Americans to their rights. It is designed for the underprivileged --- low-end devices, slow networks, zero tracking. Black background for battery life, Inclusive Sans for readability, aggressive privacy. When building features, writing copy, or making architecture decisions, always ask: does this serve the person on the other end?
+This is a resource site that connects Americans to their rights. Mobile-first, zero tracking, aggressive privacy. Designed for 360px budget Android as the minimum viewport --- that's where most smartphone-only Americans live. Black background for OLED battery life, Inclusive Sans for readability, fast on slow networks. When building features, writing copy, or making architecture decisions, always ask: does this work on a $150 phone over LTE?
+
+## Device Targets
+
+Design mobile-first. The minimum viewport is **360px wide** (budget Android baseline: Samsung A-series, Moto G). All layouts, components, and interactions must work at this width before scaling up.
+
+Test at these viewports:
+- **360×800** — budget Android (minimum target)
+- **390×844** — mid-range iPhone
+- **414×896** — larger iPhone
+- **402×874** — modern iPhone (iPhone 18)
+- **1920×1080** — desktop
+
+Assume slow connections, older Android OS versions, and multi-language needs. Large tap targets, high contrast, and i18n support are non-negotiable. Playwright tests must cover all five viewports.
 
 ## Repo Standards
 
