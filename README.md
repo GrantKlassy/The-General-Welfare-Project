@@ -16,7 +16,26 @@ I built a landing page to help underserved Americans access free resources and i
 - Off-black background (`#0a0a0a`) for battery life, without OLED pixels having visible smearing or ghosting.
 - Slightly off-white text (`#e2e2e2`) to reduce eye strain from maximum contrast while keeping readability high.
 - Tested on simulated $150 Android over LTE (70ms RTT, 12 Mbps, 4x CPU slowdown).
-- Lighthouse CI enforces accessibility ≥ 90, FCP < 1,800ms, CLS < 0.1. Playwright enforces per-page transfer < 300 KB, DOM < 1,500 nodes, heap < 10 MB.
+- Lighthouse CI enforces:
+
+  | Metric                          | Budget   |
+  | ------------------------------- | -------- |
+  | First Contentful Paint (FCP)    | 1,800 ms |
+  | Speed Index                     | 2,000 ms |
+  | Cumulative Layout Shift (CLS)   | 0.1      |
+  | Accessibility score             | 90       |
+  | Best practices score            | 90       |
+  | DOM size                        | 1,500    |
+
+- Playwright enforces per page:
+
+  | Metric         | Budget   |
+  | -------------- | -------- |
+  | Page load time | 2,000 ms |
+  | FCP            | 1,500 ms |
+  | Transfer size  | 300 KB   |
+  | JS heap memory | 10 MB    |
+  | DOM nodes      | 1,500    |
 - Available in English, Spanish, Chinese, Vietnamese, and Filipino.
 
 #
