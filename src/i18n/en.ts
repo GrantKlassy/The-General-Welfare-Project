@@ -122,6 +122,27 @@ export default {
   "workers.phone": "1-866-4-USWAGE (1-866-487-2365)",
   "workers.phoneDesc": "Department of Labor --- wage and hour violations",
 
+  // Food
+  "food.title": "Food",
+  "food.cardDesc": "Food stamps, food banks, school meals, hunger hotline",
+  "food.pageDesc":
+    "Food assistance, SNAP benefits, food banks, and free school meals.",
+  "food.snapEligibility": "You May Already Qualify for Food Assistance",
+  "food.snapEligibilityDesc":
+    "Millions of Americans qualify for SNAP (food stamps) but never apply. If you are struggling to afford groceries, you may be eligible for monthly benefits --- no matter your age or family size.",
+  "food.schoolMeals": "Your Children Can Eat Free at School",
+  "food.schoolMealsDesc":
+    "If your family has a low income, your children can get free breakfast and lunch every school day. This is a federal program --- every public school in America participates.",
+  "food.foodBank": "Find Free Food Near You",
+  "food.foodBankDesc":
+    "Food banks give out free groceries --- no ID, no paperwork, no questions asked. Enter your zip code to find one near you right now.",
+  "food.snapApply": "Apply for SNAP (Food Stamps)",
+  "food.snapApplyDesc":
+    "SNAP puts money on a card every month for groceries. You can apply online through your state. If you qualify, benefits can start within 30 days.",
+  "food.phone": "1-866-3-HUNGRY (1-866-348-6479)",
+  "food.phoneDesc":
+    "USDA National Hunger Hotline --- free help finding food near you",
+
   // Donate
   "donate.title": "Donate",
   "donate.message":

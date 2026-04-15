@@ -1,129 +1,169 @@
 export default {
   // Site
-  "site.title": "D\u1ef1 \u00c1n Ph\u00fac L\u1ee3i Chung",
-  "site.tagline": "Hi\u1ec3u quy\u1ec1n c\u1ee7a b\u1ea1n. T\u00ecm s\u1ef1 gi\u00fap \u0111\u1ee1.",
+  "site.title": "Dự án Phúc lợi Chung",
+  "site.tagline": "Hiểu rõ quyền lợi của bạn. Tìm kiếm sự trợ giúp.",
 
   // Common
-  "common.home": "Trang ch\u1ee7",
-  "common.knowYourRights": "Hi\u1ec3u Quy\u1ec1n C\u1ee7a B\u1ea1n",
-  "common.getHelp": "Nh\u1eadn Tr\u1ee3 Gi\u00fap",
-  "common.callNow": "G\u1ecdi Ngay",
+  "common.home": "Trang chủ",
+  "common.knowYourRights": "Hiểu rõ Quyền lợi của Bạn",
+  "common.getHelp": "Nhận Trợ giúp",
+  "common.callNow": "Gọi ngay",
 
   // Housing
-  "housing.title": "Nh\u00e0 \u1ede",
+  "housing.title": "Nhà ở",
   "housing.cardDesc":
-    "Quy\u1ec1n ng\u01b0\u1eddi thu\u00ea, b\u1ea3o v\u1ec7 ch\u1ed1ng tr\u1ee5c xu\u1ea5t, h\u1ed7 tr\u1ee3 nh\u00e0 \u1edf",
+    "Quyền lợi người thuê nhà, bảo vệ chống trục xuất, hỗ trợ nhà ở",
   "housing.pageDesc":
-    "Quy\u1ec1n ng\u01b0\u1eddi thu\u00ea, b\u1ea3o v\u1ec7 ch\u1ed1ng tr\u1ee5c xu\u1ea5t v\u00e0 c\u00e1c ch\u01b0\u01a1ng tr\u00ecnh h\u1ed7 tr\u1ee3 nh\u00e0 \u1edf.",
-  "housing.tenantRights": "Hãy biết những điều chủ nhà của bạn không được làm.",
+    "Quyền lợi người thuê nhà, bảo vệ chống trục xuất, và các chương trình hỗ trợ nhà ở.",
+  "housing.tenantRights":
+    "Hiểu rõ những điều Chủ nhà không được phép làm",
   "housing.tenantRightsDesc":
-    "B\u1ea1n c\u00f3 quy\u1ec1n h\u1ee3p ph\u00e1p \u0111\u01b0\u1ee3c s\u1ed1ng trong nh\u00e0 an to\u00e0n, l\u1ea5y l\u1ea1i ti\u1ec1n \u0111\u1eb7t c\u1ecdc b\u1ea3o \u0111\u1ea3m, v\u00e0 c\u00f3 h\u1ee3p \u0111\u1ed3ng c\u00f4ng b\u1eb1ng v\u00e0 trung th\u1ef1c. Ph\u1ea7n n\u00e0y s\u1ebd gi\u1ea3i th\u00edch nh\u1eefng \u0111i\u1ec1u ch\u1ee7 nh\u00e0 KH\u00d4NG \u0111\u01b0\u1ee3c ph\u00e9p l\u00e0m.",
-  "housing.eviction": "B\u1ea1n C\u00f3 Th\u1ec3 Ch\u1ed1ng L\u1ea1i Vi\u1ec7c Tr\u1ee5c Xu\u1ea5t",
+    "Bạn có các quyền hợp pháp đối với một ngôi nhà an toàn, việc hoàn trả tiền đặt cọc, và một hợp đồng thuê nhà công bằng, minh bạch. Phần này sẽ giải thích những điều mà chủ nhà KHÔNG được phép thực hiện.",
+  "housing.eviction": "Bạn có thể Phản đối việc Trục xuất",
   "housing.evictionDesc":
-    "B\u1ea1n kh\u00f4ng ph\u1ea3i r\u1eddi \u0111i ngay. B\u1ea1n c\u00f3 quy\u1ec1n h\u1ee3p ph\u00e1p trong qu\u00e1 tr\u00ecnh tr\u1ee5c xu\u1ea5t --- v\u00e0 c\u00f3 lu\u1eadt s\u01b0 mi\u1ec5n ph\u00ed s\u1ebd gi\u00fap b\u1ea1n \u0111\u1ea5u tranh.",
-  "housing.assistance": "N\u1ed9p \u0110\u01a1n H\u1ed7 Tr\u1ee3 Ti\u1ec1n Thu\u00ea Ngay",
+    "Bạn không bắt buộc phải rời đi ngay lập tức. Bạn có các quyền hợp pháp trong suốt quá trình trục xuất --- và có sẵn các luật sư miễn phí để giúp bạn phản đối quyết định này.",
+  "housing.assistance": "Đăng ký Hỗ trợ Tiền thuê nhà",
   "housing.assistanceDesc":
-    "B\u1ea1n c\u00f3 th\u1ec3 \u0111\u1ee7 \u0111i\u1ec1u ki\u1ec7n nh\u1eadn h\u1ed7 tr\u1ee3 ti\u1ec1n thu\u00ea ngay b\u00e2y gi\u1edd. N\u1ed9p \u0111\u01a1n xin h\u1ed7 tr\u1ee3 thu\u00ea nh\u00e0 kh\u1ea9n c\u1ea5p, Section 8 ho\u1eb7c nh\u00e0 \u1edf c\u00f4ng c\u1ed9ng qua c\u01a1 quan nh\u00e0 \u1edf \u0111\u1ecba ph\u01b0\u01a1ng.",
-  "housing.legalAid": "Nh\u1eadn Lu\u1eadt S\u01b0 Mi\u1ec5n Ph\u00ed Cho V\u1ee5 Nh\u00e0 \u1ede C\u1ee7a B\u1ea1n",
+    "Bạn có thể đủ điều kiện nhận hỗ trợ chi trả tiền thuê nhà ngay lúc này. Hãy đăng ký nhận hỗ trợ tiền thuê nhà khẩn cấp, chương trình Section 8, hoặc nhà ở công cộng thông qua cơ quan quản lý nhà ở tại địa phương của bạn.",
+  "housing.legalAid":
+    "Trợ giúp Pháp lý Miễn phí về các vấn đề Nhà ở",
   "housing.legalAidDesc":
-    "B\u1ea1n c\u00f3 th\u1ec3 nh\u1eadn lu\u1eadt s\u01b0 mi\u1ec5n ph\u00ed cho vi\u1ec7c ch\u1ed1ng tr\u1ee5c xu\u1ea5t, \u0111i\u1ec1u ki\u1ec7n s\u1ed1ng kh\u00f4ng an to\u00e0n ho\u1eb7c tranh ch\u1ea5p v\u1edbi ch\u1ee7 nh\u00e0. Tr\u1ee3 gi\u00fap ph\u00e1p l\u00fd l\u00e0 c\u00f3 th\u1eadt, mi\u1ec5n ph\u00ed v\u00e0 c\u00f3 \u1edf m\u1ecdi ti\u1ec3u bang.",
+    "Bạn có thể nhận được sự hỗ trợ miễn phí từ luật sư để bảo vệ quyền lợi khi bị trục xuất, giải quyết các vấn đề về điều kiện sống không an toàn, hoặc tranh chấp với chủ nhà. Dịch vụ trợ giúp pháp lý này hoàn toàn miễn phí và có sẵn tại mọi tiểu bang.",
   "housing.phone": "211",
   "housing.phoneDesc":
-    "H\u1ed7 tr\u1ee3 nh\u00e0 \u1edf \u0111\u1ecba ph\u01b0\u01a1ng v\u00e0 gi\u1edbi thi\u1ec7u d\u1ecbch v\u1ee5 x\u00e3 h\u1ed9i",
+    "Giới thiệu các dịch vụ xã hội và hỗ trợ nhà ở tại địa phương",
 
   // Voting
-  "voting.title": "B\u1ea7u C\u1eed",
+  "voting.title": "Bầu cử",
   "voting.cardDesc":
-    "\u0110\u0103ng k\u00fd, th\u00f4ng tin b\u1ea7u c\u1eed, gi\u1ea5y t\u1edd c\u1eed tri, b\u1ea3o v\u1ec7 b\u1ea7u c\u1eed",
+    "Đăng ký, thông tin điểm bỏ phiếu, giấy tờ tùy thân khi bỏ phiếu, bảo vệ quyền bầu cử",
   "voting.pageDesc":
-    "\u0110\u0103ng k\u00fd, th\u00f4ng tin b\u1ea7u c\u1eed, lu\u1eadt gi\u1ea5y t\u1edd c\u1eed tri v\u00e0 b\u1ea3o v\u1ec7 b\u1ea7u c\u1eed.",
-  "voting.registration": "\u0110\u0103ng K\u00fd B\u1ea7u C\u1eed Ngay B\u00e2y Gi\u1edd",
+    "Đăng ký, thông tin điểm bỏ phiếu, các quy định về giấy tờ tùy thân khi bỏ phiếu, và bảo vệ quyền bầu cử.",
+  "voting.registration": "Đăng ký Bầu cử",
   "voting.registrationDesc":
-    "Ch\u1ec9 m\u1ea5t 2 ph\u00fat. Ki\u1ec3m tra xem b\u1ea1n \u0111\u00e3 \u0111\u0103ng k\u00fd ch\u01b0a, n\u1ebfu ch\u01b0a, \u0111\u0103ng k\u00fd tr\u1ef1c tuy\u1ebfn ngay t\u1ea1i \u0111\u00e2y.",
-  "voting.voterId": "Ki\u1ec3m Tra Gi\u1ea5y T\u1edd C\u1ea7n Thi\u1ebft \u0110\u1ec3 B\u1ea7u C\u1eed",
+    "Việc này chỉ mất khoảng 2 phút. Hãy kiểm tra tình trạng đăng ký của bạn, và nếu cần, bạn có thể đăng ký trực tuyến tại đây.",
+  "voting.voterId":
+    "Kiểm tra loại Giấy tờ tùy thân cần thiết khi đi bầu",
   "voting.voterIdDesc":
-    "Mỗi tiểu bang đều khác nhau. Hãy tra cứu chính xác loại giấy tờ tùy thân mà tiểu bang của bạn yêu cầu — một số tiểu bang hoàn toàn không yêu cầu gì cả.",
-  "voting.pollingPlace": "T\u00ecm Ch\u00ednh X\u00e1c N\u01a1i B\u1ea1n B\u1ea7u C\u1eed",
+    "Quy định ở mỗi tiểu bang là khác nhau. Hãy tra cứu chính xác loại giấy tờ tùy thân mà tiểu bang của bạn yêu cầu --- một số tiểu bang thậm chí không yêu cầu bất kỳ giấy tờ nào cả.",
+  "voting.pollingPlace": "Tìm Điểm bỏ phiếu của bạn",
   "voting.pollingPlaceDesc":
-    "Nh\u1eadp \u0111\u1ecba ch\u1ec9 c\u1ee7a b\u1ea1n \u0111\u1ec3 bi\u1ebft \u0111\u1ecba \u0111i\u1ec3m b\u1ea7u c\u1eed ch\u00ednh x\u00e1c, gi\u1edd m\u1edf c\u1eeda v\u00e0 n\u1ed9i dung phi\u1ebfu b\u1ea7u.",
-  "voting.electionProtection": "B\u00e1o C\u00e1o H\u00e0nh Vi \u0110e D\u1ecda C\u1eed Tri Ho\u1eb7c V\u1ea5n \u0110\u1ec1",
+    "Nhập địa chỉ của bạn để biết chính xác địa điểm bỏ phiếu, giờ mở cửa, và nội dung các mục có trong phiếu bầu của bạn.",
+  "voting.electionProtection":
+    "Báo cáo hành vi Đe dọa cử tri hoặc các Vấn đề phát sinh",
   "voting.electionProtectionDesc":
-    "N\u1ebfu ai \u0111\u00f3 c\u1ed1 ng\u0103n b\u1ea1n b\u1ea7u c\u1eed, \u0111\u00f3 l\u00e0 t\u1ed9i li\u00ean bang. B\u00e1o c\u00e1o v\u00e0 nh\u1eadn tr\u1ee3 gi\u00fap ngay t\u1eeb t\u00ecnh nguy\u1ec7n vi\u00ean ph\u00e1p l\u00fd \u0111\u01b0\u1ee3c \u0111\u00e0o t\u1ea1o.",
+    "Nếu có ai đó cố tình ngăn cản bạn thực hiện quyền bầu cử, đó là một tội phạm liên bang. Bạn có thể báo cáo sự việc này và nhận được sự trợ giúp tức thì từ đội ngũ tình nguyện viên pháp lý đã qua đào tạo.",
   "voting.phone": "866-OUR-VOTE (866-687-8683)",
   "voting.phoneDesc":
-    "\u0110\u01b0\u1eddng d\u00e2y B\u1ea3o v\u1ec7 B\u1ea7u c\u1eed --- h\u1ed7 tr\u1ee3 c\u1eed tri kh\u00f4ng \u0111\u1ea3ng ph\u00e1i",
+    "Đường dây nóng Bảo vệ Bầu cử --- hỗ trợ cử tri phi đảng phái",
 
   // LGBTQ+
-  "lgbtq.title": "Quy\u1ec1n LGBTQ+",
+  "lgbtq.title": "Quyền của cộng đồng LGBTQ+",
   "lgbtq.cardDesc":
-    "Ch\u1ed1ng ph\u00e2n bi\u1ec7t \u0111\u1ed1i x\u1eed, quy\u1ec1n ng\u01b0\u1eddi chuy\u1ec3n gi\u1edbi, t\u1ed5 ch\u1ee9c h\u1ed7 tr\u1ee3",
+    "Chống phân biệt đối xử, quyền của người chuyển giới, các tổ chức hỗ trợ",
   "lgbtq.pageDesc":
-    "Các biện pháp bảo vệ chống phân biệt đối xử, quyền của người chuyển giới và các tổ chức hỗ trợ.",
-  "lgbtq.antiDiscrimination": "Ph\u00e2n Bi\u1ec7t \u0110\u1ed1i X\u1eed V\u1edbi B\u1ea1n L\u00e0 B\u1ea5t H\u1ee3p Ph\u00e1p",
+    "Các biện pháp bảo vệ chống phân biệt đối xử, quyền của người chuyển giới, và các tổ chức hỗ trợ.",
+  "lgbtq.antiDiscrimination":
+    "Phân biệt đối xử dựa trên bản dạng cá nhân là hành vi bất hợp pháp",
   "lgbtq.antiDiscriminationDesc":
-    "Lu\u1eadt li\u00ean bang c\u1ea5m ph\u00e2n bi\u1ec7t \u0111\u1ed1i x\u1eed t\u1ea1i n\u01a1i l\u00e0m vi\u1ec7c, nh\u00e0 \u1edf v\u00e0 kh\u00f4ng gian c\u00f4ng c\u1ed9ng v\u00ec b\u1ea1n l\u00e0 ai. N\u1ebfu b\u1ea1n \u0111\u00e3 b\u1ecb ph\u00e2n bi\u1ec7t \u0111\u1ed1i x\u1eed, b\u1ea1n c\u00f3 th\u1ec3 n\u1ed9p \u0111\u01a1n khi\u1ebfu n\u1ea1i t\u1ea1i \u0111\u00e2y.",
-  "lgbtq.transRights": "B\u1ea1n C\u00f3 Th\u1ec3 C\u1eadp Nh\u1eadt T\u00ean V\u00e0 Gi\u1ea5y T\u1edd T\u00f9y Th\u00e2n",
+    "Luật liên bang nghiêm cấm hành vi phân biệt đối xử tại nơi làm việc, trong vấn đề nhà ở và tại các không gian công cộng dựa trên việc bạn là ai. Nếu bạn từng bị phân biệt đối xử, bạn có thể nộp đơn khiếu nại tại đây.",
+  "lgbtq.transRights": "Cập nhật Tên và Giấy tờ Tùy thân",
   "lgbtq.transRightsDesc":
-    "H\u01b0\u1edbng d\u1eabn t\u1eebng b\u01b0\u1edbc \u0111\u1ec3 thay \u0111\u1ed5i t\u00ean, gi\u1edbi t\u00ednh tr\u00ean gi\u1ea5y t\u1edd v\u00e0 ti\u1ebfp c\u1eadn d\u1ecbch v\u1ee5 y t\u1ebf --- cho m\u1ecdi ti\u1ec3u bang.",
-  "lgbtq.legalSupport": "Nh\u1eadn Tr\u1ee3 Gi\u00fap Ph\u00e1p L\u00fd Mi\u1ec5n Ph\u00ed Ngay",
+    "Hướng dẫn từng bước về việc thay đổi tên, cập nhật giới tính trên giấy tờ tùy thân, và tiếp cận dịch vụ chăm sóc sức khỏe --- áp dụng cho mọi tiểu bang.",
+  "lgbtq.legalSupport":
+    "Có sẵn dịch vụ Hỗ trợ Pháp lý Miễn phí",
   "lgbtq.legalSupportDesc":
-    "B\u00e0n tr\u1ee3 gi\u00fap c\u1ee7a Lambda Legal nh\u1eadn c\u00e1c v\u1ee5 mi\u1ec5n ph\u00ed. N\u1ebfu b\u1ea1n b\u1ecb ph\u00e2n bi\u1ec7t \u0111\u1ed1i x\u1eed, sa th\u1ea3i, t\u1eeb ch\u1ed1i nh\u00e0 \u1edf ho\u1eb7c ch\u0103m s\u00f3c y t\u1ebf v\u00ec b\u1ea1n l\u00e0 ai --- h\u1ecd mu\u1ed1n nghe t\u1eeb b\u1ea1n.",
-  "lgbtq.crisisResources": "N\u00f3i Chuy\u1ec7n V\u1edbi Ng\u01b0\u1eddi Hi\u1ec3u B\u1ea1n",
+    "Bộ phận hỗ trợ của Lambda Legal tiếp nhận các vụ việc hoàn toàn miễn phí. Nếu bạn bị phân biệt đối xử, bị sa thải, bị từ chối cung cấp nhà ở, hoặc bị từ chối chăm sóc sức khỏe chỉ vì bạn là ai --- bạn có thể liên hệ với họ để được hỗ trợ.",
+  "lgbtq.crisisResources":
+    "Trò chuyện cùng người thấu hiểu bạn",
   "lgbtq.crisisResourcesDesc":
-    "H\u1ed7 tr\u1ee3 b\u1ea3o m\u1eadt t\u1eeb nh\u1eefng ng\u01b0\u1eddi hi\u1ec3u b\u1ea1n. Chat, nh\u1eafn tin ho\u1eb7c g\u1ecdi \u0111i\u1ec7n --- d\u00e0nh cho b\u1ea5t k\u1ef3 ng\u01b0\u1eddi LGBTQ+ n\u00e0o c\u1ea7n n\u00f3i chuy\u1ec7n, kh\u00f4ng ch\u1ec9 trong t\u00ecnh hu\u1ed1ng kh\u1ee7ng ho\u1ea3ng.",
+    "Dịch vụ hỗ trợ đồng đẳng bảo mật từ những người thực sự thấu hiểu. Bạn có thể trò chuyện trực tuyến, nhắn tin hoặc gọi điện --- dịch vụ dành cho bất kỳ người nào thuộc cộng đồng LGBTQ+, không chỉ giới hạn trong các tình huống khủng hoảng.",
   "lgbtq.phone988": "988",
   "lgbtq.phone988Desc":
-    "\u0110\u01b0\u1eddng d\u00e2y Kh\u1ee7ng ho\u1ea3ng & Ph\u00f2ng ch\u1ed1ng T\u1ef1 t\u1eed --- \u1ea5n 3 \u0111\u1ec3 nh\u1eadn h\u1ed7 tr\u1ee3 LGBTQ+",
+    "Đường dây nóng Hỗ trợ Khủng hoảng & Ngăn ngừa Tự tử --- nhấn phím 3 để được hỗ trợ dành cho cộng đồng LGBTQ+",
   "lgbtq.phoneTrevor": "866-488-7386",
   "lgbtq.phoneTrevorDesc":
-    "The Trevor Project --- h\u1ed7 tr\u1ee3 kh\u1ee7ng ho\u1ea3ng cho thanh thi\u1ebfu ni\u00ean LGBTQ+",
+    "The Trevor Project --- hỗ trợ khủng hoảng dành cho thanh thiếu niên LGBTQ+",
 
   // Free Speech
-  "freeSpeech.title": "T\u1ef1 Do Ng\u00f4n Lu\u1eadn",
+  "freeSpeech.title": "Tự do Ngôn luận",
   "freeSpeech.cardDesc":
-    "Tu ch\u00ednh \u00e1n th\u1ee9 nh\u1ea5t, quy\u1ec1n bi\u1ec3u t\u00ecnh, t\u1ef1 do b\u00e1o ch\u00ed",
+    "Tu chính án Thứ nhất, quyền biểu tình, tự do báo chí",
   "freeSpeech.pageDesc":
-    "Quy\u1ec1n Tu ch\u00ednh \u00e1n th\u1ee9 nh\u1ea5t, quy\u1ec1n bi\u1ec3u t\u00ecnh v\u00e0 t\u1ef1 do b\u00e1o ch\u00ed.",
-  "freeSpeech.firstAmendment": "Ch\u00ednh Ph\u1ee7 Kh\u00f4ng Th\u1ec3 B\u1ecbt Mi\u1ec7ng B\u1ea1n",
+    "Các quyền theo Tu chính án Thứ nhất, quyền biểu tình, và tự do báo chí.",
+  "freeSpeech.firstAmendment":
+    "Chính phủ không được phép hạn chế quyền ngôn luận của bạn",
   "freeSpeech.firstAmendmentDesc":
-    "Tu ch\u00ednh \u00e1n th\u1ee9 nh\u1ea5t b\u1ea3o v\u1ec7 quy\u1ec1n ph\u00e1t bi\u1ec3u, xu\u1ea5t b\u1ea3n, t\u00edn ng\u01b0\u1ee1ng, h\u1ed9i h\u1ecdp v\u00e0 ki\u1ebfn ngh\u1ecb ch\u00ednh ph\u1ee7 c\u1ee7a b\u1ea1n. \u0110\u00e2y l\u00e0 \u00fd ngh\u0129a th\u1ef1c t\u1ebf c\u1ee7a n\u00f3.",
-  "freeSpeech.protest": "B\u1ea1n C\u00f3 Quy\u1ec1n Bi\u1ec3u T\u00ecnh",
+    "Tu chính án Thứ nhất bảo vệ quyền tự do ngôn luận, xuất bản, tín ngưỡng, hội họp và kiến nghị chính phủ của bạn. Phần này sẽ giải thích ý nghĩa thực tiễn của những quyền đó.",
+  "freeSpeech.protest": "Quyền Biểu tình của bạn",
   "freeSpeech.protestDesc":
-    "B\u1ea1n c\u00f3 th\u1ec3 bi\u1ec3u t\u00ecnh tr\u00ean v\u1ec9a h\u00e8 v\u00e0 c\u00f4ng vi\u00ean c\u00f4ng c\u1ed9ng m\u00e0 kh\u00f4ng c\u1ea7n gi\u1ea5y ph\u00e9p. Bi\u1ebft c\u1ea3nh s\u00e1t \u0111\u01b0\u1ee3c v\u00e0 kh\u00f4ng \u0111\u01b0\u1ee3c l\u00e0m g\u00ec, v\u00e0 ph\u1ea3i l\u00e0m g\u00ec n\u1ebfu h\u1ecd v\u01b0\u1ee3t qu\u00e1 gi\u1edbi h\u1ea1n.",
-  "freeSpeech.legalSupport": "Ph\u00e1t Ng\u00f4n C\u1ee7a B\u1ea1n B\u1ecb Ki\u1ec3m Duy\u1ec7t? ACLU C\u00f3 Th\u1ec3 Nh\u1eadn V\u1ee5 C\u1ee7a B\u1ea1n",
+    "Bạn có quyền biểu tình trên các vỉa hè công cộng và trong các công viên mà không cần giấy phép. Phần này bao gồm những việc cảnh sát được phép và không được phép làm, cũng như những việc bạn cần làm nếu quyền của mình bị xâm phạm.",
+  "freeSpeech.legalSupport":
+    "Nếu quyền ngôn luận của bạn bị hạn chế, ACLU có thể hỗ trợ",
   "freeSpeech.legalSupportDesc":
-    "N\u1ebfu ch\u00ednh ph\u1ee7 tr\u1eebng ph\u1ea1t b\u1ea1n v\u00ec ph\u00e1t bi\u1ec3u, bi\u1ec3u t\u00ecnh ho\u1eb7c xu\u1ea5t b\u1ea3n, b\u1ea1n c\u00f3 th\u1ec3 c\u00f3 v\u1ee5 ki\u1ec7n Tu ch\u00ednh \u00e1n th\u1ee9 nh\u1ea5t. G\u1eedi t\u00ecnh hu\u1ed1ng c\u1ee7a b\u1ea1n \u0111\u1ec3 \u0111\u01b0\u1ee3c xem x\u00e9t.",
-  "freeSpeech.knowRightsProtest": "B\u1ecb B\u1eaft T\u1ea1i Bi\u1ec3u T\u00ecnh? \u0110\u00e2y L\u00e0 \u0110i\u1ec1u C\u1ea7n L\u00e0m",
+    "Nếu chính phủ trừng phạt bạn vì đã phát ngôn, biểu tình hoặc xuất bản thông tin, bạn có thể có cơ sở để khởi kiện dựa trên Tu chính án Thứ nhất. Gửi thông tin về tình huống của bạn để được xem xét.",
+  "freeSpeech.knowRightsProtest":
+    "Cần làm gì nếu bị bắt giữ tại một cuộc biểu tình",
   "freeSpeech.knowRightsProtestDesc":
-    "Kh\u00f4ng n\u00f3i g\u00ec ngo\u00e0i \u2018T\u00f4i mu\u1ed1n lu\u1eadt s\u01b0.\u2019 H\u01b0\u1edbng d\u1eabn n\u00e0y bao g\u1ed3m ph\u1ea3i l\u00e0m g\u00ec n\u1ebfu b\u1ea1n b\u1ecb b\u1eaft, giam gi\u1eef ho\u1eb7c \u0111i\u1ec7n tho\u1ea1i b\u1ecb t\u1ecbch thu t\u1ea1i bi\u1ec3u t\u00ecnh.",
+    "Không nói bất cứ điều gì ngoại trừ câu: \u201cTôi muốn có luật sư.\u201d Bản hướng dẫn này trình bày những việc cần làm nếu bạn bị bắt giữ, bị tạm giam, hoặc điện thoại của bạn bị tịch thu tại một cuộc biểu tình.",
   "freeSpeech.phone": "212-679-5100",
   "freeSpeech.phoneDesc":
-    "National Lawyers Guild --- h\u1ed7 tr\u1ee3 ph\u00e1p l\u00fd v\u1ec1 t\u1ef1 do ng\u00f4n lu\u1eadn v\u00e0 quy\u1ec1n t\u1ef1 do d\u00e2n s\u1ef1",
+    "National Lawyers Guild --- Hỗ trợ pháp lý về tự do ngôn luận và các quyền tự do dân sự",
 
   // Workers' Rights
-  "workers.title": "Quy\u1ec1n Ng\u01b0\u1eddi Lao \u0110\u1ed9ng",
+  "workers.title": "Quyền lợi của Người lao động",
   "workers.cardDesc":
-    "Tr\u1ed9m l\u01b0\u01a1ng, an to\u00e0n lao \u0111\u1ed9ng, c\u01a1 quan lao \u0111\u1ed9ng, th\u1ea5t nghi\u1ec7p",
+    "Trộm cắp tiền lương, an toàn nơi làm việc, hội đồng lao động, thất nghiệp",
   "workers.pageDesc":
-    "Tr\u1ed9m l\u01b0\u01a1ng, an to\u00e0n lao \u0111\u1ed9ng, khi\u1ebfu n\u1ea1i lao \u0111\u1ed9ng v\u00e0 b\u1ea3o hi\u1ec3m th\u1ea5t nghi\u1ec7p.",
-  "workers.wageHour": "S\u1ebfp N\u1ee3 B\u1ea1n T\u1eebng \u0110\u1ed3ng B\u1ea1n \u0110\u00e3 Ki\u1ebfm \u0110\u01b0\u1ee3c",
+    "Trộm cắp tiền lương, an toàn nơi làm việc, khiếu nại lên hội đồng lao động, và bảo hiểm thất nghiệp.",
+  "workers.wageHour":
+    "Bạn có quyền nhận trọn vẹn từng đồng tiền mình đã làm ra",
   "workers.wageHourDesc":
-    "Tr\u1ed9m l\u01b0\u01a1ng l\u00e0 h\u00ecnh th\u1ee9c tr\u1ed9m c\u1eafp l\u1edbn nh\u1ea5t \u1edf M\u1ef9. N\u1ebfu b\u1ea1n kh\u00f4ng \u0111\u01b0\u1ee3c tr\u1ea3 l\u01b0\u01a1ng t\u1ed1i thi\u1ec3u, l\u00e0m th\u00eam gi\u1edd, ho\u1eb7c ti\u1ec1n tip b\u1ecb l\u1ea5y --- ph\u00e1p lu\u1eadt \u0111\u1ee9ng v\u1ec1 ph\u00eda b\u1ea1n.",
-  "workers.safety": "B\u1ea1n C\u00f3 Th\u1ec3 B\u00e1o C\u00e1o \u0110i\u1ec1u Ki\u1ec7n Kh\u00f4ng An To\u00e0n M\u1ed9t C\u00e1ch B\u1ea3o M\u1eadt",
+    "Trộm cắp tiền lương là hình thức trộm cắp phổ biến nhất tại Mỹ. Nếu bạn không được trả mức lương tối thiểu, tiền làm thêm giờ, hoặc tiền \u201ctip\u201d của bạn bị chiếm đoạt --- pháp luật sẽ bảo vệ bạn.",
+  "workers.safety":
+    "Bạn có thể báo cáo các điều kiện làm việc không an toàn một cách bảo mật",
   "workers.safetyDesc":
-    "OSHA bảo vệ người lao động. Bạn có thể gửi đơn khiếu nại bảo mật về các điều kiện làm việc không an toàn, và người sử dụng lao động không được phép trả đũa theo quy định của pháp luật.",
-  "workers.complaint": "N\u1ed9p \u0110\u01a1n Khi\u1ebfu N\u1ea1i Tr\u1ed9m L\u01b0\u01a1ng --- Mi\u1ec5n Ph\u00ed",
+    "OSHA bảo vệ người lao động. Bạn có thể gửi đơn khiếu nại bảo mật về các điều kiện làm việc không an toàn, và người sử dụng lao động không được phép trả đũa bạn theo luật định.",
+  "workers.complaint":
+    "Gửi đơn khiếu nại về việc trộm cắp tiền lương --- Hoàn toàn miễn phí",
   "workers.complaintDesc":
-    "B\u1ed9 Lao \u0111\u1ed9ng s\u1ebd \u0111i\u1ec1u tra ch\u1ee7 lao \u0111\u1ed9ng c\u1ee7a b\u1ea1n mi\u1ec5n ph\u00ed. B\u1ea1n kh\u00f4ng c\u1ea7n lu\u1eadt s\u01b0. N\u1ed9p \u0111\u01a1n tr\u1ef1c tuy\u1ebfn ngay b\u00e2y gi\u1edd.",
-  "workers.unemployment": "Nộp đơn xin trợ cấp thất nghiệp",
+    "Bộ Lao động sẽ tiến hành điều tra người sử dụng lao động của bạn mà không thu bất kỳ khoản phí nào. Bạn không cần phải thuê luật sư. Hãy gửi đơn trực tuyến ngay bây giờ.",
+  "workers.unemployment":
+    "Đăng ký nhận Trợ cấp Thất nghiệp",
   "workers.unemploymentDesc":
-    "N\u1ebfu b\u1ea1n m\u1ea5t vi\u1ec7c, b\u1ea1n r\u1ea5t c\u00f3 th\u1ec3 \u0111\u1ee7 \u0111i\u1ec1u ki\u1ec7n. M\u1ed7i ti\u1ec3u bang \u0111\u1ec1u c\u00f3 \u0111\u01a1n tr\u1ef1c tuy\u1ebfn. B\u1ea1n \u0111\u00e3 \u0111\u00f3ng g\u00f3p v\u00e0o h\u1ec7 th\u1ed1ng n\u00e0y --- \u0111\u00e2y l\u00e0 ti\u1ec1n C\u1ee6A B\u1ea0N.",
+    "Nếu bạn bị mất việc làm, rất có thể bạn đủ điều kiện nhận trợ cấp. Mỗi tiểu bang đều có hệ thống đăng ký trực tuyến. Bạn đã đóng góp vào hệ thống này --- vì thế, đây là những khoản trợ cấp mà bạn hoàn toàn xứng đáng được hưởng.",
   "workers.phone": "1-866-4-USWAGE (1-866-487-2365)",
   "workers.phoneDesc":
-    "B\u1ed9 Lao \u0111\u1ed9ng --- b\u00e1o c\u00e1o vi ph\u1ea1m l\u01b0\u01a1ng v\u00e0 gi\u1edd l\u00e0m",
+    "Bộ Lao động --- các vi phạm liên quan đến tiền lương và giờ làm việc",
+
+  // Food
+  "food.title": "Thực phẩm",
+  "food.cardDesc":
+    "Phiếu thực phẩm (Food stamps), ngân hàng thực phẩm, bữa ăn học đường, đường dây nóng hỗ trợ người đói",
+  "food.pageDesc":
+    "Hỗ trợ thực phẩm, trợ cấp SNAP, ngân hàng thực phẩm, và bữa ăn miễn phí tại trường học.",
+  "food.snapEligibility":
+    "Rất có thể bạn đã đủ điều kiện nhận hỗ trợ thực phẩm",
+  "food.snapEligibilityDesc":
+    "Hàng triệu người Mỹ đủ điều kiện nhận trợ cấp SNAP (phiếu thực phẩm) nhưng lại chưa bao giờ nộp đơn đăng ký. Nếu bạn đang gặp khó khăn trong việc chi trả tiền mua thực phẩm, bạn có thể đủ điều kiện nhận các khoản trợ cấp hàng tháng --- bất kể độ tuổi hay quy mô gia đình của bạn là bao nhiêu.",
+  "food.schoolMeals":
+    "Con bạn có thể được ăn miễn phí tại trường",
+  "food.schoolMealsDesc":
+    "Nếu gia đình bạn có thu nhập thấp, con bạn có thể được nhận bữa sáng và bữa trưa miễn phí vào mỗi ngày đi học. Đây là một chương trình liên bang --- mọi trường công lập trên khắp nước Mỹ đều tham gia chương trình này.",
+  "food.foodBank":
+    "Tìm địa điểm cung cấp thực phẩm miễn phí gần bạn",
+  "food.foodBankDesc":
+    "Các ngân hàng thực phẩm cung cấp thực phẩm miễn phí --- không yêu cầu giấy tờ tùy thân, không cần thủ tục giấy tờ rườm rà, và không đặt câu hỏi cá nhân. Hãy nhập mã bưu chính (zip code) của bạn để tìm địa điểm gần nhất ngay bây giờ.",
+  "food.snapApply":
+    "Đăng ký nhận trợ cấp SNAP (Phiếu thực phẩm)",
+  "food.snapApplyDesc":
+    "Chương trình SNAP sẽ nạp tiền vào một chiếc thẻ mỗi tháng để bạn dùng mua thực phẩm. Bạn có thể nộp đơn đăng ký trực tuyến thông qua trang web của tiểu bang nơi bạn cư trú. Nếu quý vị đủ điều kiện, các khoản phúc lợi có thể bắt đầu trong vòng 30 ngày.",
+  "food.phone": "1-866-3-HUNGRY (1-866-348-6479)",
+  "food.phoneDesc":
+    "Đường dây nóng Quốc gia về Nạn đói của USDA --- hỗ trợ miễn phí tìm kiếm nguồn thực phẩm ở gần quý vị",
 
   // Donate
-  "donate.title": "Quy\u00ean g\u00f3p",
+  "donate.title": "Quyên góp",
   "donate.message":
-    "Quy\u00ean g\u00f3p cho D\u1ef1 \u00c1n Ph\u00fac L\u1ee3i Chung b\u1eb1ng c\u00e1ch b\u1ea7u c\u1eed trong cu\u1ed9c b\u1ea7u c\u1eed gi\u1eefa nhi\u1ec7m k\u1ef3 2026",
+    "Quyên góp cho Dự án Phúc lợi Chung (The General Welfare Project) bằng cách đi bầu trong cuộc bầu cử giữa nhiệm kỳ năm 2026.",
 } as Record<string, string>;

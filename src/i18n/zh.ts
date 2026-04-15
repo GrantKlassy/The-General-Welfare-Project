@@ -1,121 +1,145 @@
 export default {
   // Site
-  "site.title": "\u516c\u5171\u798f\u5229\u9879\u76ee",
-  "site.tagline": "\u4e86\u89e3\u4f60\u7684\u6743\u5229\u3002\u5bfb\u627e\u5e2e\u52a9\u3002",
+  "site.title": "公共福利项目 (The General Welfare Project)",
+  "site.tagline": "了解您的权利。寻求帮助。",
 
   // Common
-  "common.home": "\u9996\u9875",
-  "common.knowYourRights": "\u4e86\u89e3\u4f60\u7684\u6743\u5229",
-  "common.getHelp": "\u83b7\u53d6\u5e2e\u52a9",
-  "common.callNow": "\u7acb\u5373\u62e8\u6253",
+  "common.home": "首页",
+  "common.knowYourRights": "了解您的权利",
+  "common.getHelp": "获取帮助",
+  "common.callNow": "立即致电",
 
   // Housing
-  "housing.title": "\u4f4f\u623f",
-  "housing.cardDesc": "\u79df\u623f\u6743\u5229\u3001\u9a71\u9010\u9632\u62a4\u3001\u4f4f\u623f\u63f4\u52a9",
-  "housing.pageDesc": "\u79df\u623f\u6743\u5229\u3001\u9a71\u9010\u9632\u62a4\u548c\u4f4f\u623f\u63f4\u52a9\u8ba1\u5212\u3002",
-  "housing.tenantRights": "\u4e86\u89e3\u623f\u4e1c\u4e0d\u80fd\u505a\u4ec0\u4e48",
+  "housing.title": "住房",
+  "housing.cardDesc": "租户权利、驱逐辩护、住房援助",
+  "housing.pageDesc": "租户权利、驱逐辩护及住房援助项目。",
+  "housing.tenantRights": "了解房东的禁止行为",
   "housing.tenantRightsDesc":
-    "\u4f60\u6709\u5408\u6cd5\u6743\u5229\u62e5\u6709\u5b89\u5168\u7684\u4f4f\u6240\u3001\u53d6\u56de\u4f60\u7684\u62bc\u91d1\u3001\u4ee5\u53ca\u62e5\u6709\u4e00\u4efd\u516c\u5e73\u8bda\u5b9e\u7684\u79df\u7ea6\u3002\u4ee5\u4e0b\u5c06\u8bf4\u660e\u623f\u4e1c\u4e0d\u80fd\u505a\u7684\u4e8b\u3002",
-  "housing.eviction": "\u4f60\u53ef\u4ee5\u5bf9\u6297\u9a71\u9010",
+    "您享有获得安全住所、取回押金以及签订公平诚信租约的合法权利。本部分将为您解释房东**不得**从事的各项行为。",
+  "housing.eviction": "您可以对驱逐令提出异议",
   "housing.evictionDesc":
-    "\u4f60\u4e0d\u5fc5\u76f4\u63a5\u642c\u8d70\u3002\u4f60\u5728\u9a71\u9010\u8fc7\u7a0b\u4e2d\u6709\u6cd5\u5f8b\u6743\u5229---\u800c\u4e14\u6709\u514d\u8d39\u5f8b\u5e08\u4f1a\u5e2e\u4f60\u6297\u4e89\u3002",
-  "housing.assistance": "\u7acb\u5373\u7533\u8bf7\u79df\u623f\u63f4\u52a9",
+    "您无需立即搬离。在驱逐程序进行期间，您享有相应的合法权利---且有免费律师可协助您对驱逐令提出异议。",
+  "housing.assistance": "申请租金援助",
   "housing.assistanceDesc":
-    "\u4f60\u73b0\u5728\u53ef\u80fd\u6709\u8d44\u683c\u83b7\u5f97\u79df\u91d1\u5e2e\u52a9\u3002\u901a\u8fc7\u5f53\u5730\u4f4f\u623f\u7ba1\u7406\u5c40\u7533\u8bf7\u7d27\u6025\u79df\u623f\u63f4\u52a9\u3001\u7b2c\u516b\u6761\u4f4f\u623f\u5238\u6216\u516c\u5171\u4f4f\u623f\u3002",
+    "您目前可能符合资格，可获得租金支付方面的援助。请通过当地住房管理机构，申请紧急租金援助、\u201c第8节住房券计划\u201d（Section 8）或公共住房。",
   "housing.legalAid": "住房问题免费法律援助",
   "housing.legalAidDesc":
-    "\u4f60\u53ef\u4ee5\u83b7\u5f97\u514d\u8d39\u5f8b\u5e08\u6765\u5e94\u5bf9\u9a71\u9010\u3001\u4e0d\u5b89\u5168\u7684\u5c45\u4f4f\u6761\u4ef6\u6216\u623f\u4e1c\u7ea0\u7eb7\u3002\u6cd5\u5f8b\u63f4\u52a9\u662f\u771f\u5b9e\u7684\u3001\u514d\u8d39\u7684\uff0c\u6bcf\u4e2a\u5dde\u90fd\u6709\u3002",
-  "housing.phone": "211",
-  "housing.phoneDesc": "\u5f53\u5730\u4f4f\u623f\u63f4\u52a9\u548c\u793e\u4f1a\u670d\u52a1\u8f6c\u4ecb",
+    "若面临驱逐辩护、居住环境不安全或房东纠纷等问题，您可以获得免费律师的协助。法律援助服务完全免费，且在全美各州均有提供。",
+  "housing.phone": "211 服务热线",
+  "housing.phoneDesc": "当地住房援助及社会服务转介",
 
   // Voting
-  "voting.title": "\u6295\u7968",
-  "voting.cardDesc": "\u767b\u8bb0\u3001\u6295\u7968\u4fe1\u606f\u3001\u9009\u6c11\u8bc1\u4ef6\u3001\u9009\u4e3e\u4fdd\u62a4",
+  "voting.title": "投票",
+  "voting.cardDesc":
+    "选民登记、投票点信息、选民身份证明、选举权益保障",
   "voting.pageDesc":
-    "\u767b\u8bb0\u3001\u6295\u7968\u4fe1\u606f\u3001\u9009\u6c11\u8bc1\u4ef6\u6cd5\u548c\u9009\u4e3e\u4fdd\u62a4\u3002",
-  "voting.registration": "\u73b0\u5728\u5c31\u6ce8\u518c\u6295\u7968",
+    "选民登记、投票点信息、选民身份证明法规及选举权益保障。",
+  "voting.registration": "登记投票",
   "voting.registrationDesc":
-    "\u53ea\u97002\u5206\u949f\u3002\u68c0\u67e5\u4f60\u662f\u5426\u5df2\u6ce8\u518c\uff0c\u5982\u679c\u6ca1\u6709\uff0c\u5728\u8fd9\u91cc\u5728\u7ebf\u6ce8\u518c\u3002",
-  "voting.voterId": "\u67e5\u770b\u6295\u7968\u9700\u8981\u4ec0\u4e48\u8bc1\u4ef6",
+    "仅需约 2 分钟即可完成。请查询您的选民登记状态；如有需要，可在此处在线完成登记。",
+  "voting.voterId": "查询投票所需的身份证明",
   "voting.voterIdDesc":
-    "\u6bcf\u4e2a\u5dde\u90fd\u4e0d\u540c\u3002\u67e5\u770b\u4f60\u6240\u5728\u5dde\u7684\u786e\u5207\u8bc1\u4ef6\u8981\u6c42---\u6709\u4e9b\u5dde\u5b8c\u5168\u4e0d\u9700\u8981\u8bc1\u4ef6\u3002",
-  "voting.pollingPlace": "\u627e\u5230\u4f60\u7684\u786e\u5207\u6295\u7968\u5730\u70b9",
+    "各州规定不尽相同。请查询您所在州具体要求提供何种身份证明---部分州甚至无需提供任何身份证明。",
+  "voting.pollingPlace": "查找您的投票点",
   "voting.pollingPlaceDesc":
-    "\u8f93\u5165\u4f60\u7684\u5730\u5740\uff0c\u83b7\u53d6\u4f60\u7684\u786e\u5207\u6295\u7968\u5730\u70b9\u3001\u65f6\u95f4\u548c\u9009\u7968\u5185\u5bb9\u3002",
-  "voting.electionProtection": "\u4e3e\u62a5\u9009\u6c11\u6050\u5413\u6216\u95ee\u9898",
+    "输入您的住址，即可获取确切的投票地点、开放时间以及选票上的具体内容。",
+  "voting.electionProtection": "举报选民恐吓或选举问题",
   "voting.electionProtectionDesc":
-    "\u5982\u679c\u6709\u4eba\u8bd5\u56fe\u963b\u6b62\u4f60\u6295\u7968\uff0c\u90a3\u662f\u8054\u90a6\u72af\u7f6a\u3002\u4e3e\u62a5\u5b83\uff0c\u5e76\u4ece\u8bad\u7ec3\u6709\u7d20\u7684\u6cd5\u5f8b\u5fd7\u613f\u8005\u90a3\u91cc\u83b7\u5f97\u5373\u65f6\u5e2e\u52a9\u3002",
+    "若有人试图阻挠您行使投票权，此举将构成联邦重罪。您可以对此进行举报，并获得受过专业培训的法律志愿者的即时协助",
   "voting.phone": "866-OUR-VOTE (866-687-8683)",
-  "voting.phoneDesc": "\u9009\u4e3e\u4fdd\u62a4\u70ed\u7ebf---\u65e0\u515a\u6d3e\u9009\u6c11\u63f4\u52a9",
+  "voting.phoneDesc":
+    "选举保护热线 --- 提供非党派性质的选民协助",
 
   // LGBTQ+
-  "lgbtq.title": "LGBTQ+ \u6743\u5229",
-  "lgbtq.cardDesc": "\u53cd\u6b67\u89c6\u3001\u8de8\u6027\u522b\u6743\u5229\u3001\u652f\u6301\u7ec4\u7ec7",
-  "lgbtq.pageDesc":
-    "\u53cd\u6b67\u89c6\u4fdd\u62a4\u3001\u8de8\u6027\u522b\u6743\u5229\u548c\u652f\u6301\u7ec4\u7ec7\u3002",
-  "lgbtq.antiDiscrimination": "基于身份的歧视是非法的。",
+  "lgbtq.title": "LGBTQ+ 权益",
+  "lgbtq.cardDesc": "反歧视、跨性别者权益及支持组织",
+  "lgbtq.pageDesc": "反歧视保护、跨性别者权益及支持组织",
+  "lgbtq.antiDiscrimination": "基于身份的歧视属于非法行为",
   "lgbtq.antiDiscriminationDesc":
-    "\u8054\u90a6\u6cd5\u5f8b\u7981\u6b62\u5728\u5de5\u4f5c\u3001\u4f4f\u623f\u548c\u516c\u5171\u573a\u6240\u57fa\u4e8e\u4f60\u7684\u8eab\u4efd\u8fdb\u884c\u6b67\u89c6\u3002\u5982\u679c\u4f60\u9047\u5230\u4e86\u6b67\u89c6\uff0c\u4f60\u53ef\u4ee5\u5728\u8fd9\u91cc\u63d0\u4ea4\u6295\u8bc9\u3002",
-  "lgbtq.transRights": "\u4f60\u53ef\u4ee5\u66f4\u65b0\u4f60\u7684\u59d3\u540d\u548c\u8eab\u4efd\u8bc1\u4ef6",
+    "联邦法律禁止基于个人身份而在工作场所、住房及公共空间实施歧视。如果您曾遭受歧视，可在此提交投诉。",
+  "lgbtq.transRights": "更新姓名及身份证明文件",
   "lgbtq.transRightsDesc":
-    "\u9010\u6b65\u6307\u5357\u5e2e\u52a9\u4f60\u66f4\u6539\u59d3\u540d\u3001\u8bc1\u4ef6\u4e0a\u7684\u6027\u522b\u6807\u8bb0\u548c\u83b7\u5f97\u533b\u7597\u670d\u52a1---\u9002\u7528\u4e8e\u6bcf\u4e2a\u5dde\u3002",
-  "lgbtq.legalSupport": "\u73b0\u5728\u5c31\u83b7\u53d6\u514d\u8d39\u6cd5\u5f8b\u5e2e\u52a9",
+    "针对各州提供的分步指南：指导您如何更改姓名、更新身份证件上的性别标识，以及获取医疗保健服务。",
+  "lgbtq.legalSupport": "提供免费法律援助",
   "lgbtq.legalSupportDesc":
-    "Lambda Legal\u7684\u5e2e\u52a9\u53f0\u514d\u8d39\u63a5\u53d7\u6848\u4ef6\u3002\u5982\u679c\u4f60\u56e0\u4e3a\u8eab\u4efd\u800c\u906d\u53d7\u6b67\u89c6\u3001\u88ab\u89e3\u96c7\u3001\u88ab\u62d2\u7edd\u4f4f\u623f\u6216\u533b\u7597---\u4ed6\u4eec\u60f3\u542c\u5230\u4f60\u7684\u58f0\u97f3\u3002",
-  "lgbtq.crisisResources": "\u548c\u7406\u89e3\u4f60\u7684\u4eba\u804a\u804a",
+    "Lambda Legal 法律援助中心的咨询台免费受理案件。如果您因个人身份而遭受歧视、被解雇、被拒绝提供住房或医疗服务，您可以联系他们寻求协助。",
+  "lgbtq.crisisResources": "与理解您的人倾诉",
   "lgbtq.crisisResourcesDesc":
-    "\u6765\u81ea\u7406\u89e3\u4f60\u7684\u4eba\u7684\u4fdd\u5bc6\u652f\u6301\u3002\u804a\u5929\u3001\u77ed\u4fe1\u6216\u7535\u8bdd---\u9762\u5411\u4efb\u4f55\u9700\u8981\u503e\u8bc9\u7684LGBTQ+\u4eba\u58eb\uff0c\u4e0d\u4ec5\u9650\u4e8e\u5371\u673a\u60c5\u51b5\u3002",
+    "来自同伴的保密支持 --- 由真正理解您处境的人提供。支持在线聊天、短信或电话沟通 --- 面向所有 LGBTQ+ 人群开放，不仅限于危机时刻使用。",
   "lgbtq.phone988": "988",
   "lgbtq.phone988Desc":
-    "\u81ea\u6740\u548c\u5371\u673a\u751f\u547d\u7ebf---\u6309 3 \u83b7\u53d6 LGBTQ+ \u652f\u6301",
+    "自杀与危机生命线 --- 按\u201c3\u201d键获取 LGBTQ+ 专项支持",
   "lgbtq.phoneTrevor": "866-488-7386",
   "lgbtq.phoneTrevorDesc":
-    "The Trevor Project---LGBTQ+ \u9752\u5c11\u5e74\u5371\u673a\u652f\u6301",
+    "Trevor Project --- 专为 LGBTQ+ 青少年提供危机支持服务",
 
   // Free Speech
-  "freeSpeech.title": "\u8a00\u8bba\u81ea\u7531",
-  "freeSpeech.cardDesc": "\u7b2c\u4e00\u4fee\u6b63\u6848\u3001\u6297\u8bae\u6743\u3001\u65b0\u95fb\u81ea\u7531",
-  "freeSpeech.pageDesc":
-    "\u7b2c\u4e00\u4fee\u6b63\u6848\u6743\u5229\u3001\u6297\u8bae\u6743\u548c\u65b0\u95fb\u81ea\u7531\u3002",
-  "freeSpeech.firstAmendment": "\u653f\u5e9c\u4e0d\u80fd\u8ba9\u4f60\u6c89\u9ed8",
+  "freeSpeech.title": "言论自由",
+  "freeSpeech.cardDesc": "第一修正案、抗议权及新闻自由",
+  "freeSpeech.pageDesc": "第一修正案权利、抗议权及新闻自由",
+  "freeSpeech.firstAmendment": "政府无权限制您的言论自由",
   "freeSpeech.firstAmendmentDesc":
-    "\u7b2c\u4e00\u4fee\u6b63\u6848\u4fdd\u62a4\u4f60\u7684\u8a00\u8bba\u3001\u51fa\u7248\u3001\u4fe1\u4ef0\u3001\u96c6\u4f1a\u548c\u5411\u653f\u5e9c\u8bf7\u613f\u7684\u6743\u5229\u3002\u4ee5\u4e0b\u662f\u5b83\u5728\u5b9e\u8df5\u4e2d\u7684\u771f\u6b63\u542b\u4e49\u3002",
-  "freeSpeech.protest": "\u4f60\u6709\u6743\u6297\u8bae",
+    "《第一修正案》保障您的言论、出版、信仰、集会及向政府请愿的权利。本部分将为您解释这些权利在实际应用中的具体含义。",
+  "freeSpeech.protest": "您的抗议权利",
   "freeSpeech.protestDesc":
-    "\u4f60\u53ef\u4ee5\u5728\u516c\u5171\u4eba\u884c\u9053\u548c\u516c\u56ed\u4e0a\u6297\u8bae\uff0c\u65e0\u9700\u8bb8\u53ef\u3002\u4e86\u89e3\u8b66\u5bdf\u80fd\u505a\u4ec0\u4e48\u548c\u4e0d\u80fd\u505a\u4ec0\u4e48\uff0c\u4ee5\u53ca\u5982\u679c\u4ed6\u4eec\u8d8a\u754c\u8be5\u600e\u4e48\u529e\u3002",
-  "freeSpeech.legalSupport": "如果您的言论自由受到限制，ACLU 可能会为您提供协助。",
+    "您可以在公共人行道及公园内进行抗议活动，无需申请许可。本部分将详细说明警方在抗议现场的权限范围（即可以做什么、不可以做什么），以及在您的权利受到侵犯时应如何应对。",
+  "freeSpeech.legalSupport":
+    "若您的言论自由受限，ACLU（美国公民自由联盟）或能提供协助",
   "freeSpeech.legalSupportDesc":
-    "\u5982\u679c\u653f\u5e9c\u56e0\u4e3a\u4f60\u53d1\u8a00\u3001\u6297\u8bae\u6216\u51fa\u7248\u800c\u60e9\u7f5a\u4f60\uff0c\u4f60\u53ef\u80fd\u6709\u7b2c\u4e00\u4fee\u6b63\u6848\u6848\u4ef6\u3002\u63d0\u4ea4\u4f60\u7684\u60c5\u51b5\u4ee5\u4f9b\u5ba1\u67e5\u3002",
-  "freeSpeech.knowRightsProtest": "\u5728\u6297\u8bae\u4e2d\u88ab\u6355\uff1f\u8fd9\u662f\u4f60\u8be5\u505a\u7684",
+    "如果政府因您发表言论、参与抗议或进行出版活动而对您实施惩罚，您可能具备依据《第一修正案》提起诉讼的法律依据。提交您的具体情况以供审查。",
+  "freeSpeech.knowRightsProtest":
+    "若在抗议活动中被捕，该怎么办",
   "freeSpeech.knowRightsProtestDesc":
-    "\u9664\u4e86\u2018\u6211\u8981\u5f8b\u5e08\u2019\u4e4b\u5916\u4ec0\u4e48\u90fd\u4e0d\u8981\u8bf4\u3002\u672c\u6307\u5357\u6db5\u76d6\u4e86\u5982\u679c\u4f60\u5728\u6297\u8bae\u4e2d\u88ab\u902e\u6355\u3001\u62d8\u7559\u6216\u624b\u673a\u88ab\u6ca1\u6536\u8be5\u600e\u4e48\u529e\u3002",
+    "除\u201c我要见律师\u201d这句话外，请勿发表任何言论。本指南旨在为您提供指引，说明若在抗议活动中遭遇逮捕、拘留或手机被没收，应如何应对。",
   "freeSpeech.phone": "212-679-5100",
-  "freeSpeech.phoneDesc": "National Lawyers Guild --- \u8a00\u8bba\u81ea\u7531\u548c\u516c\u6c11\u81ea\u7531\u6cd5\u5f8b\u63f4\u52a9",
+  "freeSpeech.phoneDesc":
+    "全国律师公会 --- 言论自由与公民自由法律援助",
 
   // Workers' Rights
-  "workers.title": "\u52b3\u52a8\u6743\u5229",
+  "workers.title": "劳工权益",
   "workers.cardDesc":
-    "\u5de5\u8d44\u76d7\u7a83\u3001\u5de5\u4f5c\u573a\u6240\u5b89\u5168\u3001\u52b3\u52a8\u5c40\u3001\u5931\u4e1a",
+    "薪资盗窃、工作场所安全、劳工委员会、失业救济",
   "workers.pageDesc":
-    "\u5de5\u8d44\u76d7\u7a83\u3001\u5de5\u4f5c\u573a\u6240\u5b89\u5168\u3001\u52b3\u52a8\u5c40\u6295\u8bc9\u548c\u5931\u4e1a\u4fdd\u9669\u3002",
-  "workers.wageHour": "你理应获得你赚取的每一分钱。",
+    "薪资盗窃、工作场所安全、向劳工委员会投诉，以及失业保险。",
+  "workers.wageHour": "您有权获得您赚取的每一分钱",
   "workers.wageHourDesc":
-    "克扣工资是美国最普遍的盗窃形式。如果您未获支付最低工资或加班费，或者您的小费遭到侵吞——法律将为您提供保护。",
-  "workers.safety": "\u4f60\u53ef\u4ee5\u4fdd\u5bc6\u5730\u4e3e\u62a5\u4e0d\u5b89\u5168\u7684\u5de5\u4f5c\u6761\u4ef6",
+    "薪资盗窃是美国最常见的盗窃形式。如果您未获得最低工资或加班费，或者您的小费被克扣---法律将为您提供保护。",
+  "workers.safety": "您可以匿名举报不安全的工作环境",
   "workers.safetyDesc":
-    "OSHA\u4fdd\u62a4\u4f60\u3002\u4f60\u53ef\u4ee5\u5bf9\u4e0d\u5b89\u5168\u7684\u6761\u4ef6\u63d0\u51fa\u4fdd\u5bc6\u6295\u8bc9\uff0c\u4f60\u7684\u96c7\u4e3b\u4e0d\u80fd\u5408\u6cd5\u5730\u5bf9\u4f60\u8fdb\u884c\u62a5\u590d\u3002",
-  "workers.complaint": "\u63d0\u4ea4\u5de5\u8d44\u76d7\u7a83\u6295\u8bc9---\u514d\u8d39",
+    "OSHA（职业安全与健康管理局）致力于保护劳工权益。您可以针对不安全的工作环境提交匿名投诉，且您的雇主在法律上不得对您进行报复。",
+  "workers.complaint": "提交薪资盗窃投诉---完全免费",
   "workers.complaintDesc":
-    "\u52b3\u5de5\u90e8\u5c06\u514d\u8d39\u8c03\u67e5\u4f60\u7684\u96c7\u4e3b\u3002\u4f60\u4e0d\u9700\u8981\u5f8b\u5e08\u3002\u73b0\u5728\u5c31\u5728\u7ebf\u63d0\u4ea4\u3002",
-  "workers.unemployment": "\u4eca\u5929\u5c31\u7533\u8bf7\u5931\u4e1a\u6551\u6d4e\u91d1",
+    "劳工部将免费对您的雇主展开调查。您无需聘请律师。立即在线提交申请。",
+  "workers.unemployment": "申请失业救济金",
   "workers.unemploymentDesc":
-    "如果您失业了，您很可能符合资格。每个州都提供在线申请渠道。您曾向该体系缴纳过费用——因此，这些是您应得的福利。",
+    "如果您失业了，您很可能符合申请资格。全美各州均提供在线申请服务。您曾为该系统缴纳过费用---因此，这些救济金是您应得的权益。",
   "workers.phone": "1-866-4-USWAGE (1-866-487-2365)",
-  "workers.phoneDesc":
-    "\u52b3\u5de5\u90e8---\u5de5\u8d44\u548c\u5de5\u65f6\u8fdd\u89c4\u4e3e\u62a5",
+  "workers.phoneDesc": "劳工部---薪资与工时违规举报",
+
+  // Food
+  "food.title": "食品援助",
+  "food.cardDesc":
+    "食品券、食品银行、学校供餐、饥饿援助热线",
+  "food.pageDesc":
+    "食品援助、SNAP 福利（食品券）、食品银行，以及免费学校供餐。",
+  "food.snapEligibility": "您可能已符合食品援助的申请资格",
+  "food.snapEligibilityDesc":
+    "数百万美国人符合 SNAP（食品券）的申请资格，却从未提交申请。如果您在购买日常食品方面感到经济困难，您可能有资格每月领取福利金---无论您的年龄大小或家庭人口多少。",
+  "food.schoolMeals": "您的孩子可在学校享用免费餐点",
+  "food.schoolMealsDesc":
+    "如果您的家庭属于低收入家庭，您的孩子在每个上学日均可享用免费的早餐和午餐。这是一项联邦政府项目---全美所有的公立学校均参与其中。",
+  "food.foodBank": "查找您附近的免费食品发放点",
+  "food.foodBankDesc":
+    "食品银行免费发放日常食品---无需出示身份证明，无需填写繁琐表格，更不会询问任何问题。请输入您的邮政编码，立即查找离您最近的发放点。",
+  "food.snapApply": "申请 SNAP（食品券）",
+  "food.snapApplyDesc":
+    "SNAP 项目每月会将一笔资金存入一张专用卡中，供您用于购买日常食品。您可以通过所在州的官方渠道在线提交申请。如果您符合资格，福利援助可在 30 天内开始发放。",
+  "food.phone": "1-866-3-HUNGRY (1-866-348-6479)",
+  "food.phoneDesc":
+    "USDA 全国饥饿热线 --- 免费协助您寻找附近的食物资源",
 
   // Donate
-  "donate.title": "\u6350\u6b3e",
+  "donate.title": "捐赠",
   "donate.message":
-    "\u901a\u8fc72026\u5e74\u4e2d\u671f\u9009\u4e3e\u6295\u7968\u6765\u652f\u6301\u516c\u5171\u798f\u5229\u9879\u76ee",
+    "通过在 2026 年中期选举中投票，向\u201c综合福利项目\u201d（The General Welfare Project）进行捐赠",
 } as Record<string, string>;

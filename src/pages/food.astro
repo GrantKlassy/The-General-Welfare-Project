@@ -1,0 +1,74 @@
+---
+import Base from "../layouts/Base.astro";
+import ResourceLink from "../components/ResourceLink.astro";
+---
+
+<Base title="Food --- The General Welfare Project" currentPath="/food">
+  <div class="mx-auto max-w-3xl px-4 py-10 sm:px-6 sm:py-16">
+    <h1 class="text-center text-3xl font-bold sm:text-4xl">Food</h1>
+    <p class="mt-3 text-center text-base text-gray-300 sm:mt-4 sm:text-lg">
+      Food assistance, SNAP benefits, food banks, and free school meals.
+    </p>
+
+    <section class="mt-8 sm:mt-10">
+      <h2 class="text-center text-xl font-bold sm:text-2xl">
+        <span class="text-flag-red">[[[</span> ★ Know Your Rights ★ <span
+          class="text-flag-red">]]]</span>
+      </h2>
+      <div class="mt-4 grid gap-3">
+        <ResourceLink
+          href="https://www.fns.usda.gov/snap/recipient/eligibility"
+          title="You May Already Qualify for Food Assistance"
+          description="Millions of Americans qualify for SNAP (food stamps) but never apply. If you are struggling to afford groceries, you may be eligible for monthly benefits --- no matter your age or family size."
+        />
+        <ResourceLink
+          href="https://www.fns.usda.gov/cn/applying-free-and-reduced-price-school-meals"
+          title="Your Children Can Eat Free at School"
+          description="If your family has a low income, your children can get free breakfast and lunch every school day. This is a federal program --- every public school in America participates."
+        />
+      </div>
+    </section>
+
+    <section class="mt-8 sm:mt-10">
+      <h2 class="text-center text-xl font-bold sm:text-2xl">
+        [[[ ★ Get Help ★ ]]]
+      </h2>
+      <div class="mt-4 grid gap-3">
+        <ResourceLink
+          href="https://www.feedingamerica.org/find-your-local-foodbank"
+          title="Find Free Food Near You"
+          description="Food banks give out free groceries --- no ID, no paperwork, no questions asked. Enter your zip code to find one near you right now."
+        />
+        <ResourceLink
+          href="https://www.fns.usda.gov/snap/state-directory"
+          title="Apply for SNAP (Food Stamps)"
+          description="SNAP puts money on a card every month for groceries. You can apply online through your state. If you qualify, benefits can start within 30 days."
+        />
+      </div>
+    </section>
+
+    <section class="mt-8 sm:mt-10">
+      <h2 class="text-center text-xl font-bold sm:text-2xl">
+        <span class="text-flag-blue">[[[</span> ★ Call Now ★ <span
+          class="text-flag-blue">]]]</span>
+      </h2>
+      <div class="mt-4 grid gap-3">
+        <a
+          href="tel:+18663486479"
+          class="block rounded-lg border border-neutral-800 px-4 py-3.5 transition-colors hover:border-neutral-600 hover:bg-neutral-900 sm:px-5 sm:py-4"
+        >
+          <span class="font-bold">1-866-3-HUNGRY (1-866-348-6479)</span>
+          <span class="mt-1 block text-sm text-gray-400"
+            >USDA National Hunger Hotline --- free help finding food near you</span
+          >
+        </a>
+      </div>
+    </section>
+
+    <a
+      href="/"
+      class="mt-10 block text-center text-gray-400 hover:text-white sm:mt-12"
+      >[[[ Home ]]]</a
+    >
+  </div>
+</Base>
