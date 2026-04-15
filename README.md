@@ -12,11 +12,12 @@ I built a landing page to help underserved Americans access free resources and i
 
 ## Optimizing for all Americans
 
-~44 KB per page. 2.3 KB of JS. Zero frameworks. Zero tracking. Off-black background for OLED battery life.
-
-Tested on simulated $150 Android over LTE (70ms RTT, 12 Mbps, 4x CPU slowdown). Lighthouse CI enforces accessibility ≥ 90, FCP < 1,800ms, CLS < 0.1. Playwright enforces per-page transfer < 300 KB, DOM < 1,500 nodes, heap < 10 MB.
-
-Available in English, Spanish, Chinese, Vietnamese, and Filipino.
+- ~44 KB per page. 2.3 KB of JS. Zero frameworks. Zero tracking.
+- Off-black background (`#0a0a0a`) for battery life, without OLED pixels having visible smearing or ghosting.
+- Slightly off-white text (`#e2e2e2`) to reduce eye strain from maximum contrast while keeping readability high.
+- Tested on simulated $150 Android over LTE (70ms RTT, 12 Mbps, 4x CPU slowdown).
+- Lighthouse CI enforces accessibility ≥ 90, FCP < 1,800ms, CLS < 0.1. Playwright enforces per-page transfer < 300 KB, DOM < 1,500 nodes, heap < 10 MB.
+- Available in English, Spanish, Chinese, Vietnamese, and Filipino.
 
 #
 
