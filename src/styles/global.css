@@ -7,8 +7,31 @@
 }
 
 @layer base {
+  :root {
+    color-scheme: dark;
+    --color-bg: #0a0a0a;
+    --color-text: #e2e2e2;
+  }
+
   html {
-    background-color: #000;
-    color: #fff;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+  }
+
+  body {
+    -webkit-font-smoothing: antialiased;
+    font-smooth: always;
+  }
+
+  p,
+  li {
+    font-weight: 500;
+  }
+
+  @media (prefers-color-scheme: dark) and (prefers-contrast: more) {
+    :root {
+      --color-bg: #000;
+      --color-text: #fff;
+    }
   }
 }
