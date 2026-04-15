@@ -33,9 +33,19 @@ const locale = Astro.params.locale as Locale;
 
     <div class="mt-8 grid gap-3 sm:mt-10 sm:gap-4 lg:grid-cols-2">
       <CategoryCard
+        title={t(locale, "food.title")}
+        description={t(locale, "food.cardDesc")}
+        href={localePath(locale, "/food")}
+      />
+      <CategoryCard
         title={t(locale, "housing.title")}
         description={t(locale, "housing.cardDesc")}
         href={localePath(locale, "/housing")}
+      />
+      <CategoryCard
+        title={t(locale, "workers.title")}
+        description={t(locale, "workers.cardDesc")}
+        href={localePath(locale, "/workers-rights")}
       />
       <CategoryCard
         title={t(locale, "voting.title")}
@@ -51,16 +61,6 @@ const locale = Astro.params.locale as Locale;
         title={t(locale, "freeSpeech.title")}
         description={t(locale, "freeSpeech.cardDesc")}
         href={localePath(locale, "/free-speech")}
-      />
-      <CategoryCard
-        title={t(locale, "workers.title")}
-        description={t(locale, "workers.cardDesc")}
-        href={localePath(locale, "/workers-rights")}
-      />
-      <CategoryCard
-        title={t(locale, "food.title")}
-        description={t(locale, "food.cardDesc")}
-        href={localePath(locale, "/food")}
       />
     </div>
 

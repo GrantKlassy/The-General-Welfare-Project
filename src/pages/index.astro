@@ -20,9 +20,19 @@ import CategoryCard from "../components/CategoryCard.astro";
 
     <div class="mt-8 grid gap-3 sm:mt-10 sm:gap-4 lg:grid-cols-2">
       <CategoryCard
+        title="Food"
+        description="Food stamps, food banks, school meals, hunger hotline"
+        href="/food"
+      />
+      <CategoryCard
         title="Housing"
         description="Tenant rights, eviction defense, housing assistance"
         href="/housing"
+      />
+      <CategoryCard
+        title="Workers' Rights"
+        description="Wage theft, workplace safety, labor board, unemployment"
+        href="/workers-rights"
       />
       <CategoryCard
         title="Voting"
@@ -38,16 +48,6 @@ import CategoryCard from "../components/CategoryCard.astro";
         title="Free Speech"
         description="First amendment, protest rights, press freedom"
         href="/free-speech"
-      />
-      <CategoryCard
-        title="Workers' Rights"
-        description="Wage theft, workplace safety, labor board, unemployment"
-        href="/workers-rights"
-      />
-      <CategoryCard
-        title="Food"
-        description="Food stamps, food banks, school meals, hunger hotline"
-        href="/food"
       />
     </div>
 
