@@ -12,56 +12,9 @@ I built a landing page to help underserved Americans access free resources and i
 
 ## Optimizing for all Americans
 
-This site is built for the people who need it most — Americans on budget phones, slow connections, and prepaid data plans. Every design decision is tested against real-world constraints.
+~44 KB per page. 2.3 KB of JS. Zero frameworks. Zero tracking. Black background for OLED battery life.
 
-### Device simulation
-
-Lighthouse CI runs against every page with throttled network and CPU to simulate a $150 Android phone on LTE:
-
-| Setting      | Value          |
-| ------------ | -------------- |
-| Network RTT  | 70ms           |
-| Throughput   | 12 Mbps        |
-| CPU slowdown | 4x             |
-| Screen       | 360×800 mobile |
-
-### Page weight
-
-The entire production page payload — HTML, CSS, JS, and fonts — is **~44KB**:
-
-| Resource | Size               |
-| -------- | ------------------ |
-| HTML     | ~6 KB              |
-| CSS      | ~11 KB             |
-| JS       | **2.3 KB**         |
-| Fonts    | ~25 KB (2 weights) |
-
-One CSS file. One JS file (Astro's prefetch module). Zero frameworks. Zero tracking scripts.
-
-### Performance budgets
-
-Playwright tests enforce per-page budgets on every build:
-
-| Metric                 | Budget    |
-| ---------------------- | --------- |
-| Page load time         | < 2,000ms |
-| First Contentful Paint | < 1,500ms |
-| Transfer size          | < 300 KB  |
-| JS heap memory         | < 10 MB   |
-| DOM nodes              | < 1,500   |
-
-Lighthouse CI enforces additional budgets with simulated LTE throttling:
-
-| Metric                  | Budget           |
-| ----------------------- | ---------------- |
-| Accessibility score     | ≥ 90             |
-| Best practices score    | ≥ 90             |
-| First Contentful Paint  | < 1,800ms        |
-| Speed Index             | < 2,000ms        |
-| Cumulative Layout Shift | < 0.1            |
-| DOM size                | < 1,500 elements |
-
-### Languages
+Tested on simulated $150 Android over LTE (70ms RTT, 12 Mbps, 4x CPU slowdown). Lighthouse CI enforces accessibility ≥ 90, FCP < 1,800ms, CLS < 0.1. Playwright enforces per-page transfer < 300 KB, DOM < 1,500 nodes, heap < 10 MB.
 
 Available in English, Spanish, Chinese, Vietnamese, and Filipino.
 
