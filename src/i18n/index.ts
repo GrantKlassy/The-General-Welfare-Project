@@ -11,7 +11,7 @@ export const LOCALES = [
   { code: "es" as const, nativeName: "Español" },
   { code: "zh" as const, nativeName: "中文" },
   { code: "vi" as const, nativeName: "Tiếng Việt" },
-  { code: "tl" as const, nativeName: "Tagalog" },
+  { code: "tl" as const, nativeName: "Filipino" },
 ];
 
 const translations: Record<Locale, Record<string, string>> = { en, es, zh, vi, tl };
