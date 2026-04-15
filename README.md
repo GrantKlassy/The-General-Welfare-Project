@@ -18,24 +18,24 @@ I built a landing page to help underserved Americans access free resources and i
 - Tested on simulated $150 Android over LTE (70ms RTT, 12 Mbps, 4x CPU slowdown).
 - Lighthouse CI enforces:
 
-  | Metric                          | Budget   |
-  | ------------------------------- | -------- |
-  | First Contentful Paint (FCP)    | 1,800 ms |
-  | Speed Index                     | 2,000 ms |
-  | Cumulative Layout Shift (CLS)   | 0.1      |
-  | Accessibility score             | 90       |
-  | Best practices score            | 90       |
-  | DOM size                        | 1,500    |
+  | Metric                        | Budget   | Actual   |
+  | ----------------------------- | -------- | -------- |
+  | First Contentful Paint (FCP)  | 1,800 ms | 1,529 ms |
+  | Speed Index                   | 2,000 ms | 1,529 ms |
+  | Cumulative Layout Shift (CLS) | 0.1      | 0        |
+  | Accessibility score           | 90       | 100      |
+  | Best practices score          | 90       | 100      |
+  | DOM size                      | 1,500    | 474      |
 
 - Playwright enforces per page:
 
-  | Metric         | Budget   |
-  | -------------- | -------- |
-  | Page load time | 2,000 ms |
-  | FCP            | 1,500 ms |
-  | Transfer size  | 300 KB   |
-  | JS heap memory | 10 MB    |
-  | DOM nodes      | 1,500    |
+  | Metric         | Budget   | Actual |
+  | -------------- | -------- | ------ |
+  | Page load time | 2,000 ms | 19 ms  |
+  | FCP            | 1,500 ms | 64 ms  |
+  | Transfer size  | 300 KB   | 33 KB  |
+  | JS heap memory | 10 MB    | 1.1 MB |
+  | DOM nodes      | 1,500    | 60     |
 - Available in English, Spanish, Chinese, Vietnamese, and Filipino.
 
 #
