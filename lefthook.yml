@@ -30,7 +30,7 @@ pre-commit:
     - name: i18n-reminder
       run: |
         if git diff --cached --name-only | grep -q '^src/i18n/en\.ts$'; then
-          if ! git diff --cached --name-only | grep -qE '^src/i18n/(es|zh|vi)\.ts$'; then
+          if ! git diff --cached --name-only | grep -qE '^src/i18n/(es|zh|vi|tl)\.ts$'; then
             echo "REMINDER: en.ts is staged but translations are not."
             echo "  Run 'task translate' before pushing."
           fi

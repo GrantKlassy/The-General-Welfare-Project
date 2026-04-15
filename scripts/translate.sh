@@ -11,12 +11,13 @@ I18N_DIR="$REPO_ROOT/src/i18n"
 EN_FILE="$I18N_DIR/en.ts"
 MODEL="${MODEL:-sonnet}"
 
-ALL_TARGETS=(es zh vi)
+ALL_TARGETS=(es zh vi tl)
 
 declare -A LOCALE_NAMES=(
   [es]="Spanish as spoken by US-based Latino communities (use tú, not usted)"
   [zh]="Simplified Chinese as used by US-based Chinese-speaking communities"
   [vi]="Vietnamese as used by US-based Vietnamese-speaking communities"
+  [tl]="Tagalog as spoken by US-based Filipino communities"
 )
 
 if [[ $# -ge 1 ]]; then
