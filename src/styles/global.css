@@ -2,8 +2,8 @@
 
 @theme {
   --font-sans: "Inclusive Sans", sans-serif;
-  --color-flag-red: #B22234;
-  --color-flag-blue: #3C3B6E;
+  --color-flag-red: #b22234;
+  --color-flag-blue: #3c3b6e;
 }
 
 @layer base {

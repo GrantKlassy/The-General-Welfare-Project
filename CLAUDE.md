@@ -9,6 +9,7 @@ This is a resource site that connects Americans to their rights. Mobile-first, z
 Design mobile-first. The minimum viewport is **360px wide** (budget Android baseline: Samsung A-series, Moto G). All layouts, components, and interactions must work at this width before scaling up.
 
 Test at these viewports:
+
 - **360×800** — budget Android (minimum target)
 - **390×844** — mid-range iPhone
 - **414×896** — larger iPhone

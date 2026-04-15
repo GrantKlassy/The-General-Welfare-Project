@@ -13,19 +13,16 @@ export default {
     "Mga karapatan ng nangungupahan, depensa sa pagpapaalis, tulong sa pabahay",
   "housing.pageDesc":
     "Mga karapatan ng nangungupahan, depensa sa pagpapaalis, at mga programa ng tulong sa pabahay.",
-  "housing.tenantRights":
-    "Alamin ang Hindi Magagawa ng Iyong Kasero",
+  "housing.tenantRights": "Alamin ang Hindi Magagawa ng Iyong Kasero",
   "housing.tenantRightsDesc":
     "Mayroon kang mga legal na karapatan sa isang ligtas na tahanan, pagbabalik ng iyong perang deposito sa seguridad, at isang patas at tapat na pag-upa. Ipapaliwanag nito kung ano ang HINDI pinapayagang gawin ng mga kasero.",
-  "housing.eviction":
-    "Maaari Mong Hamunin ang Isang Pagpapaalis",
+  "housing.eviction": "Maaari Mong Hamunin ang Isang Pagpapaalis",
   "housing.evictionDesc":
     "Hindi mo kailangang umalis kaagad. Mayroon kang mga legal na karapatan sa panahon ng proseso ng pagpapaalis --- at mga libreng abogado na makakatulong sa iyo na hamunin ito.",
   "housing.assistance": "Mag-aplay para sa Tulong sa Pag-upa",
   "housing.assistanceDesc":
     "Maaari kang maging kwalipikado para sa tulong sa pagbabayad ng upa ngayon. Mag-aplay para sa tulong sa pag-upa para sa emergency, Seksyon 8, o pampublikong pabahay sa pamamagitan ng iyong lokal na awtoridad sa pabahay.",
-  "housing.legalAid":
-    "Libreng Tulong Legal para sa mga Isyu sa Pabahay",
+  "housing.legalAid": "Libreng Tulong Legal para sa mga Isyu sa Pabahay",
   "housing.legalAidDesc":
     "Makakakuha ka ng libreng abogado para sa depensa sa pagpapaalis, mga hindi ligtas na kondisyon, o mga hindi pagkakaunawaan sa may-ari ng lupa. Libre ang tulong legal at makukuha sa bawat estado.",
   "housing.phone": "211",
@@ -40,15 +37,13 @@ export default {
   "voting.registration": "Magparehistro para Bumoto",
   "voting.registrationDesc":
     "Tumatagal ito ng humigit-kumulang 2 minuto. Suriin ang katayuan ng iyong pagpaparehistro, at kung kinakailangan, magparehistro online dito.",
-  "voting.voterId":
-    "Suriin Kung Anong ID ang Kailangan Mo para Bumoto",
+  "voting.voterId": "Suriin Kung Anong ID ang Kailangan Mo para Bumoto",
   "voting.voterIdDesc":
     "Iba-iba ang bawat estado. Hanapin kung anong ID ang kinakailangan ng iyong estado --- ang ilang estado ay hindi nangangailangan ng kahit ano.",
   "voting.pollingPlace": "Hanapin ang Iyong Lugar ng Botohan",
   "voting.pollingPlaceDesc":
     "Ilagay ang iyong address at kunin ang eksaktong lokasyon ng botohan, oras, at kung ano ang nasa iyong balota.",
-  "voting.electionProtection":
-    "Iulat ang Pananakot o Problema ng Botante",
+  "voting.electionProtection": "Iulat ang Pananakot o Problema ng Botante",
   "voting.electionProtectionDesc":
     "Kung may sumubok na pigilan ka sa pagboto, ito ay isang pederal na krimen. Maaari mo itong iulat at makakuha ng agarang tulong mula sa mga sinanay na legal na boluntaryo.",
   "voting.phone": "866-OUR-VOTE (866-687-8683)",
@@ -64,16 +59,13 @@ export default {
     "Ilegal ang Diskriminasyon Batay sa Pagkakakilanlan",
   "lgbtq.antiDiscriminationDesc":
     "Ipinagbabawal ng batas pederal ang diskriminasyon sa trabaho, sa pabahay, at sa mga pampublikong lugar batay sa kung sino ka. Kung nakaranas ka ng diskriminasyon, maaari kang magsampa ng kaso dito.",
-  "lgbtq.transRights":
-    "Pag-update ng Iyong Pangalan at Mga Dokumento ng ID",
+  "lgbtq.transRights": "Pag-update ng Iyong Pangalan at Mga Dokumento ng ID",
   "lgbtq.transRightsDesc":
     "Mga sunud-sunod na gabay sa pagpapalit ng iyong pangalan, marker ng kasarian sa mga ID, at pag-access sa pangangalagang pangkalusugan --- para sa bawat estado.",
-  "lgbtq.legalSupport":
-    "May Libreng Tulong Legal na Magagamit",
+  "lgbtq.legalSupport": "May Libreng Tulong Legal na Magagamit",
   "lgbtq.legalSupportDesc":
     "Libreng tumatanggap ng mga kaso ang help desk ng Lambda Legal. Kung ikaw ay nadiskrimina, natanggal sa trabaho, pinagkaitan ng pabahay, o pinagkaitan ng pangangalagang pangkalusugan dahil sa kung sino ka --- maaari mo silang kontakin para sa tulong.",
-  "lgbtq.crisisResources":
-    "Makipag-usap sa Isang Taong Nakakaintindi",
+  "lgbtq.crisisResources": "Makipag-usap sa Isang Taong Nakakaintindi",
   "lgbtq.crisisResourcesDesc":
     "Kumpidensyal na suporta mula sa mga taong nakakaintindi. Makipag-chat, mag-text, o tumawag --- available sa sinumang LGBTQ+ na tao, hindi lamang sa mga sitwasyon ng krisis.",
   "lgbtq.phone988": "988",
@@ -112,8 +104,7 @@ export default {
     "Pagnanakaw ng sahod, kaligtasan sa lugar ng trabaho, labor board, kawalan ng trabaho",
   "workers.pageDesc":
     "Pagnanakaw ng sahod, kaligtasan sa lugar ng trabaho, mga reklamo sa labor board, at insurance sa kawalan ng trabaho.",
-  "workers.wageHour":
-    "May Karapatan Ka sa Bawat Dolyar na Kinita Mo",
+  "workers.wageHour": "May Karapatan Ka sa Bawat Dolyar na Kinita Mo",
   "workers.wageHourDesc":
     "Ang pagnanakaw ng sahod ang pinakakaraniwang uri ng pagnanakaw sa Amerika. Kung hindi ka binayaran ng minimum na sahod, overtime, o kinuha ang iyong mga tip --- pinoprotektahan ka ng batas.",
   "workers.safety":
@@ -129,8 +120,7 @@ export default {
   "workers.unemploymentDesc":
     "Kung nawalan ka ng trabaho, malamang na kwalipikado ka. Ang bawat estado ay may online na aplikasyon. Nagbayad ka na sa sistemang ito --- ito ang mga benepisyong iyong nakuha.",
   "workers.phone": "1-866-4-USWAGE (1-866-487-2365)",
-  "workers.phoneDesc":
-    "Kagawaran ng Paggawa --- mga paglabag sa sahod at oras",
+  "workers.phoneDesc": "Kagawaran ng Paggawa --- mga paglabag sa sahod at oras",
   // Food
   "food.title": "Pagkain",
   "food.cardDesc":

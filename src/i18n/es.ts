@@ -22,8 +22,7 @@ export default {
   "housing.assistance": "Solicite asistencia para el alquiler",
   "housing.assistanceDesc":
     "Es posible que califique para recibir ayuda con el pago del alquiler en este momento. Solicite asistencia de emergencia para el alquiler, el programa de la Sección 8 o vivienda pública a través de su autoridad local de vivienda.",
-  "housing.legalAid":
-    "Ayuda legal gratuita para problemas de vivienda",
+  "housing.legalAid": "Ayuda legal gratuita para problemas de vivienda",
   "housing.legalAidDesc":
     "Puede obtener un abogado gratuito para defensa contra el desalojo, condiciones inseguras o disputas con el arrendador. La asistencia legal es gratuita y está disponible en todos los estados.",
   "housing.phone": "211",
@@ -38,15 +37,13 @@ export default {
   "voting.registration": "Regístrese para votar",
   "voting.registrationDesc":
     "Toma unos 2 minutos. Verifique el estado de su registro y, si es necesario, regístrese en línea aquí.",
-  "voting.voterId":
-    "Verifique qué identificación necesita para votar",
+  "voting.voterId": "Verifique qué identificación necesita para votar",
   "voting.voterIdDesc":
     "Cada estado es diferente. Averigüe exactamente qué identificación requiere su estado; algunos estados no requieren ninguna en absoluto.",
   "voting.pollingPlace": "Encuentre su centro de votación",
   "voting.pollingPlaceDesc":
     "Ingrese su dirección para obtener la ubicación exacta de su centro de votación, los horarios y lo que aparecerá en su boleta electoral.",
-  "voting.electionProtection":
-    "Reporte intimidación a votantes o problemas",
+  "voting.electionProtection": "Reporte intimidación a votantes o problemas",
   "voting.electionProtectionDesc":
     "Si alguien intenta impedirle votar, es un delito federal. Puede reportarlo y recibir ayuda inmediata de voluntarios legales capacitados.",
   "voting.phone": "866-OUR-VOTE (866-687-8683)",
@@ -62,8 +59,7 @@ export default {
     "La discriminación basada en la identidad es ilegal",
   "lgbtq.antiDiscriminationDesc":
     "La ley federal prohíbe la discriminación en el trabajo, la vivienda y los espacios públicos basándose en quién es usted. Si ha sufrido discriminación, puede presentar una denuncia aquí.",
-  "lgbtq.transRights":
-    "Actualización de su nombre y documentos de identidad",
+  "lgbtq.transRights": "Actualización de su nombre y documentos de identidad",
   "lgbtq.transRightsDesc":
     "Guías paso a paso para cambiar su nombre y el marcador de género en sus documentos de identidad, y para acceder a la atención médica --- para cada estado.",
   "lgbtq.legalSupport": "Hay ayuda legal gratuita disponible",
@@ -108,8 +104,7 @@ export default {
     "Robo de salarios, seguridad laboral, junta laboral, desempleo",
   "workers.pageDesc":
     "Robo de salarios, seguridad laboral, quejas ante la junta laboral y seguro de desempleo.",
-  "workers.wageHour":
-    "Usted tiene derecho a cada dólar que ha ganado",
+  "workers.wageHour": "Usted tiene derecho a cada dólar que ha ganado",
   "workers.wageHourDesc":
     "El robo de salarios es la forma más común de robo en Estados Unidos. Si no le pagaron el salario mínimo o las horas extras, o si le retuvieron sus propinas, la ley lo protege.",
   "workers.safety":
@@ -136,12 +131,10 @@ export default {
     "Es posible que usted ya califique para recibir asistencia alimentaria",
   "food.snapEligibilityDesc":
     "Millones de estadounidenses califican para SNAP (cupones de alimentos), pero nunca presentan la solicitud. Si tiene dificultades para costear sus alimentos, podría ser elegible para recibir beneficios mensuales, sin importar su edad ni el tamaño de su familia.",
-  "food.schoolMeals":
-    "Sus hijos pueden comer gratis en la escuela",
+  "food.schoolMeals": "Sus hijos pueden comer gratis en la escuela",
   "food.schoolMealsDesc":
     "Si su familia tiene ingresos bajos, sus hijos pueden recibir desayuno y almuerzo gratuitos todos los días escolares. Este es un programa federal; todas las escuelas públicas de Estados Unidos participan en él.",
-  "food.foodBank":
-    "Encuentre alimentos gratuitos cerca de usted",
+  "food.foodBank": "Encuentre alimentos gratuitos cerca de usted",
   "food.foodBankDesc":
     "Los bancos de alimentos distribuyen víveres gratuitos: sin necesidad de identificación, sin papeleo y sin hacer preguntas. Ingrese su código postal para encontrar uno cerca de usted ahora mismo.",
   "food.snapApply": "Solicite SNAP (Cupones de alimentos)",

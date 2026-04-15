@@ -14,7 +14,13 @@ export const LOCALES = [
   { code: "tl" as const, nativeName: "Filipino" },
 ];
 
-const translations: Record<Locale, Record<string, string>> = { en, es, zh, vi, tl };
+const translations: Record<Locale, Record<string, string>> = {
+  en,
+  es,
+  zh,
+  vi,
+  tl,
+};
 
 export function t(locale: Locale, key: string): string {
   return translations[locale][key] ?? translations.en[key] ?? key;

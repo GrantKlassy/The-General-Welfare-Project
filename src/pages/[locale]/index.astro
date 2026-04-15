@@ -28,7 +28,8 @@ const locale = Astro.params.locale as Locale;
     <p class="text-lg sm:text-xl">[[[ ★ {t(locale, "common.getHelp")} ★ ]]]</p>
     <p class="text-lg sm:text-xl">
       <span class="text-flag-blue">[[[</span> ★ {t(locale, "common.callNow")} ★ <span
-        class="text-flag-blue">]]]</span>
+        class="text-flag-blue">]]]</span
+      >
     </p>
 
     <div class="mt-8 grid gap-3 sm:mt-10 sm:gap-4 lg:grid-cols-2">
@@ -72,9 +73,10 @@ const locale = Astro.params.locale as Locale;
     <p class="mx-auto mt-4 max-w-xl text-xs text-gray-400">
       We the People of the United States, in Order to form a more perfect Union,
       establish Justice, insure domestic Tranquility, provide for the common
-      defence, promote the <span class="text-[var(--color-text)]">GENERAL WELFARE</span>, and secure the Blessings of Liberty
-      to ourselves and our Posterity, do ordain and establish this Constitution
-      for the United States of America.
+      defence, promote the <span class="text-[var(--color-text)]"
+        >GENERAL WELFARE</span
+      >, and secure the Blessings of Liberty to ourselves and our Posterity, do
+      ordain and establish this Constitution for the United States of America.
     </p>
   </div>
 </Base>

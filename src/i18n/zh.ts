@@ -30,10 +30,8 @@ export default {
 
   // Voting
   "voting.title": "投票",
-  "voting.cardDesc":
-    "选民登记、投票点信息、选民身份证明、选举权益保障",
-  "voting.pageDesc":
-    "选民登记、投票点信息、选民身份证明法规及选举权益保障。",
+  "voting.cardDesc": "选民登记、投票点信息、选民身份证明、选举权益保障",
+  "voting.pageDesc": "选民登记、投票点信息、选民身份证明法规及选举权益保障。",
   "voting.registration": "登记投票",
   "voting.registrationDesc":
     "仅需约 2 分钟即可完成。请查询您的选民登记状态；如有需要，可在此处在线完成登记。",
@@ -47,8 +45,7 @@ export default {
   "voting.electionProtectionDesc":
     "若有人试图阻挠您行使投票权，此举将构成联邦重罪。您可以对此进行举报，并获得受过专业培训的法律志愿者的即时协助",
   "voting.phone": "866-OUR-VOTE (866-687-8683)",
-  "voting.phoneDesc":
-    "选举保护热线 --- 提供非党派性质的选民协助",
+  "voting.phoneDesc": "选举保护热线 --- 提供非党派性质的选民协助",
 
   // LGBTQ+
   "lgbtq.title": "LGBTQ+ 权益",
@@ -87,18 +84,15 @@ export default {
     "若您的言论自由受限，ACLU（美国公民自由联盟）或能提供协助",
   "freeSpeech.legalSupportDesc":
     "如果政府因您发表言论、参与抗议或进行出版活动而对您实施惩罚，您可能具备依据《第一修正案》提起诉讼的法律依据。提交您的具体情况以供审查。",
-  "freeSpeech.knowRightsProtest":
-    "若在抗议活动中被捕，该怎么办",
+  "freeSpeech.knowRightsProtest": "若在抗议活动中被捕，该怎么办",
   "freeSpeech.knowRightsProtestDesc":
     "除\u201c我要见律师\u201d这句话外，请勿发表任何言论。本指南旨在为您提供指引，说明若在抗议活动中遭遇逮捕、拘留或手机被没收，应如何应对。",
   "freeSpeech.phone": "212-679-5100",
-  "freeSpeech.phoneDesc":
-    "全国律师公会 --- 言论自由与公民自由法律援助",
+  "freeSpeech.phoneDesc": "全国律师公会 --- 言论自由与公民自由法律援助",
 
   // Workers' Rights
   "workers.title": "劳工权益",
-  "workers.cardDesc":
-    "薪资盗窃、工作场所安全、劳工委员会、失业救济",
+  "workers.cardDesc": "薪资盗窃、工作场所安全、劳工委员会、失业救济",
   "workers.pageDesc":
     "薪资盗窃、工作场所安全、向劳工委员会投诉，以及失业保险。",
   "workers.wageHour": "您有权获得您赚取的每一分钱",
@@ -118,8 +112,7 @@ export default {
 
   // Food
   "food.title": "食品援助",
-  "food.cardDesc":
-    "食品券、食品银行、学校供餐、饥饿援助热线",
+  "food.cardDesc": "食品券、食品银行、学校供餐、饥饿援助热线",
   "food.pageDesc":
     "食品援助、SNAP 福利（食品券）、食品银行，以及免费学校供餐。",
   "food.snapEligibility": "您可能已符合食品援助的申请资格",
@@ -135,8 +128,7 @@ export default {
   "food.snapApplyDesc":
     "SNAP 项目每月会将一笔资金存入一张专用卡中，供您用于购买日常食品。您可以通过所在州的官方渠道在线提交申请。如果您符合资格，福利援助可在 30 天内开始发放。",
   "food.phone": "1-866-3-HUNGRY (1-866-348-6479)",
-  "food.phoneDesc":
-    "USDA 全国饥饿热线 --- 免费协助您寻找附近的食物资源",
+  "food.phoneDesc": "USDA 全国饥饿热线 --- 免费协助您寻找附近的食物资源",
 
   // Donate
   "donate.title": "捐赠",

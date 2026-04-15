@@ -49,3 +49,5 @@ pre-push:
   jobs:
     - name: repo-standards
       run: task check
+    - name: perf-check
+      run: bash scripts/perf-check.sh

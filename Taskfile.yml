@@ -87,6 +87,37 @@ tasks:
     cmds:
       - bash scripts/check-locale-links.sh
 
+  test:
+    desc: Run all Playwright tests (smoke + perf)
+    cmds:
+      - pnpm exec playwright test
+
+  test:smoke:
+    desc: Run smoke tests only
+    cmds:
+      - pnpm exec playwright test tests/smoke.spec.ts
+
+  test:perf:
+    desc: Run Playwright performance tests only
+    cmds:
+      - pnpm exec playwright test tests/perf.spec.ts --project=budget-android-360x800
+
+  perf:
+    desc: Run full performance suite (Playwright + Lighthouse)
+    cmds:
+      - task: perf:playwright
+      - task: perf:lighthouse
+
+  perf:playwright:
+    desc: Playwright performance benchmarks
+    cmds:
+      - pnpm exec playwright test tests/perf.spec.ts --project=budget-android-360x800
+
+  perf:lighthouse:
+    desc: Lighthouse CI audits with budgets
+    cmds:
+      - pnpm exec lhci autorun
+
   translate:
     desc: Translate en.ts to target locale(s) using Claude
     vars:

@@ -9,6 +9,9 @@ node_modules/
 test-results/
 playwright-report/
 
+# Lighthouse CI
+.lighthouseci/
+
 # Editor
 .vscode/
 .idea/

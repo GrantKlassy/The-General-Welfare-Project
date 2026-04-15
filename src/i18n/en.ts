@@ -27,8 +27,7 @@ export default {
   "housing.legalAidDesc":
     "You can get a free attorney for eviction defense, unsafe conditions, or landlord disputes. Legal aid is free and available in every state.",
   "housing.phone": "211",
-  "housing.phoneDesc":
-    "Local housing assistance and social services referrals",
+  "housing.phoneDesc": "Local housing assistance and social services referrals",
 
   // Voting
   "voting.title": "Voting",
@@ -54,8 +53,7 @@ export default {
 
   // LGBTQ+
   "lgbtq.title": "LGBTQ+ Rights",
-  "lgbtq.cardDesc":
-    "Anti-discrimination, trans rights, support organizations",
+  "lgbtq.cardDesc": "Anti-discrimination, trans rights, support organizations",
   "lgbtq.pageDesc":
     "Anti-discrimination protections, trans rights, and support organizations.",
   "lgbtq.antiDiscrimination": "Discrimination Based on Identity Is Illegal",
@@ -82,19 +80,16 @@ export default {
   "freeSpeech.cardDesc": "First amendment, protest rights, press freedom",
   "freeSpeech.pageDesc":
     "First amendment rights, protest rights, and press freedom.",
-  "freeSpeech.firstAmendment":
-    "The Government Cannot Restrict Your Speech",
+  "freeSpeech.firstAmendment": "The Government Cannot Restrict Your Speech",
   "freeSpeech.firstAmendmentDesc":
     "The First Amendment protects your right to speak, publish, worship, assemble, and petition the government. This will explain what that means in practice.",
   "freeSpeech.protest": "Your Right to Protest",
   "freeSpeech.protestDesc":
     "You can protest on public sidewalks and in parks without a permit. This covers what police can and cannot do, and what to do if your rights are violated.",
-  "freeSpeech.legalSupport":
-    "If Your Speech Was Restricted, the ACLU May Help",
+  "freeSpeech.legalSupport": "If Your Speech Was Restricted, the ACLU May Help",
   "freeSpeech.legalSupportDesc":
     "If the government punished you for speaking, protesting, or publishing, you may have a First Amendment case. Submit your situation for review.",
-  "freeSpeech.knowRightsProtest":
-    "What to Do If Arrested at a Protest",
+  "freeSpeech.knowRightsProtest": "What to Do If Arrested at a Protest",
   "freeSpeech.knowRightsProtestDesc":
     "Do not say anything except \u2018I want a lawyer.\u2019 This guide covers what to do if you are arrested, detained, or your phone is seized at a protest.",
   "freeSpeech.phone": "212-679-5100",
@@ -103,8 +98,7 @@ export default {
 
   // Workers' Rights
   "workers.title": "Workers\u2019 Rights",
-  "workers.cardDesc":
-    "Wage theft, workplace safety, labor board, unemployment",
+  "workers.cardDesc": "Wage theft, workplace safety, labor board, unemployment",
   "workers.pageDesc":
     "Wage theft, workplace safety, labor board complaints, and unemployment insurance.",
   "workers.wageHour": "You Are Entitled to Every Dollar You Earned",
