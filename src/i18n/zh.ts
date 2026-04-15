@@ -4,7 +4,7 @@ export default {
   "site.tagline": "\u4e86\u89e3\u4f60\u7684\u6743\u5229\u3002\u5bfb\u627e\u5e2e\u52a9\u3002",
 
   // Common
-  "common.allTopics": "\u6240\u6709\u4e3b\u9898",
+  "common.home": "\u9996\u9875",
   "common.knowYourRights": "\u4e86\u89e3\u4f60\u7684\u6743\u5229",
   "common.getHelp": "\u83b7\u53d6\u5e2e\u52a9",
   "common.callNow": "\u7acb\u5373\u62e8\u6253",

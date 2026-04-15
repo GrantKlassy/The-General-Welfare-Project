@@ -3,7 +3,7 @@ export default {
   "site.title": "The General Welfare Project",
   "site.tagline": "Conoce tus derechos. Encuentra ayuda.",
   // Common
-  "common.allTopics": "Todos los temas",
+  "common.home": "Inicio",
   "common.knowYourRights": "Conoce Tus Derechos",
   "common.getHelp": "Obtén Ayuda",
   "common.callNow": "Llama Ahora",

@@ -4,7 +4,7 @@ export default {
   "site.tagline": "Hi\u1ec3u quy\u1ec1n c\u1ee7a b\u1ea1n. T\u00ecm s\u1ef1 gi\u00fap \u0111\u1ee1.",
 
   // Common
-  "common.allTopics": "T\u1ea5t c\u1ea3 ch\u1ee7 \u0111\u1ec1",
+  "common.home": "Trang ch\u1ee7",
   "common.knowYourRights": "Hi\u1ec3u Quy\u1ec1n C\u1ee7a B\u1ea1n",
   "common.getHelp": "Nh\u1eadn Tr\u1ee3 Gi\u00fap",
   "common.callNow": "G\u1ecdi Ngay",

@@ -4,7 +4,7 @@ export default {
   "site.tagline": "Know your rights. Find help.",
 
   // Common
-  "common.allTopics": "All topics",
+  "common.home": "Home",
   "common.knowYourRights": "Know Your Rights",
   "common.getHelp": "Get Help",
   "common.callNow": "Call Now",

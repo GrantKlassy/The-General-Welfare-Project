@@ -18,9 +18,9 @@ const isHome = currentPath === "/";
     !isHome && (
       <a
         href={localePath(currentLocale, "/")}
-        class="py-1.5 text-gray-400 hover:text-white"
+        class="w-full text-center py-1.5 text-white sm:w-auto sm:text-left"
       >
-        &larr; {t(currentLocale, "common.allTopics")}
+        [[[ {t(currentLocale, "common.home")} ]]]
       </a>
     )
   }
