@@ -15,7 +15,7 @@ export default {
     "Quy\u1ec1n ng\u01b0\u1eddi thu\u00ea, b\u1ea3o v\u1ec7 ch\u1ed1ng tr\u1ee5c xu\u1ea5t, h\u1ed7 tr\u1ee3 nh\u00e0 \u1edf",
   "housing.pageDesc":
     "Quy\u1ec1n ng\u01b0\u1eddi thu\u00ea, b\u1ea3o v\u1ec7 ch\u1ed1ng tr\u1ee5c xu\u1ea5t v\u00e0 c\u00e1c ch\u01b0\u01a1ng tr\u00ecnh h\u1ed7 tr\u1ee3 nh\u00e0 \u1edf.",
-  "housing.tenantRights": "Bi\u1ebft Nh\u1eefng G\u00ec Ch\u1ee7 Nh\u00e0 Kh\u00f4ng \u0110\u01b0\u1ee3c Ph\u00e9p L\u00e0m",
+  "housing.tenantRights": "Hãy biết những điều chủ nhà của bạn không được làm.",
   "housing.tenantRightsDesc":
     "B\u1ea1n c\u00f3 quy\u1ec1n h\u1ee3p ph\u00e1p \u0111\u01b0\u1ee3c s\u1ed1ng trong nh\u00e0 an to\u00e0n, l\u1ea5y l\u1ea1i ti\u1ec1n \u0111\u1eb7t c\u1ecdc b\u1ea3o \u0111\u1ea3m, v\u00e0 c\u00f3 h\u1ee3p \u0111\u1ed3ng c\u00f4ng b\u1eb1ng v\u00e0 trung th\u1ef1c. Ph\u1ea7n n\u00e0y s\u1ebd gi\u1ea3i th\u00edch nh\u1eefng \u0111i\u1ec1u ch\u1ee7 nh\u00e0 KH\u00d4NG \u0111\u01b0\u1ee3c ph\u00e9p l\u00e0m.",
   "housing.eviction": "B\u1ea1n C\u00f3 Th\u1ec3 Ch\u1ed1ng L\u1ea1i Vi\u1ec7c Tr\u1ee5c Xu\u1ea5t",
@@ -42,7 +42,7 @@ export default {
     "Ch\u1ec9 m\u1ea5t 2 ph\u00fat. Ki\u1ec3m tra xem b\u1ea1n \u0111\u00e3 \u0111\u0103ng k\u00fd ch\u01b0a, n\u1ebfu ch\u01b0a, \u0111\u0103ng k\u00fd tr\u1ef1c tuy\u1ebfn ngay t\u1ea1i \u0111\u00e2y.",
   "voting.voterId": "Ki\u1ec3m Tra Gi\u1ea5y T\u1edd C\u1ea7n Thi\u1ebft \u0110\u1ec3 B\u1ea7u C\u1eed",
   "voting.voterIdDesc":
-    "M\u1ed7i ti\u1ec3u bang kh\u00e1c nhau. Tra c\u1ee9u ch\u00ednh x\u00e1c gi\u1ea5y t\u1edd ti\u1ec3u bang b\u1ea1n y\u00eau c\u1ea7u --- m\u1ed9t s\u1ed1 ti\u1ec3u bang kh\u00f4ng y\u00eau c\u1ea7u g\u00ec c\u1ea3.",
+    "Mỗi tiểu bang đều khác nhau. Hãy tra cứu chính xác loại giấy tờ tùy thân mà tiểu bang của bạn yêu cầu — một số tiểu bang hoàn toàn không yêu cầu gì cả.",
   "voting.pollingPlace": "T\u00ecm Ch\u00ednh X\u00e1c N\u01a1i B\u1ea1n B\u1ea7u C\u1eed",
   "voting.pollingPlaceDesc":
     "Nh\u1eadp \u0111\u1ecba ch\u1ec9 c\u1ee7a b\u1ea1n \u0111\u1ec3 bi\u1ebft \u0111\u1ecba \u0111i\u1ec3m b\u1ea7u c\u1eed ch\u00ednh x\u00e1c, gi\u1edd m\u1edf c\u1eeda v\u00e0 n\u1ed9i dung phi\u1ebfu b\u1ea7u.",
@@ -58,7 +58,7 @@ export default {
   "lgbtq.cardDesc":
     "Ch\u1ed1ng ph\u00e2n bi\u1ec7t \u0111\u1ed1i x\u1eed, quy\u1ec1n ng\u01b0\u1eddi chuy\u1ec3n gi\u1edbi, t\u1ed5 ch\u1ee9c h\u1ed7 tr\u1ee3",
   "lgbtq.pageDesc":
-    "B\u1ea3o v\u1ec7 ch\u1ed1ng ph\u00e2n bi\u1ec7t \u0111\u1ed1i x\u1eed, quy\u1ec1n ng\u01b0\u1eddi chuy\u1ec3n gi\u1edbi v\u00e0 c\u00e1c t\u1ed5 ch\u1ee9c h\u1ed7 tr\u1ee3.",
+    "Các biện pháp bảo vệ chống phân biệt đối xử, quyền của người chuyển giới và các tổ chức hỗ trợ.",
   "lgbtq.antiDiscrimination": "Ph\u00e2n Bi\u1ec7t \u0110\u1ed1i X\u1eed V\u1edbi B\u1ea1n L\u00e0 B\u1ea5t H\u1ee3p Ph\u00e1p",
   "lgbtq.antiDiscriminationDesc":
     "Lu\u1eadt li\u00ean bang c\u1ea5m ph\u00e2n bi\u1ec7t \u0111\u1ed1i x\u1eed t\u1ea1i n\u01a1i l\u00e0m vi\u1ec7c, nh\u00e0 \u1edf v\u00e0 kh\u00f4ng gian c\u00f4ng c\u1ed9ng v\u00ec b\u1ea1n l\u00e0 ai. N\u1ebfu b\u1ea1n \u0111\u00e3 b\u1ecb ph\u00e2n bi\u1ec7t \u0111\u1ed1i x\u1eed, b\u1ea1n c\u00f3 th\u1ec3 n\u1ed9p \u0111\u01a1n khi\u1ebfu n\u1ea1i t\u1ea1i \u0111\u00e2y.",
@@ -111,11 +111,11 @@ export default {
     "Tr\u1ed9m l\u01b0\u01a1ng l\u00e0 h\u00ecnh th\u1ee9c tr\u1ed9m c\u1eafp l\u1edbn nh\u1ea5t \u1edf M\u1ef9. N\u1ebfu b\u1ea1n kh\u00f4ng \u0111\u01b0\u1ee3c tr\u1ea3 l\u01b0\u01a1ng t\u1ed1i thi\u1ec3u, l\u00e0m th\u00eam gi\u1edd, ho\u1eb7c ti\u1ec1n tip b\u1ecb l\u1ea5y --- ph\u00e1p lu\u1eadt \u0111\u1ee9ng v\u1ec1 ph\u00eda b\u1ea1n.",
   "workers.safety": "B\u1ea1n C\u00f3 Th\u1ec3 B\u00e1o C\u00e1o \u0110i\u1ec1u Ki\u1ec7n Kh\u00f4ng An To\u00e0n M\u1ed9t C\u00e1ch B\u1ea3o M\u1eadt",
   "workers.safetyDesc":
-    "OSHA b\u1ea3o v\u1ec7 b\u1ea1n. B\u1ea1n c\u00f3 th\u1ec3 n\u1ed9p \u0111\u01a1n khi\u1ebfu n\u1ea1i b\u1ea3o m\u1eadt v\u1ec1 \u0111i\u1ec1u ki\u1ec7n kh\u00f4ng an to\u00e0n, v\u00e0 ch\u1ee7 lao \u0111\u1ed9ng kh\u00f4ng th\u1ec3 tr\u1ea3 th\u00f9 b\u1ea1n m\u1ed9t c\u00e1ch h\u1ee3p ph\u00e1p.",
+    "OSHA bảo vệ người lao động. Bạn có thể gửi đơn khiếu nại bảo mật về các điều kiện làm việc không an toàn, và người sử dụng lao động không được phép trả đũa theo quy định của pháp luật.",
   "workers.complaint": "N\u1ed9p \u0110\u01a1n Khi\u1ebfu N\u1ea1i Tr\u1ed9m L\u01b0\u01a1ng --- Mi\u1ec5n Ph\u00ed",
   "workers.complaintDesc":
     "B\u1ed9 Lao \u0111\u1ed9ng s\u1ebd \u0111i\u1ec1u tra ch\u1ee7 lao \u0111\u1ed9ng c\u1ee7a b\u1ea1n mi\u1ec5n ph\u00ed. B\u1ea1n kh\u00f4ng c\u1ea7n lu\u1eadt s\u01b0. N\u1ed9p \u0111\u01a1n tr\u1ef1c tuy\u1ebfn ngay b\u00e2y gi\u1edd.",
-  "workers.unemployment": "N\u1ed9p \u0110\u01a1n Xin Tr\u1ee3 C\u1ea5p Th\u1ea5t Nghi\u1ec7p H\u00f4m Nay",
+  "workers.unemployment": "Nộp đơn xin trợ cấp thất nghiệp",
   "workers.unemploymentDesc":
     "N\u1ebfu b\u1ea1n m\u1ea5t vi\u1ec7c, b\u1ea1n r\u1ea5t c\u00f3 th\u1ec3 \u0111\u1ee7 \u0111i\u1ec1u ki\u1ec7n. M\u1ed7i ti\u1ec3u bang \u0111\u1ec1u c\u00f3 \u0111\u01a1n tr\u1ef1c tuy\u1ebfn. B\u1ea1n \u0111\u00e3 \u0111\u00f3ng g\u00f3p v\u00e0o h\u1ec7 th\u1ed1ng n\u00e0y --- \u0111\u00e2y l\u00e0 ti\u1ec1n C\u1ee6A B\u1ea0N.",
   "workers.phone": "1-866-4-USWAGE (1-866-487-2365)",

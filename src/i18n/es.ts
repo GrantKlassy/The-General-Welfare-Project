@@ -18,13 +18,13 @@ export default {
     "Tienes derechos legales a un hogar seguro, a que te devuelvan tu dep\u00f3sito de seguridad, y a un contrato justo y honesto. Esto explicar\u00e1 lo que los caseros NO tienen permitido hacer.",
   "housing.eviction": "Puedes Luchar Contra un Desalojo",
   "housing.evictionDesc":
-    "No tienes que irte sin m\u00e1s. Tienes derechos legales en el proceso de desalojo --- y abogados gratis que te ayudar\u00e1n a luchar.",
+    "No tienes que irte inmediatamente. Tienes derechos legales durante el proceso de desahucio --- y abogados gratuitos que pueden ayudarte a impugnarlo.",
   "housing.assistance": "Solicita Ayuda para el Alquiler Ahora",
   "housing.assistanceDesc":
     "Puede que califiques para ayuda con el alquiler ahora mismo. Solicita asistencia de emergencia, Section 8 o vivienda p\u00fablica a trav\u00e9s de la autoridad de vivienda de tu \u00e1rea.",
   "housing.legalAid": "Consigue un Abogado Gratis para Tu Caso de Vivienda",
   "housing.legalAidDesc":
-    "Puedes conseguir un abogado gratis para defensa contra desalojo, condiciones inseguras o conflictos con tu casero. La ayuda legal es real, es gratis y existe en todos los estados.",
+    "Puede obtener un abogado gratuito para la defensa contra el desalojo, condiciones inseguras o disputas con el propietario. La asistencia legal es gratuita y está disponible en todos los estados.",
   "housing.phone": "211",
   "housing.phoneDesc":
     "Asistencia de vivienda local y referencias de servicios sociales",
@@ -93,7 +93,7 @@ export default {
   "freeSpeech.knowRightsProtest":
     "\u00bfTe Arrestaron en una Protesta? Esto es lo que Debes Hacer",
   "freeSpeech.knowRightsProtestDesc":
-    "No digas nada excepto \u2018Quiero un abogado.\u2019 Esta gu\u00eda explica qu\u00e9 hacer si te arrestan, detienen o te confiscan el tel\u00e9fono en una protesta.",
+    "No diga nada, excepto: «Quiero un abogado». Esta guía explica qué hacer si es arrestado, detenido o si le confiscan el teléfono durante una protesta.",
   "freeSpeech.phone": "212-679-5100",
   "freeSpeech.phoneDesc":
     "National Lawyers Guild --- asistencia legal para libertad de expresi\u00f3n y libertades civiles",
@@ -107,14 +107,14 @@ export default {
   "workers.wageHourDesc":
     "El robo de salario es el robo m\u00e1s grande en Am\u00e9rica. Si no te pagaron el salario m\u00ednimo, las horas extra, o te quitaron las propinas --- la ley est\u00e1 de tu lado.",
   "workers.safety":
-    "Puede Reportar Condiciones Inseguras de Forma Confidencial",
+    "Puede reportar condiciones inseguras de forma confidencial.",
   "workers.safetyDesc":
     "OSHA te protege. Puedes presentar una queja confidencial sobre condiciones inseguras, y tu empleador no puede tomar represalias contra ti.",
   "workers.complaint":
-    "Presenta una Queja por Robo de Salario --- Es Gratis",
+    "Presente una queja por robo de salarios — Sin costo",
   "workers.complaintDesc":
     "El Department of Labor investigar\u00e1 a tu empleador gratis. No necesitas abogado. Presenta tu queja en l\u00ednea ahora mismo.",
-  "workers.unemployment": "Solicita el Seguro de Desempleo Hoy",
+  "workers.unemployment": "Solicitar beneficios por desempleo",
   "workers.unemploymentDesc":
     "Si perdiste tu trabajo, probablemente calificas. Cada estado tiene una solicitud en l\u00ednea. T\u00fa pagaste al sistema --- este es TU dinero.",
   "workers.phone": "1-866-4-USWAGE (1-866-487-2365)",

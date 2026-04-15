@@ -101,7 +101,7 @@ export default {
   // Workers' Rights
   "workers.title": "Mga Karapatan ng Manggagawa",
   "workers.cardDesc":
-    "Pagnanakaw ng sahod, kaligtasan sa trabaho, labor board, kawalan ng trabaho",
+    "Pagnanakaw ng sahod, kaligtasan sa lugar ng trabaho, lupon ng paggawa, kawalan ng trabaho",
   "workers.pageDesc":
     "Pagnanakaw ng sahod, kaligtasan sa trabaho, mga reklamo sa labor board, at insurance sa kawalan ng trabaho.",
   "workers.wageHour": "Karapat-dapat Ka sa Bawat Dolyar na Iyong Kinita",
@@ -124,5 +124,5 @@ export default {
   // Donate
   "donate.title": "Mag-donate",
   "donate.message":
-    "Mag-donate sa The General Welfare Project sa pamamagitan ng pagboto sa 2026 midterm elections",
+    "Mag-ambag sa The General Welfare Project sa pamamagitan ng pagboto sa midterm elections ng 2026.",
 } as Record<string, string>;
