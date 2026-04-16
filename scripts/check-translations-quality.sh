@@ -7,7 +7,7 @@ set -euo pipefail
 
 REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 I18N_REL="src/i18n"
-TARGETS=(es zh vi tl)
+TARGETS=(es zh-Hans vi fil)
 
 cd "$REPO_ROOT"
 

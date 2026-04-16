@@ -1,25 +1,25 @@
 import en from "./en";
 import es from "./es";
-import zh from "./zh";
+import zhHans from "./zh-Hans";
 import vi from "./vi";
-import tl from "./tl";
+import fil from "./fil";
 
-export type Locale = "en" | "es" | "zh" | "vi" | "tl";
+export type Locale = "en" | "es" | "zh-Hans" | "vi" | "fil";
 
 export const LOCALES = [
   { code: "en" as const, nativeName: "English" },
   { code: "es" as const, nativeName: "Español" },
-  { code: "zh" as const, nativeName: "中文" },
+  { code: "zh-Hans" as const, nativeName: "中文" },
   { code: "vi" as const, nativeName: "Tiếng Việt" },
-  { code: "tl" as const, nativeName: "Filipino" },
+  { code: "fil" as const, nativeName: "Filipino" },
 ];
 
 const translations: Record<Locale, Record<string, string>> = {
   en,
   es,
-  zh,
+  "zh-Hans": zhHans,
   vi,
-  tl,
+  fil,
 };
 
 export function t(locale: Locale, key: string): string {

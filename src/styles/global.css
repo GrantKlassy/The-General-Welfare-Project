@@ -2,8 +2,11 @@
 
 @theme {
   --font-sans: "Inclusive Sans", sans-serif;
-  --color-flag-red: #b22234;
-  --color-flag-blue: #3c3b6e;
+  --color-flag-red: #d93a4a;
+  --color-flag-red-deep: #b22234;
+  --color-flag-blue: #7b79c8;
+  --color-flag-blue-deep: #3c3b6e;
+  --color-desc: #c9c9c9;
 }
 
 @layer base {
@@ -16,11 +19,13 @@
   html {
     background-color: var(--color-bg);
     color: var(--color-text);
+    font-size: 106.25%;
   }
 
   body {
     -webkit-font-smoothing: antialiased;
     font-smooth: always;
+    overscroll-behavior-y: contain;
   }
 
   p,
@@ -28,10 +33,51 @@
     font-weight: 500;
   }
 
-  @media (prefers-color-scheme: dark) and (prefers-contrast: more) {
+  a,
+  button,
+  summary {
+    touch-action: manipulation;
+  }
+
+  a,
+  button {
+    scroll-margin-top: 16px;
+  }
+
+  :focus-visible {
+    outline: 3px solid #fff;
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
+  @media (prefers-contrast: more) {
     :root {
       --color-bg: #000;
       --color-text: #fff;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+
+  @media (forced-colors: active) {
+    :root {
+      --color-bg: Canvas;
+      --color-text: CanvasText;
+    }
+    a {
+      color: LinkText;
+    }
+    *:focus-visible {
+      outline-color: Highlight;
     }
   }
 }

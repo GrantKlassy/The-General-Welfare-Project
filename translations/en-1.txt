@@ -1,60 +1,129 @@
 1. The General Welfare Project
+
 2. Know your rights. Find help.
+
 3. Home
+
 4. Know Your Rights
+
 5. Get Help
+
 6. Call Now
-7. Housing
-8. Tenant rights, eviction defense, housing assistance
-9. Tenant rights, eviction defense, and housing assistance programs.
-10. Know What Your Landlord Cannot Do
-11. You have legal rights to a safe home, returning your security deposit money, and a fair and honest lease. This will explain what landlords are NOT allowed to do.
-12. You Can Challenge an Eviction
-13. You do not have to leave immediately. You have legal rights during the eviction process --- and free lawyers who can help you challenge it.
-14. Apply for Rental Assistance
-15. You may qualify for help paying rent right now. Apply for emergency rental assistance, Section 8, or public housing through your local housing authority.
-16. Free Legal Help for Housing Issues
-17. You can get a free attorney for eviction defense, unsafe conditions, or landlord disputes. Legal aid is free and available in every state.
-18. 211
-19. Local housing assistance and social services referrals
-20. Voting
-21. Registration, polling info, voter ID, election protection
-22. Registration, polling info, voter ID laws, and election protection.
-23. Register to Vote
-24. It takes about 2 minutes. Check your registration status, and if needed, register online here.
-25. Check What ID You Need to Vote
-26. Every state is different. Look up exactly what ID your state requires --- some states require none at all.
-27. Find Your Polling Place
-28. Enter your address and get your exact polling location, hours, and what is on your ballot.
-29. Report Voter Intimidation or Problems
-30. If someone tries to prevent you from voting, it is a federal crime. You can report it and get immediate help from trained legal volunteers.
-31. 866-OUR-VOTE (866-687-8683)
-32. Election Protection Hotline --- nonpartisan voter assistance
-33. LGBTQ+ Rights
-34. Anti-discrimination, trans rights, support organizations
-35. Anti-discrimination protections, trans rights, and support organizations.
-36. Discrimination Based on Identity Is Illegal
-37. Federal law prohibits discrimination at work, in housing, and in public spaces based on who you are. If you have experienced discrimination, you can file a charge here.
-38. Updating Your Name and ID Documents
-39. Step-by-step guides to changing your name, gender marker on IDs, and accessing healthcare --- for every state.
-40. Free Legal Help Is Available
-41. Lambda Legal's help desk takes cases for free. If you have been discriminated against, fired, denied housing, or denied healthcare because of who you are --- you can contact them for assistance.
-42. Talk to Someone Who Understands
-43. Confidential peer support from people who understand. Chat, text, or call --- available to any LGBTQ+ person, not only during crisis situations.
-44. 988
-45. Suicide & Crisis Lifeline --- press 3 for LGBTQ+ support
-46. 866-488-7386
-47. The Trevor Project --- crisis support for LGBTQ+ youth
-48. Free Speech
-49. First amendment, protest rights, press freedom
-50. First amendment rights, protest rights, and press freedom.
-51. The Government Cannot Restrict Your Speech
-52. The First Amendment protects your right to speak, publish, worship, assemble, and petition the government. This will explain what that means in practice.
-53. Your Right to Protest
-54. You can protest on public sidewalks and in parks without a permit. This covers what police can and cannot do, and what to do if your rights are violated.
-55. If Your Speech Was Restricted, the ACLU May Help
-56. If the government punished you for speaking, protesting, or publishing, you may have a First Amendment case. Submit your situation for review.
-57. What to Do If Arrested at a Protest
-58. Do not say anything except 'I want a lawyer.' This guide covers what to do if you are arrested, detained, or your phone is seized at a protest.
-59. 212-679-5100
-60. National Lawyers Guild --- free speech and civil liberties legal assistance
+
+7. If you need help right now
+
+8. 988
+
+9. Suicide & Crisis Lifeline --- call or text
+
+10. 911
+
+11. Emergency --- immediate danger
+
+12. Housing
+
+13. Your rights as a renter. Help fighting eviction. Help paying rent.
+
+14. Your rights as a renter. Help fighting eviction. Help paying rent.
+
+15. Know What Your Landlord Cannot Do
+
+16. Your landlord must keep your home safe. They must give back your deposit. They must follow a fair lease. This page shows what landlords are not allowed to do.
+
+17. You Can Fight an Eviction
+
+18. You do not have to leave right away. You have rights during eviction. Free lawyers can help you fight it.
+
+19. Get Help Paying Rent
+
+20. You may qualify for help paying rent today. Apply for emergency aid, Section 8, or public housing. Start with your local housing office.
+
+21. Free Lawyers for Housing Problems
+
+22. Get a free lawyer for eviction, unsafe homes, or landlord fights. Legal aid is free and open in every state.
+
+23. 211
+
+24. Help with housing, food, utilities, and bills
+
+25. Voting
+
+26. Register to vote. Find your polling place. Know your voter ID rules.
+
+27. Register to vote. Find your polling place. Know your voter ID rules. Report problems.
+
+28. Register to Vote
+
+29. It takes 2 minutes. Check if you are registered. Register online right here.
+
+30. Check What ID You Need to Vote
+
+31. Every state is different. Find out what ID your state needs. Some states need nothing at all.
+
+32. Find Your Polling Place
+
+33. Type in your address. Get your polling place, hours, and what is on your ballot.
+
+34. Report Voter Intimidation
+
+35. If someone tries to stop you from voting, it is a federal crime. Report it and get help right now. Trained legal volunteers will help you free.
+
+36. 866-OUR-VOTE (866-687-8683)
+
+37. Election Protection Hotline --- nonpartisan voter help
+
+38. LGBTQ+ Rights
+
+39. Laws that protect you. Trans rights. Free support.
+
+40. Laws that protect you. Trans rights. Free support.
+
+41. Discrimination Based on Identity Is Illegal
+
+42. Federal law protects you at work, in housing, and in public spaces. It is based on who you are. If you were discriminated against, file a charge here.
+
+43. Update Your Name and ID
+
+44. Step-by-step guides for every state. Change your name. Update your gender marker. Find healthcare.
+
+45. Free Legal Help Is Open
+
+46. Lambda Legal takes cases for free. Contact them if you were fired, denied housing, or denied healthcare for who you are.
+
+47. Talk to Someone Who Understands
+
+48. Free, private support from people who get it. Chat, text, or call. Open to any LGBTQ+ person, any time.
+
+49. 988
+
+50. Suicide & Crisis Lifeline --- press 3 for LGBTQ+ support
+
+51. 866-488-7386
+
+52. The Trevor Project --- crisis support for LGBTQ+ youth
+
+53. Free Speech
+
+54. Your right to speak. Your right to protest. Your press freedom.
+
+55. Your right to speak. Your right to protest. Your press freedom.
+
+56. The Government Cannot Silence You
+
+57. The First Amendment is your shield. It protects your right to speak, publish, worship, gather, and demand change. This page shows what that means.
+
+58. Your Right to Protest
+
+59. You can protest on public sidewalks and in parks with no permit. Learn what police can and cannot do. Learn what to do if your rights are broken.
+
+60. If Your Speech Was Punished, the ACLU May Help
+
+61. Did the government punish you for speaking, protesting, or publishing? You may have a First Amendment case. Submit your story for review.
+
+62. What to Do If Arrested at a Protest
+
+63. Say only: 'I want a lawyer.' This guide covers arrest, detention, and police taking your phone at a protest.
+
+64. 212-679-5100
+
+65. National Lawyers Guild --- free speech and civil liberties help

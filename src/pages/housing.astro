@@ -1,76 +1,47 @@
 ---
 import Base from "../layouts/Base.astro";
-import ResourceLink from "../components/ResourceLink.astro";
+import CategorySection from "../components/CategorySection.astro";
+import { t } from "../i18n";
 ---
 
-<Base title="Housing --- The General Welfare Project" currentPath="/housing">
-  <div class="mx-auto max-w-3xl px-4 py-10 sm:px-6 sm:py-16">
-    <h1 class="text-center text-3xl font-bold sm:text-4xl">Housing</h1>
-    <p class="mt-3 text-center text-base text-gray-300 sm:mt-4 sm:text-lg">
-      Tenant rights, eviction defense, and housing assistance programs.
-    </p>
-
-    <section class="mt-8 sm:mt-10">
-      <h2 class="text-center text-xl font-bold sm:text-2xl">
-        <span class="text-flag-red">[[[</span> ★ Know Your Rights ★ <span
-          class="text-flag-red">]]]</span
-        >
-      </h2>
-      <div class="mt-4 grid gap-3">
-        <ResourceLink
-          href="https://www.hud.gov/topics/rental_assistance/tenantrights"
-          title="Know What Your Landlord Cannot Do"
-          description="You have legal rights to a safe home, returning your security deposit money, and a fair and honest lease. This will explain what landlords are NOT allowed to do."
-        />
-        <ResourceLink
-          href="https://www.lawhelp.org"
-          title="You Can Challenge an Eviction"
-          description="You do not have to leave immediately. You have legal rights during the eviction process --- and free lawyers who can help you challenge it."
-        />
-      </div>
-    </section>
-
-    <section class="mt-8 sm:mt-10">
-      <h2 class="text-center text-xl font-bold sm:text-2xl">
-        [[[ ★ Get Help ★ ]]]
-      </h2>
-      <div class="mt-4 grid gap-3">
-        <ResourceLink
-          href="https://www.hud.gov/topics/rental_assistance"
-          title="Apply for Rental Assistance"
-          description="You may qualify for help paying rent right now. Apply for emergency rental assistance, Section 8, or public housing through your local housing authority."
-        />
-        <ResourceLink
-          href="https://www.lsc.gov/about-lsc/what-legal-aid/get-legal-help"
-          title="Free Legal Help for Housing Issues"
-          description="You can get a free attorney for eviction defense, unsafe conditions, or landlord disputes. Legal aid is free and available in every state."
-        />
-      </div>
-    </section>
-
-    <section class="mt-8 sm:mt-10">
-      <h2 class="text-center text-xl font-bold sm:text-2xl">
-        <span class="text-flag-blue">[[[</span> ★ Call Now ★ <span
-          class="text-flag-blue">]]]</span
-        >
-      </h2>
-      <div class="mt-4 grid gap-3">
-        <a
-          href="tel:211"
-          class="block rounded-lg border border-neutral-800 px-4 py-3.5 transition-colors hover:border-neutral-600 hover:bg-neutral-900 sm:px-5 sm:py-4"
-        >
-          <span class="font-bold">211</span>
-          <span class="mt-1 block text-sm text-gray-400"
-            >Local housing assistance and social services referrals</span
-          >
-        </a>
-      </div>
-    </section>
-
-    <a
-      href="/"
-      class="mt-10 block text-center text-gray-400 hover:text-white sm:mt-12"
-      >[[[ Home ]]]</a
-    >
-  </div>
+<Base
+  title={`${t("en", "housing.title")} — ${t("en", "site.title")}`}
+  currentPath="/housing"
+>
+  <CategorySection
+    locale="en"
+    title={t("en", "housing.title")}
+    intro={t("en", "housing.pageDesc")}
+    callNow={[
+      {
+        tel: "211",
+        label: t("en", "housing.phone"),
+        desc: t("en", "housing.phoneDesc"),
+      },
+    ]}
+    getHelp={[
+      {
+        href: "https://www.hud.gov/topics/rental_assistance",
+        title: t("en", "housing.assistance"),
+        description: t("en", "housing.assistanceDesc"),
+      },
+      {
+        href: "https://www.lsc.gov/about-lsc/what-legal-aid/get-legal-help",
+        title: t("en", "housing.legalAid"),
+        description: t("en", "housing.legalAidDesc"),
+      },
+    ]}
+    knowYourRights={[
+      {
+        href: "https://www.hud.gov/topics/rental_assistance/tenantrights",
+        title: t("en", "housing.tenantRights"),
+        description: t("en", "housing.tenantRightsDesc"),
+      },
+      {
+        href: "https://www.lawhelp.org",
+        title: t("en", "housing.eviction"),
+        description: t("en", "housing.evictionDesc"),
+      },
+    ]}
+  />
 </Base>

@@ -3,7 +3,7 @@ set -euo pipefail
 
 # LLM-as-Judge review of translation quality against en.ts
 # Usage: ./scripts/review-translation.sh [locale]
-#   locale: es, zh, or vi (omit for all three)
+#   locale: es, zh-Hans, vi, or fil (omit for all four)
 #   MODEL env var overrides model (default: sonnet)
 
 REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
@@ -11,18 +11,18 @@ I18N_DIR="$REPO_ROOT/src/i18n"
 EN_FILE="$I18N_DIR/en.ts"
 MODEL="${MODEL:-sonnet}"
 
-ALL_TARGETS=(es zh vi tl)
+ALL_TARGETS=(es zh-Hans vi fil)
 
 declare -A LOCALE_NAMES=(
   [es]="US Spanish"
-  [zh]="Simplified Chinese (US context)"
+  [zh-Hans]="Simplified Chinese (US context)"
   [vi]="Vietnamese (US context)"
-  [tl]="Tagalog (US context)"
+  [fil]="Tagalog (US context)"
 )
 
 if [[ $# -ge 1 ]]; then
   if [[ -z "${LOCALE_NAMES[$1]+x}" ]]; then
-    echo "ERROR: Unknown locale '$1'. Valid: es, zh, vi"
+    echo "ERROR: Unknown locale '$1'. Valid: es, zh-Hans, vi, fil"
     exit 1
   fi
   TARGETS=("$1")

@@ -1,60 +1,125 @@
-1. The General Welfare Project
+1. El Proyecto de Bienestar General
+
 2. Conozca sus derechos. Encuentre ayuda.
+
 3. Inicio
+
 4. Conozca sus derechos
+
 5. Obtenga ayuda
+
 6. Llame ahora
-7. Vivienda
-8. Derechos de los inquilinos, defensa contra el desalojo, asistencia para la vivienda
-9. ​​Derechos de los inquilinos, defensa contra el desalojo y programas de asistencia para la vivienda.
-10. Sepa lo que su arrendador no puede hacer
-11. Usted tiene derechos legales a una vivienda segura, a la devolución de su depósito de seguridad y a un contrato de arrendamiento justo y honesto. Aquí se explica lo que los arrendadores NO tienen permitido hacer.
-12. Puede impugnar un desalojo
-13. No tiene que irse de inmediato. Usted tiene derechos legales durante el proceso de desalojo, y abogados gratuitos que pueden ayudarle a impugnarlo.
-14. Solicite asistencia para el alquiler
-15. Es posible que califique para recibir ayuda con el pago del alquiler en este momento. Solicite asistencia de emergencia para el alquiler, el programa de la Sección 8 o vivienda pública a través de su autoridad local de vivienda.
-16. Ayuda legal gratuita para problemas de vivienda
-17. Puede obtener un abogado gratuito para defensa contra el desalojo, condiciones inseguras o disputas con el arrendador. La asistencia legal es gratuita y está disponible en todos los estados.
-18. 211
-19. Asistencia local para la vivienda y referencias a servicios sociales
-20. Votación
-21. Registro, información sobre centros de votación, identificación de votante, protección electoral
-22. Registro, información sobre centros de votación, leyes de identificación de votante y protección electoral.
-23. Regístrese para votar
-24. Toma unos 2 minutos. Verifique el estado de su registro y, si es necesario, regístrese en línea aquí.
-25. Verifique qué identificación necesita para votar
-26. Cada estado es diferente. Averigüe exactamente qué identificación requiere su estado; algunos estados no requieren ninguna en absoluto.
-27. Encuentre su centro de votación
-28. Ingrese su dirección para obtener la ubicación exacta de su centro de votación, los horarios y lo que aparecerá en su boleta electoral.
-29. Reporte intimidación a votantes o problemas
-30. Si alguien intenta impedirle votar, es un delito federal. Puede reportarlo y recibir ayuda inmediata de voluntarios legales capacitados.
-31. 866-OUR-VOTE (866-687-8683)
-32. Línea directa de Protección Electoral — asistencia electoral no partidista
-33. Derechos LGBTQ+
-34. Antidiscriminación, derechos de las personas trans, organizaciones de apoyo
-35. Protecciones contra la discriminación, derechos de las personas trans y organizaciones de apoyo.
-36. La discriminación basada en la identidad es ilegal
-37. La ley federal prohíbe la discriminación en el trabajo, la vivienda y los espacios públicos basándose en quién es usted. Si ha sufrido discriminación, puede presentar una denuncia aquí.
-38. Actualización de su nombre y documentos de identidad
-39. Guías paso a paso para cambiar su nombre y el marcador de género en sus documentos de identidad, y para acceder a la atención médica — para cada estado.
-40. Hay ayuda legal gratuita disponible
-41. El servicio de asistencia de Lambda Legal acepta casos de forma gratuita. Si ha sido discriminado, despedido, o se le ha negado vivienda o atención médica debido a quién es usted, puede contactarlos para recibir asistencia.
-42. Hable con alguien que le entienda
-43. Apoyo confidencial entre pares, brindado por personas que le entienden. Chatee, envíe mensajes de texto o llame; el servicio está disponible para cualquier persona LGBTQ+, no solo en situaciones de crisis.
-44. 988
-45. Línea de Vida para la Prevención del Suicidio y Crisis — presione 3 para recibir apoyo LGBTQ+
-46. 866-488-7386
-47. The Trevor Project — apoyo en crisis para jóvenes LGBTQ+
-48. Libertad de expresión
-49. Primera Enmienda, derechos de protesta, libertad de prensa
-50. Derechos de la Primera Enmienda, derechos de protesta y libertad de prensa.
-51. El gobierno no puede restringir su libertad de expresión
-52. La Primera Enmienda protege su derecho a hablar, publicar, practicar su religión, reunirse y presentar peticiones al gobierno. Aquí se explica qué significa esto en la práctica.
-53. Su derecho a protestar
-54. Usted puede protestar en las aceras públicas y en los parques sin necesidad de un permiso. Esta sección cubre lo que la policía puede y no puede hacer, y qué medidas tomar si se violan sus derechos.
-55. Si se restringió su libertad de expresión, la ACLU podría ayudarle
-56. Si el gobierno lo ha castigado por hablar, protestar o publicar, es posible que tenga un caso amparado por la Primera Enmienda. Envíe su caso para su revisión.
-57. Qué hacer si es arrestado durante una protesta
-58. No diga nada, excepto: «Quiero un abogado». Esta guía explica qué hacer si es arrestado, detenido o si le confiscan el teléfono durante una protesta.
-59. 212-679-5100
-60. National Lawyers Guild — Asistencia legal en materia de libertad de expresión y libertades civiles
+
+7. Si necesita ayuda en este momento
+
+8. 988
+
+9. Línea de Vida para Suicidio y Crisis — llame o envíe un mensaje de texto
+
+10. 911
+
+11. Emergencia — peligro inmediato
+
+12. Vivienda
+
+13. Sus derechos como inquilino. Ayuda para combatir un desalojo. Ayuda para pagar el alquiler.
+
+14. Sus derechos como inquilino. Ayuda para combatir un desalojo. Ayuda para pagar el alquiler.
+
+15. Sepa lo que su arrendador no puede hacer
+
+16. Su arrendador debe mantener su vivienda segura. Debe devolverle su depósito. Debe cumplir con un contrato de arrendamiento justo. Esta página muestra lo que los arrendadores no tienen permitido hacer.
+
+17. Puede combatir un desalojo
+
+18. No tiene que irse de inmediato. Usted tiene derechos durante el proceso de desalojo. Abogados gratuitos pueden ayudarle a combatirlo.
+
+19. Obtenga ayuda para pagar el alquiler
+
+20. Es posible que califique para recibir ayuda con el alquiler hoy mismo. Solicite ayuda de emergencia, el programa de la Sección 8 o vivienda pública. Comience contactando a su oficina local de vivienda.
+
+21. Abogados gratuitos para problemas de vivienda
+
+22. Obtenga un abogado gratuito para casos de desalojo, viviendas inseguras o disputas con el arrendador. La asistencia legal es gratuita y está disponible en todos los estados.
+
+23. 211
+
+24. Ayuda con vivienda, alimentos, servicios públicos y facturas
+
+25. Votación
+
+26. Regístrese para votar. Encuentre su centro de votación. Conozca las normas sobre identificación de votantes.
+
+27. Regístrese para votar. Encuentre su centro de votación. Conozca las normas sobre identificación de votantes. Reporte problemas.
+
+28. Regístrese para votar
+
+29. Solo toma 2 minutos. Verifique si ya está registrado. Regístrese en línea aquí mismo.
+
+30. Verifique qué identificación necesita para votar
+
+31. Cada estado es diferente. Averigüe qué identificación requiere su estado. Algunos estados no requieren ninguna identificación en absoluto.
+
+32. Encuentre su centro de votación
+
+33. Ingrese su dirección. Obtenga la ubicación de su centro de votación, sus horarios y lo que aparecerá en su boleta electoral. 34. Reporte la intimidación a votantes
+
+35. Si alguien intenta impedirle votar, es un delito federal. Repórtelo y obtenga ayuda de inmediato. Voluntarios legales capacitados le ayudarán de forma gratuita.
+
+36. 866-OUR-VOTE (866-687-8683)
+
+37. Línea directa de Protección Electoral — ayuda no partidista para votantes
+
+38. Derechos LGBTQ+
+
+39. Leyes que le protegen. Derechos de las personas trans. Apoyo gratuito.
+
+40. Leyes que le protegen. Derechos de las personas trans. Apoyo gratuito.
+
+41. La discriminación basada en la identidad es ilegal
+
+42. La ley federal le protege en el trabajo, en la vivienda y en los espacios públicos. Esta protección se basa en quién es usted. Si ha sido víctima de discriminación, presente una denuncia aquí.
+
+43. Actualice su nombre e identificación
+
+44. Guías paso a paso para cada estado. Cambie su nombre. Actualice su marcador de género. Encuentre atención médica.
+
+45. Ayuda legal gratuita disponible
+
+46. Lambda Legal acepta casos de forma gratuita. Contácteles si fue despedido, o si se le negó vivienda o atención médica debido a quién es usted.
+
+47. Hable con alguien que le entienda
+
+48. Apoyo gratuito y confidencial de personas que comprenden su situación. Chatee, envíe mensajes de texto o llame. Abierto a cualquier persona LGBTQ+, en cualquier momento.
+
+49. 988
+
+50. Línea de vida para crisis y suicidio — presione 3 para recibir apoyo LGBTQ+
+
+51. 866-488-7386
+
+52. The Trevor Project — apoyo en crisis para jóvenes LGBTQ+
+
+53. Libertad de expresión
+
+54. Su derecho a hablar. Su derecho a protestar. Su libertad de prensa.
+
+55. Su derecho a hablar. Su derecho a protestar. Su libertad de prensa.
+
+56. El gobierno no puede silenciarle
+
+57. La Primera Enmienda es su escudo. Protege su derecho a hablar, publicar, practicar su fe, reunirse y exigir cambios. Esta página explica lo que eso significa.
+
+58. Su derecho a protestar
+
+59. Puede protestar en aceras públicas y parques sin necesidad de un permiso. Infórmese sobre lo que la policía puede y no puede hacer. Sepa qué hacer si se vulneran sus derechos. 60. Si su discurso fue sancionado, la ACLU podría ayudarle
+
+61. ¿Le sancionó el gobierno por hablar, protestar o publicar? Es posible que tenga un caso amparado por la Primera Enmienda. Envíenos su historia para su revisión.
+
+62. Qué hacer si es arrestado durante una protesta
+
+63. Diga únicamente: «Quiero un abogado». Esta guía abarca el arresto, la detención y la incautación de su teléfono por parte de la policía durante una protesta.
+
+64. 212-679-5100
+
+65. National Lawyers Guild — Asistencia en materia de libertad de expresión y libertades civiles

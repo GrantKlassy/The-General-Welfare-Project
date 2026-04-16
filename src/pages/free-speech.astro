@@ -1,80 +1,47 @@
 ---
 import Base from "../layouts/Base.astro";
-import ResourceLink from "../components/ResourceLink.astro";
+import CategorySection from "../components/CategorySection.astro";
+import { t } from "../i18n";
 ---
 
 <Base
-  title="Free Speech --- The General Welfare Project"
+  title={`${t("en", "freeSpeech.title")} — ${t("en", "site.title")}`}
   currentPath="/free-speech"
 >
-  <div class="mx-auto max-w-3xl px-4 py-10 sm:px-6 sm:py-16">
-    <h1 class="text-center text-3xl font-bold sm:text-4xl">Free Speech</h1>
-    <p class="mt-3 text-center text-base text-gray-300 sm:mt-4 sm:text-lg">
-      First amendment rights, protest rights, and press freedom.
-    </p>
-
-    <section class="mt-8 sm:mt-10">
-      <h2 class="text-center text-xl font-bold sm:text-2xl">
-        <span class="text-flag-red">[[[</span> ★ Know Your Rights ★ <span
-          class="text-flag-red">]]]</span
-        >
-      </h2>
-      <div class="mt-4 grid gap-3">
-        <ResourceLink
-          href="https://www.aclu.org/issues/free-speech"
-          title="The Government Cannot Restrict Your Speech"
-          description="The First Amendment protects your right to speak, publish, worship, assemble, and petition the government. This will explain what that means in practice."
-        />
-        <ResourceLink
-          href="https://www.aclu.org/know-your-rights/protesters-rights"
-          title="Your Right to Protest"
-          description="You can protest on public sidewalks and in parks without a permit. This covers what police can and cannot do, and what to do if your rights are violated."
-        />
-      </div>
-    </section>
-
-    <section class="mt-8 sm:mt-10">
-      <h2 class="text-center text-xl font-bold sm:text-2xl">
-        [[[ ★ Get Help ★ ]]]
-      </h2>
-      <div class="mt-4 grid gap-3">
-        <ResourceLink
-          href="https://www.aclu.org/contact-us"
-          title="If Your Speech Was Restricted, the ACLU May Help"
-          description="If the government punished you for speaking, protesting, or publishing, you may have a First Amendment case. Submit your situation for review."
-        />
-        <ResourceLink
-          href="https://www.nlg.org/know-your-rights/"
-          title="What to Do If Arrested at a Protest"
-          description="Do not say anything except 'I want a lawyer.' This guide covers what to do if you are arrested, detained, or your phone is seized at a protest."
-        />
-      </div>
-    </section>
-
-    <section class="mt-8 sm:mt-10">
-      <h2 class="text-center text-xl font-bold sm:text-2xl">
-        <span class="text-flag-blue">[[[</span> ★ Call Now ★ <span
-          class="text-flag-blue">]]]</span
-        >
-      </h2>
-      <div class="mt-4 grid gap-3">
-        <a
-          href="tel:212-679-5100"
-          class="block rounded-lg border border-neutral-800 px-4 py-3.5 transition-colors hover:border-neutral-600 hover:bg-neutral-900 sm:px-5 sm:py-4"
-        >
-          <span class="font-bold">212-679-5100</span>
-          <span class="mt-1 block text-sm text-gray-400"
-            >National Lawyers Guild --- free speech and civil liberties legal
-            assistance</span
-          >
-        </a>
-      </div>
-    </section>
-
-    <a
-      href="/"
-      class="mt-10 block text-center text-gray-400 hover:text-white sm:mt-12"
-      >[[[ Home ]]]</a
-    >
-  </div>
+  <CategorySection
+    locale="en"
+    title={t("en", "freeSpeech.title")}
+    intro={t("en", "freeSpeech.pageDesc")}
+    callNow={[
+      {
+        tel: "212-679-5100",
+        label: t("en", "freeSpeech.phone"),
+        desc: t("en", "freeSpeech.phoneDesc"),
+      },
+    ]}
+    getHelp={[
+      {
+        href: "https://www.aclu.org/contact-us",
+        title: t("en", "freeSpeech.legalSupport"),
+        description: t("en", "freeSpeech.legalSupportDesc"),
+      },
+      {
+        href: "https://www.nlg.org/know-your-rights/",
+        title: t("en", "freeSpeech.knowRightsProtest"),
+        description: t("en", "freeSpeech.knowRightsProtestDesc"),
+      },
+    ]}
+    knowYourRights={[
+      {
+        href: "https://www.aclu.org/issues/free-speech",
+        title: t("en", "freeSpeech.firstAmendment"),
+        description: t("en", "freeSpeech.firstAmendmentDesc"),
+      },
+      {
+        href: "https://www.aclu.org/know-your-rights/protesters-rights",
+        title: t("en", "freeSpeech.protest"),
+        description: t("en", "freeSpeech.protestDesc"),
+      },
+    ]}
+  />
 </Base>

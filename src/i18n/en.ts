@@ -9,65 +9,72 @@ export default {
   "common.getHelp": "Get Help",
   "common.callNow": "Call Now",
 
+  // Footer safety
+  "footer.safetyHeading": "If you need help right now",
+  "footer.phone988": "988",
+  "footer.phone988Desc": "Suicide & Crisis Lifeline --- call or text",
+  "footer.phone911": "911",
+  "footer.phone911Desc": "Emergency --- immediate danger",
+
   // Housing
   "housing.title": "Housing",
-  "housing.cardDesc": "Tenant rights, eviction defense, housing assistance",
+  "housing.cardDesc":
+    "Your rights as a renter. Help fighting eviction. Help paying rent.",
   "housing.pageDesc":
-    "Tenant rights, eviction defense, and housing assistance programs.",
+    "Your rights as a renter. Help fighting eviction. Help paying rent.",
   "housing.tenantRights": "Know What Your Landlord Cannot Do",
   "housing.tenantRightsDesc":
-    "You have legal rights to a safe home, returning your security deposit money, and a fair and honest lease. This will explain what landlords are NOT allowed to do.",
-  "housing.eviction": "You Can Challenge an Eviction",
+    "Your landlord must keep your home safe. They must give back your deposit. They must follow a fair lease. This page shows what landlords are not allowed to do.",
+  "housing.eviction": "You Can Fight an Eviction",
   "housing.evictionDesc":
-    "You do not have to leave immediately. You have legal rights during the eviction process --- and free lawyers who can help you challenge it.",
-  "housing.assistance": "Apply for Rental Assistance",
+    "You do not have to leave right away. You have rights during eviction. Free lawyers can help you fight it.",
+  "housing.assistance": "Get Help Paying Rent",
   "housing.assistanceDesc":
-    "You may qualify for help paying rent right now. Apply for emergency rental assistance, Section 8, or public housing through your local housing authority.",
-  "housing.legalAid": "Free Legal Help for Housing Issues",
+    "You may qualify for help paying rent today. Apply for emergency aid, Section 8, or public housing. Start with your local housing office.",
+  "housing.legalAid": "Free Lawyers for Housing Problems",
   "housing.legalAidDesc":
-    "You can get a free attorney for eviction defense, unsafe conditions, or landlord disputes. Legal aid is free and available in every state.",
+    "Get a free lawyer for eviction, unsafe homes, or landlord fights. Legal aid is free and open in every state.",
   "housing.phone": "211",
-  "housing.phoneDesc": "Local housing assistance and social services referrals",
+  "housing.phoneDesc": "Help with housing, food, utilities, and bills",
 
   // Voting
   "voting.title": "Voting",
   "voting.cardDesc":
-    "Registration, polling info, voter ID, election protection",
+    "Register to vote. Find your polling place. Know your voter ID rules.",
   "voting.pageDesc":
-    "Registration, polling info, voter ID laws, and election protection.",
+    "Register to vote. Find your polling place. Know your voter ID rules. Report problems.",
   "voting.registration": "Register to Vote",
   "voting.registrationDesc":
-    "It takes about 2 minutes. Check your registration status, and if needed, register online here.",
+    "It takes 2 minutes. Check if you are registered. Register online right here.",
   "voting.voterId": "Check What ID You Need to Vote",
   "voting.voterIdDesc":
-    "Every state is different. Look up exactly what ID your state requires --- some states require none at all.",
+    "Every state is different. Find out what ID your state needs. Some states need nothing at all.",
   "voting.pollingPlace": "Find Your Polling Place",
   "voting.pollingPlaceDesc":
-    "Enter your address and get your exact polling location, hours, and what is on your ballot.",
-  "voting.electionProtection": "Report Voter Intimidation or Problems",
+    "Type in your address. Get your polling place, hours, and what is on your ballot.",
+  "voting.electionProtection": "Report Voter Intimidation",
   "voting.electionProtectionDesc":
-    "If someone tries to prevent you from voting, it is a federal crime. You can report it and get immediate help from trained legal volunteers.",
+    "If someone tries to stop you from voting, it is a federal crime. Report it and get help right now. Trained legal volunteers will help you free.",
   "voting.phone": "866-OUR-VOTE (866-687-8683)",
   "voting.phoneDesc":
-    "Election Protection Hotline --- nonpartisan voter assistance",
+    "Election Protection Hotline --- nonpartisan voter help",
 
   // LGBTQ+
   "lgbtq.title": "LGBTQ+ Rights",
-  "lgbtq.cardDesc": "Anti-discrimination, trans rights, support organizations",
-  "lgbtq.pageDesc":
-    "Anti-discrimination protections, trans rights, and support organizations.",
+  "lgbtq.cardDesc": "Laws that protect you. Trans rights. Free support.",
+  "lgbtq.pageDesc": "Laws that protect you. Trans rights. Free support.",
   "lgbtq.antiDiscrimination": "Discrimination Based on Identity Is Illegal",
   "lgbtq.antiDiscriminationDesc":
-    "Federal law prohibits discrimination at work, in housing, and in public spaces based on who you are. If you have experienced discrimination, you can file a charge here.",
-  "lgbtq.transRights": "Updating Your Name and ID Documents",
+    "Federal law protects you at work, in housing, and in public spaces. It is based on who you are. If you were discriminated against, file a charge here.",
+  "lgbtq.transRights": "Update Your Name and ID",
   "lgbtq.transRightsDesc":
-    "Step-by-step guides to changing your name, gender marker on IDs, and accessing healthcare --- for every state.",
-  "lgbtq.legalSupport": "Free Legal Help Is Available",
+    "Step-by-step guides for every state. Change your name. Update your gender marker. Find healthcare.",
+  "lgbtq.legalSupport": "Free Legal Help Is Open",
   "lgbtq.legalSupportDesc":
-    "Lambda Legal\u2019s help desk takes cases for free. If you have been discriminated against, fired, denied housing, or denied healthcare because of who you are --- you can contact them for assistance.",
+    "Lambda Legal takes cases for free. Contact them if you were fired, denied housing, or denied healthcare for who you are.",
   "lgbtq.crisisResources": "Talk to Someone Who Understands",
   "lgbtq.crisisResourcesDesc":
-    "Confidential peer support from people who understand. Chat, text, or call --- available to any LGBTQ+ person, not only during crisis situations.",
+    "Free, private support from people who get it. Chat, text, or call. Open to any LGBTQ+ person, any time.",
   "lgbtq.phone988": "988",
   "lgbtq.phone988Desc":
     "Suicide & Crisis Lifeline --- press 3 for LGBTQ+ support",
@@ -77,62 +84,66 @@ export default {
 
   // Free Speech
   "freeSpeech.title": "Free Speech",
-  "freeSpeech.cardDesc": "First amendment, protest rights, press freedom",
+  "freeSpeech.cardDesc":
+    "Your right to speak. Your right to protest. Your press freedom.",
   "freeSpeech.pageDesc":
-    "First amendment rights, protest rights, and press freedom.",
-  "freeSpeech.firstAmendment": "The Government Cannot Restrict Your Speech",
+    "Your right to speak. Your right to protest. Your press freedom.",
+  "freeSpeech.firstAmendment": "The Government Cannot Silence You",
   "freeSpeech.firstAmendmentDesc":
-    "The First Amendment protects your right to speak, publish, worship, assemble, and petition the government. This will explain what that means in practice.",
+    "The First Amendment is your shield. It protects your right to speak, publish, worship, gather, and demand change. This page shows what that means.",
   "freeSpeech.protest": "Your Right to Protest",
   "freeSpeech.protestDesc":
-    "You can protest on public sidewalks and in parks without a permit. This covers what police can and cannot do, and what to do if your rights are violated.",
-  "freeSpeech.legalSupport": "If Your Speech Was Restricted, the ACLU May Help",
+    "You can protest on public sidewalks and in parks with no permit. Learn what police can and cannot do. Learn what to do if your rights are broken.",
+  "freeSpeech.legalSupport":
+    "If Your Speech Was Punished, the ACLU May Help",
   "freeSpeech.legalSupportDesc":
-    "If the government punished you for speaking, protesting, or publishing, you may have a First Amendment case. Submit your situation for review.",
+    "Did the government punish you for speaking, protesting, or publishing? You may have a First Amendment case. Submit your story for review.",
   "freeSpeech.knowRightsProtest": "What to Do If Arrested at a Protest",
   "freeSpeech.knowRightsProtestDesc":
-    "Do not say anything except \u2018I want a lawyer.\u2019 This guide covers what to do if you are arrested, detained, or your phone is seized at a protest.",
+    "Say only: \u2018I want a lawyer.\u2019 This guide covers arrest, detention, and police taking your phone at a protest.",
   "freeSpeech.phone": "212-679-5100",
   "freeSpeech.phoneDesc":
-    "National Lawyers Guild --- free speech and civil liberties legal assistance",
+    "National Lawyers Guild --- free speech and civil liberties help",
 
   // Workers' Rights
   "workers.title": "Workers\u2019 Rights",
-  "workers.cardDesc": "Wage theft, workplace safety, labor board, unemployment",
+  "workers.cardDesc":
+    "Get your unpaid wages. Report unsafe work. File for unemployment.",
   "workers.pageDesc":
-    "Wage theft, workplace safety, labor board complaints, and unemployment insurance.",
-  "workers.wageHour": "You Are Entitled to Every Dollar You Earned",
+    "Get back unpaid wages. Report unsafe work. File labor complaints. Apply for unemployment.",
+  "workers.wageHour": "You Are Owed Every Dollar You Earned",
   "workers.wageHourDesc":
-    "Wage theft is the most common form of theft in America. If you were not paid minimum wage, overtime, or your tips were taken --- the law protects you.",
-  "workers.safety": "You Can Report Unsafe Conditions Confidentially",
+    "Wage theft is the biggest kind of theft in America. If your boss did not pay minimum wage, overtime, or stole your tips --- the law is on your side.",
+  "workers.safety": "Report Unsafe Work --- In Private",
   "workers.safetyDesc":
-    "OSHA protects workers. You can file a confidential complaint about unsafe conditions, and your employer cannot legally retaliate.",
-  "workers.complaint": "File a Wage Theft Complaint --- No Cost",
+    "OSHA protects workers. File a private complaint about unsafe work. Your boss cannot punish you for it.",
+  "workers.complaint": "File a Wage Theft Complaint --- Free",
   "workers.complaintDesc":
-    "The Department of Labor will investigate your employer at no cost. You do not need a lawyer. File online now.",
-  "workers.unemployment": "Apply for Unemployment Benefits",
+    "The Department of Labor will investigate your boss for free. You do not need a lawyer. File online now.",
+  "workers.unemployment": "Apply for Unemployment",
   "workers.unemploymentDesc":
-    "If you lost your job, you likely qualify. Every state has an online application. You have paid into this system --- these are benefits you have earned.",
+    "If you lost your job, you likely qualify. Apply online in your state. You paid into this system. These are benefits you earned.",
   "workers.phone": "1-866-4-USWAGE (1-866-487-2365)",
   "workers.phoneDesc": "Department of Labor --- wage and hour violations",
 
   // Food
   "food.title": "Food",
-  "food.cardDesc": "Food stamps, food banks, school meals, hunger hotline",
+  "food.cardDesc":
+    "SNAP (food stamps). Free groceries. Free school meals. Food today.",
   "food.pageDesc":
-    "Food assistance, SNAP benefits, food banks, and free school meals.",
-  "food.snapEligibility": "You May Already Qualify for Food Assistance",
+    "SNAP (food stamps). Free groceries. Free school meals. Help getting food today.",
+  "food.snapEligibility": "You May Already Qualify for Food Help",
   "food.snapEligibilityDesc":
-    "Millions of Americans qualify for SNAP (food stamps) but never apply. If you are struggling to afford groceries, you may be eligible for monthly benefits --- no matter your age or family size.",
-  "food.schoolMeals": "Your Children Can Eat Free at School",
+    "Millions of Americans qualify for SNAP (food stamps) but never apply. If groceries are hard to pay for, you may get monthly help. Age and family size do not matter.",
+  "food.schoolMeals": "Your Kids Can Eat Free at School",
   "food.schoolMealsDesc":
-    "If your family has a low income, your children can get free breakfast and lunch every school day. This is a federal program --- every public school in America participates.",
+    "If your family has a low income, your kids eat free at school. Free breakfast and free lunch every school day. Every public school in America takes part.",
   "food.foodBank": "Find Free Food Near You",
   "food.foodBankDesc":
-    "Food banks give out free groceries --- no ID, no paperwork, no questions asked. Enter your zip code to find one near you right now.",
+    "Food banks give out free groceries. No ID. No paperwork. No questions asked. Enter your zip code to find one near you right now.",
   "food.snapApply": "Apply for SNAP (Food Stamps)",
   "food.snapApplyDesc":
-    "SNAP puts money on a card every month for groceries. You can apply online through your state. If you qualify, benefits can start within 30 days.",
+    "SNAP puts money on a card every month for groceries. Apply online in your state. If you qualify, benefits can start in 30 days.",
   "food.phone": "1-866-3-HUNGRY (1-866-348-6479)",
   "food.phoneDesc":
     "USDA National Hunger Hotline --- free help finding food near you",

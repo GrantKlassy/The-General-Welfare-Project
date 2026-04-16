@@ -3,7 +3,7 @@ set -euo pipefail
 
 # Translate en.ts to target locale(s) using claude -p
 # Usage: ./scripts/translate.sh [locale]
-#   locale: es, zh, or vi (omit for all three)
+#   locale: es, zh-Hans, vi, or fil (omit for all four)
 #   MODEL env var overrides model (default: sonnet)
 
 REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
@@ -11,18 +11,18 @@ I18N_DIR="$REPO_ROOT/src/i18n"
 EN_FILE="$I18N_DIR/en.ts"
 MODEL="${MODEL:-sonnet}"
 
-ALL_TARGETS=(es zh vi tl)
+ALL_TARGETS=(es zh-Hans vi fil)
 
 declare -A LOCALE_NAMES=(
   [es]="Spanish as spoken by US-based Latino communities (use tú, not usted)"
-  [zh]="Simplified Chinese as used by US-based Chinese-speaking communities"
+  [zh-Hans]="Simplified Chinese as used by US-based Chinese-speaking communities"
   [vi]="Vietnamese as used by US-based Vietnamese-speaking communities"
-  [tl]="Tagalog as spoken by US-based Filipino communities"
+  [fil]="Tagalog as spoken by US-based Filipino communities"
 )
 
 if [[ $# -ge 1 ]]; then
   if [[ -z "${LOCALE_NAMES[$1]+x}" ]]; then
-    echo "ERROR: Unknown locale '$1'. Valid: es, zh, vi"
+    echo "ERROR: Unknown locale '$1'. Valid: es, zh-Hans, vi, fil"
     exit 1
   fi
   TARGETS=("$1")

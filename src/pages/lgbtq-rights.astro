@@ -1,88 +1,52 @@
 ---
 import Base from "../layouts/Base.astro";
-import ResourceLink from "../components/ResourceLink.astro";
+import CategorySection from "../components/CategorySection.astro";
+import { t } from "../i18n";
 ---
 
 <Base
-  title="LGBTQ+ Rights --- The General Welfare Project"
+  title={`${t("en", "lgbtq.title")} — ${t("en", "site.title")}`}
   currentPath="/lgbtq-rights"
 >
-  <div class="mx-auto max-w-3xl px-4 py-10 sm:px-6 sm:py-16">
-    <h1 class="text-center text-3xl font-bold sm:text-4xl">LGBTQ+ Rights</h1>
-    <p class="mt-3 text-center text-base text-gray-300 sm:mt-4 sm:text-lg">
-      Anti-discrimination protections, trans rights, and support organizations.
-    </p>
-
-    <section class="mt-8 sm:mt-10">
-      <h2 class="text-center text-xl font-bold sm:text-2xl">
-        <span class="text-flag-red">[[[</span> ★ Know Your Rights ★ <span
-          class="text-flag-red">]]]</span
-        >
-      </h2>
-      <div class="mt-4 grid gap-3">
-        <ResourceLink
-          href="https://www.eeoc.gov/filing-charge-discrimination"
-          title="Discrimination Based on Identity Is Illegal"
-          description="Federal law prohibits discrimination at work, in housing, and in public spaces based on who you are. If you have experienced discrimination, you can file a charge here."
-        />
-        <ResourceLink
-          href="https://transequality.org/documents"
-          title="Updating Your Name and ID Documents"
-          description="Step-by-step guides to changing your name, gender marker on IDs, and accessing healthcare --- for every state."
-        />
-      </div>
-    </section>
-
-    <section class="mt-8 sm:mt-10">
-      <h2 class="text-center text-xl font-bold sm:text-2xl">
-        [[[ ★ Get Help ★ ]]]
-      </h2>
-      <div class="mt-4 grid gap-3">
-        <ResourceLink
-          href="https://www.lambdalegal.org/helpdesk"
-          title="Free Legal Help Is Available"
-          description="Lambda Legal's help desk takes cases for free. If you have been discriminated against, fired, denied housing, or denied healthcare because of who you are --- you can contact them for assistance."
-        />
-        <ResourceLink
-          href="https://www.lgbthotline.org"
-          title="Talk to Someone Who Understands"
-          description="Confidential peer support from people who understand. Chat, text, or call --- available to any LGBTQ+ person, not only during crisis situations."
-        />
-      </div>
-    </section>
-
-    <section class="mt-8 sm:mt-10">
-      <h2 class="text-center text-xl font-bold sm:text-2xl">
-        <span class="text-flag-blue">[[[</span> ★ Call Now ★ <span
-          class="text-flag-blue">]]]</span
-        >
-      </h2>
-      <div class="mt-4 grid gap-3">
-        <a
-          href="tel:988"
-          class="block rounded-lg border border-neutral-800 px-4 py-3.5 transition-colors hover:border-neutral-600 hover:bg-neutral-900 sm:px-5 sm:py-4"
-        >
-          <span class="font-bold">988</span>
-          <span class="mt-1 block text-sm text-gray-400"
-            >Suicide & Crisis Lifeline --- press 3 for LGBTQ+ support</span
-          >
-        </a>
-        <a
-          href="tel:866-488-7386"
-          class="block rounded-lg border border-neutral-800 px-4 py-3.5 transition-colors hover:border-neutral-600 hover:bg-neutral-900 sm:px-5 sm:py-4"
-        >
-          <span class="font-bold">866-488-7386</span>
-          <span class="mt-1 block text-sm text-gray-400"
-            >The Trevor Project --- crisis support for LGBTQ+ youth</span
-          >
-        </a>
-      </div>
-    </section>
-
-    <a
-      href="/"
-      class="mt-10 block text-center text-gray-400 hover:text-white sm:mt-12"
-      >[[[ Home ]]]</a
-    >
-  </div>
+  <CategorySection
+    locale="en"
+    title={t("en", "lgbtq.title")}
+    intro={t("en", "lgbtq.pageDesc")}
+    callNow={[
+      {
+        tel: "988",
+        label: t("en", "lgbtq.phone988"),
+        desc: t("en", "lgbtq.phone988Desc"),
+      },
+      {
+        tel: "866-488-7386",
+        label: t("en", "lgbtq.phoneTrevor"),
+        desc: t("en", "lgbtq.phoneTrevorDesc"),
+      },
+    ]}
+    getHelp={[
+      {
+        href: "https://www.lambdalegal.org/helpdesk",
+        title: t("en", "lgbtq.legalSupport"),
+        description: t("en", "lgbtq.legalSupportDesc"),
+      },
+      {
+        href: "https://www.lgbthotline.org",
+        title: t("en", "lgbtq.crisisResources"),
+        description: t("en", "lgbtq.crisisResourcesDesc"),
+      },
+    ]}
+    knowYourRights={[
+      {
+        href: "https://www.eeoc.gov/filing-charge-discrimination",
+        title: t("en", "lgbtq.antiDiscrimination"),
+        description: t("en", "lgbtq.antiDiscriminationDesc"),
+      },
+      {
+        href: "https://transequality.org/documents",
+        title: t("en", "lgbtq.transRights"),
+        description: t("en", "lgbtq.transRightsDesc"),
+      },
+    ]}
+  />
 </Base>

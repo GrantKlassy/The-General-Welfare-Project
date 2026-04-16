@@ -12,7 +12,7 @@ const isHome = currentPath === "/";
 
 <nav
   aria-label="Language"
-  class={`flex flex-wrap justify-center gap-y-2 text-sm ${isHome ? "" : "sm:justify-between"}`}
+  class={`flex flex-wrap justify-center gap-y-2 ${isHome ? "" : "sm:justify-between"}`}
 >
   {
     !isHome && (
@@ -32,7 +32,7 @@ const isHome = currentPath === "/";
         ) : (
           <a
             href={localePath(code, currentPath)}
-            class="py-1.5 text-gray-400 hover:text-white"
+            class="py-1.5 hover:text-white"
             lang={code}
           >
             {nativeName}

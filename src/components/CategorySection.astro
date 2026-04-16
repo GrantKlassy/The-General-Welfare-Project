@@ -1,0 +1,96 @@
+---
+import ResourceLink from "./ResourceLink.astro";
+import PhoneLink from "./PhoneLink.astro";
+import { localePath, t, type Locale } from "../i18n";
+
+interface CallNowItem {
+  tel: string;
+  label: string;
+  desc: string;
+  ariaLabel?: string;
+}
+
+interface ResourceItem {
+  href: string;
+  title: string;
+  description: string;
+}
+
+interface Props {
+  locale: Locale;
+  title: string;
+  intro: string;
+  callNow: CallNowItem[];
+  getHelp: ResourceItem[];
+  knowYourRights: ResourceItem[];
+}
+
+const { locale, title, intro, callNow, getHelp, knowYourRights } = Astro.props;
+---
+
+<div class="mx-auto max-w-3xl px-4 py-10 sm:px-6 sm:py-16">
+  <h1 class="text-center text-3xl font-bold sm:text-4xl">{title}</h1>
+  <p class="mt-3 text-center sm:mt-4 sm:text-lg">{intro}</p>
+
+  <section class="mt-10 sm:mt-12">
+    <h2 class="text-center text-xl font-bold sm:text-2xl">
+      <span class="text-flag-blue">[[[</span> ★ {
+        t(locale, "common.callNow")
+      } ★ <span class="text-flag-blue">]]]</span>
+    </h2>
+    <div class="mt-6 grid gap-6">
+      {
+        callNow.map((item) => (
+          <PhoneLink
+            tel={item.tel}
+            label={item.label}
+            desc={item.desc}
+            ariaLabel={item.ariaLabel}
+          />
+        ))
+      }
+    </div>
+  </section>
+
+  <section class="mt-10 sm:mt-12">
+    <h2 class="text-center text-xl font-bold sm:text-2xl">
+      [[[ ★ {t(locale, "common.getHelp")} ★ ]]]
+    </h2>
+    <div class="mt-6 grid gap-6">
+      {
+        getHelp.map((item) => (
+          <ResourceLink
+            href={item.href}
+            title={item.title}
+            description={item.description}
+          />
+        ))
+      }
+    </div>
+  </section>
+
+  <section class="mt-10 sm:mt-12">
+    <h2 class="text-center text-xl font-bold sm:text-2xl">
+      <span class="text-flag-red">[[[</span> ★ {
+        t(locale, "common.knowYourRights")
+      } ★ <span class="text-flag-red">]]]</span>
+    </h2>
+    <div class="mt-6 grid gap-6">
+      {
+        knowYourRights.map((item) => (
+          <ResourceLink
+            href={item.href}
+            title={item.title}
+            description={item.description}
+          />
+        ))
+      }
+    </div>
+  </section>
+
+  <a
+    href={localePath(locale, "/")}
+    class="mt-10 block text-center hover:text-white sm:mt-12"
+    >[[[ {t(locale, "common.home")} ]]]</a
+  >
+</div>

@@ -6,9 +6,9 @@ import { t, localePath, type Locale } from "../../i18n";
 export function getStaticPaths() {
   return [
     { params: { locale: "es" } },
-    { params: { locale: "zh" } },
+    { params: { locale: "zh-Hans" } },
     { params: { locale: "vi" } },
-    { params: { locale: "tl" } },
+    { params: { locale: "fil" } },
   ];
 }
 
@@ -17,10 +17,11 @@ const locale = Astro.params.locale as Locale;
 
 <Base title={t(locale, "site.title")} lang={locale} currentPath="/">
   <div
-    class="mx-auto max-w-3xl px-4 py-10 text-center sm:px-6 sm:py-16 lg:max-w-5xl"
+    class="mx-auto max-w-3xl px-4 pt-4 pb-10 text-center sm:px-6 sm:pt-6 sm:pb-16 lg:max-w-5xl"
   >
     <h1 class="text-3xl font-bold sm:text-4xl">{t(locale, "site.title")}</h1>
-    <p class="mt-4 text-lg sm:text-xl">
+
+    <p class="mt-8 text-lg sm:mt-10 sm:text-xl">
       <span class="text-flag-red">[[[</span> ★ {
         t(locale, "common.knowYourRights")
       } ★ <span class="text-flag-red">]]]</span>
@@ -32,7 +33,7 @@ const locale = Astro.params.locale as Locale;
       >
     </p>
 
-    <div class="mt-8 grid gap-3 sm:mt-10 sm:gap-4 lg:grid-cols-2">
+    <div class="mt-6 grid gap-6 sm:mt-8 lg:grid-cols-2">
       <CategoryCard
         title={t(locale, "food.title")}
         description={t(locale, "food.cardDesc")}
@@ -68,15 +69,14 @@ const locale = Astro.params.locale as Locale;
     <img
       src="/flag_usa.svg"
       alt="American flag"
-      class="mx-auto mt-8 w-1/2 sm:mt-10"
+      class="mx-auto mt-10 w-1/2 sm:mt-12"
     />
-    <p class="mx-auto mt-4 max-w-xl text-xs text-gray-400">
+    <p class="mx-auto mt-4 max-w-xl">
       We the People of the United States, in Order to form a more perfect Union,
       establish Justice, insure domestic Tranquility, provide for the common
-      defence, promote the <span class="text-[var(--color-text)]"
-        >GENERAL WELFARE</span
-      >, and secure the Blessings of Liberty to ourselves and our Posterity, do
-      ordain and establish this Constitution for the United States of America.
+      defence, promote the <span class="font-bold">GENERAL WELFARE</span>, and
+      secure the Blessings of Liberty to ourselves and our Posterity, do ordain
+      and establish this Constitution for the United States of America.
     </p>
   </div>
 </Base>

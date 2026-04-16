@@ -68,7 +68,7 @@ const {
       }
     </style>
     {
-      lang === "zh" && (
+      lang === "zh-Hans" && (
         <style is:inline>
           body {
             font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans SC",
@@ -83,7 +83,7 @@ const {
     <main>
       <slot />
     </main>
-    <Footer locale={lang} />
+    <Footer locale={lang} currentPath={currentPath} />
 
     <script is:inline>
       const reveal = () => document.body.classList.add("ready");

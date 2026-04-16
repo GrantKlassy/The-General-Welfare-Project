@@ -1,76 +1,47 @@
 ---
 import Base from "../layouts/Base.astro";
-import ResourceLink from "../components/ResourceLink.astro";
+import CategorySection from "../components/CategorySection.astro";
+import { t } from "../i18n";
 ---
 
-<Base title="Voting --- The General Welfare Project" currentPath="/voting">
-  <div class="mx-auto max-w-3xl px-4 py-10 sm:px-6 sm:py-16">
-    <h1 class="text-center text-3xl font-bold sm:text-4xl">Voting</h1>
-    <p class="mt-3 text-center text-base text-gray-300 sm:mt-4 sm:text-lg">
-      Registration, polling info, voter ID laws, and election protection.
-    </p>
-
-    <section class="mt-8 sm:mt-10">
-      <h2 class="text-center text-xl font-bold sm:text-2xl">
-        <span class="text-flag-red">[[[</span> ★ Know Your Rights ★ <span
-          class="text-flag-red">]]]</span
-        >
-      </h2>
-      <div class="mt-4 grid gap-3">
-        <ResourceLink
-          href="https://vote.gov"
-          title="Register to Vote"
-          description="It takes about 2 minutes. Check your registration status, and if needed, register online here."
-        />
-        <ResourceLink
-          href="https://www.vote.org/voter-id-laws/"
-          title="Check What ID You Need to Vote"
-          description="Every state is different. Look up exactly what ID your state requires --- some states require none at all."
-        />
-      </div>
-    </section>
-
-    <section class="mt-8 sm:mt-10">
-      <h2 class="text-center text-xl font-bold sm:text-2xl">
-        [[[ ★ Get Help ★ ]]]
-      </h2>
-      <div class="mt-4 grid gap-3">
-        <ResourceLink
-          href="https://www.vote.org/polling-place-locator/"
-          title="Find Your Polling Place"
-          description="Enter your address and get your exact polling location, hours, and what is on your ballot."
-        />
-        <ResourceLink
-          href="https://866ourvote.org"
-          title="Report Voter Intimidation or Problems"
-          description="If someone tries to prevent you from voting, it is a federal crime. You can report it and get immediate help from trained legal volunteers."
-        />
-      </div>
-    </section>
-
-    <section class="mt-8 sm:mt-10">
-      <h2 class="text-center text-xl font-bold sm:text-2xl">
-        <span class="text-flag-blue">[[[</span> ★ Call Now ★ <span
-          class="text-flag-blue">]]]</span
-        >
-      </h2>
-      <div class="mt-4 grid gap-3">
-        <a
-          href="tel:866-687-8683"
-          class="block rounded-lg border border-neutral-800 px-4 py-3.5 transition-colors hover:border-neutral-600 hover:bg-neutral-900 sm:px-5 sm:py-4"
-        >
-          <span class="font-bold">866-OUR-VOTE (866-687-8683)</span>
-          <span class="mt-1 block text-sm text-gray-400"
-            >Election Protection Hotline --- nonpartisan voter assistance</span
-          >
-        </a>
-      </div>
-    </section>
-
-    <a
-      href="/"
-      class="mt-10 block text-center text-gray-400 hover:text-white sm:mt-12"
-      >[[[ Home ]]]</a
-    >
-  </div>
+<Base
+  title={`${t("en", "voting.title")} — ${t("en", "site.title")}`}
+  currentPath="/voting"
+>
+  <CategorySection
+    locale="en"
+    title={t("en", "voting.title")}
+    intro={t("en", "voting.pageDesc")}
+    callNow={[
+      {
+        tel: "866-687-8683",
+        label: t("en", "voting.phone"),
+        desc: t("en", "voting.phoneDesc"),
+      },
+    ]}
+    getHelp={[
+      {
+        href: "https://www.vote.org/polling-place-locator/",
+        title: t("en", "voting.pollingPlace"),
+        description: t("en", "voting.pollingPlaceDesc"),
+      },
+      {
+        href: "https://866ourvote.org",
+        title: t("en", "voting.electionProtection"),
+        description: t("en", "voting.electionProtectionDesc"),
+      },
+    ]}
+    knowYourRights={[
+      {
+        href: "https://vote.gov",
+        title: t("en", "voting.registration"),
+        description: t("en", "voting.registrationDesc"),
+      },
+      {
+        href: "https://www.vote.org/voter-id-laws/",
+        title: t("en", "voting.voterId"),
+        description: t("en", "voting.voterIdDesc"),
+      },
+    ]}
+  />
 </Base>

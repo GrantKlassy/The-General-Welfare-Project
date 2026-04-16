@@ -1,17 +1,45 @@
 ---
 import { localePath, t, type Locale } from "../i18n";
+import PhoneLink from "./PhoneLink.astro";
 
 interface Props {
   locale?: Locale;
+  currentPath?: string;
 }
 
-const { locale = "en" } = Astro.props;
+const { locale = "en", currentPath = "/" } = Astro.props;
+const showSafety = currentPath !== "/";
 ---
 
-<footer
-  class="border-t border-neutral-800 px-4 py-4 text-sm text-gray-400 sm:px-6"
->
-  <div class="flex flex-col items-center gap-1 sm:flex-row sm:justify-between">
+<footer class="border-t border-neutral-800">
+  {
+    showSafety && (
+      <section
+        aria-labelledby="safety-heading"
+        class="px-4 py-6 sm:px-6 sm:py-8"
+      >
+        <h2 id="safety-heading" class="text-center text-lg font-bold sm:text-xl">
+          {t(locale, "footer.safetyHeading")}
+        </h2>
+        <div class="mx-auto mt-4 grid max-w-xl gap-3 sm:grid-cols-2 sm:gap-4">
+          <PhoneLink
+            tel="988"
+            label={t(locale, "footer.phone988")}
+            desc={t(locale, "footer.phone988Desc")}
+          />
+          <PhoneLink
+            tel="911"
+            label={t(locale, "footer.phone911")}
+            desc={t(locale, "footer.phone911Desc")}
+          />
+        </div>
+      </section>
+    )
+  }
+  <div
+    class="flex flex-col items-center gap-1 px-4 py-4 sm:flex-row sm:justify-between sm:px-6"
+    class:list={[showSafety && "border-t border-neutral-800"]}
+  >
     <p>
       &copy; {new Date().getFullYear()}
       <a
