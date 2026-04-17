@@ -1,41 +1,55 @@
 # [🇺🇸 The General Welfare Project 🇺🇸](https://generalwelfareproject.com)
 
-### 🟥🟥🟥 Know your rights 🟥🟥🟥
+Code last updated @ [2026-04-16](https://github.com/GrantKlassy/The-General-Welfare-Project/commits/main)
 
-### ⬜⬜⬜ Find help ⬜⬜⬜
+### 🟥🟥🟥 Call now 🟥🟥🟥
 
-### 🟦🟦🟦 Call now 🟦🟦🟦
+### ⬜⬜⬜ Get help ⬜⬜⬜
+
+### 🟦🟦🟦 Know your rights 🟦🟦🟦
 
 ## What is this project
 
-I built a landing page to help underserved Americans access free resources and information. It is optimized for low-end devices and available in multiple languages to reach the people who need it most.
+I built a landing page to help underserved Americans access free resources and information. Every button names one of your rights and links straight to the agency or hotline that can actually help today — never to a search engine, never to an explainer. Optimized for low-end devices and available in five languages to reach the people who need it most.
 
 ## Optimizing for all Americans
 
 - ~44 KB per page. 2.3 KB of JS. Zero frameworks. Zero tracking.
-- Off-black background (`#0a0a0a`) for battery life, without OLED pixels having visible smearing or ghosting.
+- Off-black background (`#0a0a0a`) for battery life and reduced glare.
 - Slightly off-white text (`#e2e2e2`) to reduce eye strain from maximum contrast while keeping readability high.
+- 17 px root font, WCAG-safe flag colors, and respects `prefers-contrast`, `prefers-reduced-motion`, and system high-contrast mode.
+- All copy written at a Grade-6 reading level, consistent across every translation.
+- Every resource page ends in a safety footer linking 988 (Suicide & Crisis Lifeline) and 911.
 - Tested on simulated $150 Android over LTE (70ms RTT, 12 Mbps, 4x CPU slowdown).
 - Lighthouse CI enforces:
 
-  | Metric                        | Budget   | Actual   |
-  | ----------------------------- | -------- | -------- |
-  | First Contentful Paint (FCP)  | 1,800 ms | 1,529 ms |
-  | Speed Index                   | 2,000 ms | 1,529 ms |
-  | Cumulative Layout Shift (CLS) | 0.1      | 0        |
-  | Accessibility score           | 90       | 100      |
-  | Best practices score          | 90       | 100      |
-  | DOM size                      | 1,500    | 474      |
+  <!-- metrics:lighthouse:start -->
+
+  | Metric                        | Budget   | Actual |
+  | ----------------------------- | -------- | ------ |
+  | First Contentful Paint (FCP)  | 1,800 ms | 423 ms |
+  | Speed Index                   | 2,000 ms | 423 ms |
+  | Cumulative Layout Shift (CLS) | 0.1      | 0      |
+  | Accessibility score           | 90       | 100    |
+  | Best practices score          | 90       | 100    |
+  | DOM size                      | 1,500    | 62     |
+
+  <!-- metrics:lighthouse:end -->
 
 - Playwright enforces per page:
 
+  <!-- metrics:playwright:start -->
+
   | Metric         | Budget   | Actual |
   | -------------- | -------- | ------ |
-  | Page load time | 2,000 ms | 19 ms  |
-  | FCP            | 1,500 ms | 64 ms  |
+  | Page load time | 2,000 ms | 46 ms  |
+  | FCP            | 1,500 ms | 236 ms |
   | Transfer size  | 300 KB   | 33 KB  |
   | JS heap memory | 10 MB    | 1.1 MB |
-  | DOM nodes      | 1,500    | 60     |
+  | DOM nodes      | 1,500    | 75     |
+
+  <!-- metrics:playwright:end -->
+
 - Available in English, Spanish, Chinese, Vietnamese, and Filipino.
 
 #
