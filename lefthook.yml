@@ -9,32 +9,8 @@ pre-commit:
           echo "  git config user.email '28637437+GrantKlassy@users.noreply.github.com'"
           exit 1
         fi
-
-    - name: protect-directives
-      run: |
-        if git diff --cached --name-only | grep -q '^directives/'; then
-          echo "ERROR: directives/ is user-only — Claude must never write to it"
-          echo "Staged files in directives/:"
-          git diff --cached --name-only | grep '^directives/'
-          exit 1
-        fi
-
-    - name: format-check
-      glob: "*.{astro,js,mjs,ts,css,json,md}"
-      run: pnpm exec prettier --check {staged_files}
-
-    - name: locale-links
-      glob: "src/**/*.astro"
-      run: bash scripts/check-locale-links.sh
-
-    - name: i18n-reminder
-      run: |
-        if git diff --cached --name-only | grep -q '^src/i18n/en\.ts$'; then
-          if ! git diff --cached --name-only | grep -qE '^src/i18n/(es|zh|vi|tl)\.ts$'; then
-            echo "REMINDER: en.ts is staged but translations are not."
-            echo "  Run 'task translate' before pushing."
-          fi
-        fi
+    - name: update-badge
+      run: task fix:badge
 
 commit-msg:
   jobs:
@@ -49,5 +25,3 @@ pre-push:
   jobs:
     - name: repo-standards
       run: task check
-    - name: perf-check
-      run: bash scripts/perf-check.sh

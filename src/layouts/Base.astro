@@ -45,13 +45,6 @@ const {
     />
 
     <style is:inline>
-      body {
-        opacity: 0;
-        transition: opacity 0.05s ease-in;
-      }
-      body.ready {
-        opacity: 1;
-      }
       @font-face {
         font-family: "Inclusive Sans";
         src: url("/fonts/inclusive-sans-v4-latin-regular.woff2") format("woff2");
@@ -69,12 +62,10 @@ const {
     </style>
     {
       lang === "zh-Hans" && (
-        <style is:inline>
-          body {
-            font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans SC",
-              sans-serif;
-          }
-        </style>
+        <style
+          is:inline
+          set:html={`body { font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans SC", sans-serif; }`}
+        />
       )
     }
   </head>
@@ -84,13 +75,5 @@ const {
       <slot />
     </main>
     <Footer locale={lang} currentPath={currentPath} />
-
-    <script is:inline>
-      const reveal = () => document.body.classList.add("ready");
-      if (document.fonts?.ready) {
-        document.fonts.ready.then(reveal);
-      }
-      setTimeout(reveal, 300);
-    </script>
   </body>
 </html>

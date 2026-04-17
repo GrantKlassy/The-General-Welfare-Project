@@ -8,6 +8,7 @@ node_modules/
 # Playwright
 test-results/
 playwright-report/
+.perf-results/
 
 # Lighthouse CI
 .lighthouseci/
@@ -15,6 +16,9 @@ playwright-report/
 # Editor
 .vscode/
 .idea/
+
+# Claude Code
+.claude/
 
 # OS
 .DS_Store

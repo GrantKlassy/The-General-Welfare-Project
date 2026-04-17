@@ -36,7 +36,8 @@ export default {
   "housing.legalAidDesc":
     "Humingi ng libreng abogado para sa pagpapaalis, mga hindi ligtas na bahay, o mga away sa may-ari ng lupa. Libre at bukas ang legal na tulong sa bawat estado.",
   "housing.phone": "211",
-  "housing.phoneDesc": "Tulong sa pabahay, pagkain, mga utility, at mga bayarin",
+  "housing.phoneDesc":
+    "Tulong sa pabahay, pagkain, mga utility, at mga bayarin",
 
   // Voting
   "voting.title": "Pagboto",
@@ -66,7 +67,8 @@ export default {
     "Mga batas na nagpoprotekta sa iyo. Mga karapatan ng trans. Libreng suporta.",
   "lgbtq.pageDesc":
     "Mga batas na nagpoprotekta sa iyo. Mga karapatan ng trans. Libreng suporta.",
-  "lgbtq.antiDiscrimination": "Ang Diskriminasyon Batay sa Pagkakakilanlan ay Ilegal",
+  "lgbtq.antiDiscrimination":
+    "Ang Diskriminasyon Batay sa Pagkakakilanlan ay Ilegal",
   "lgbtq.antiDiscriminationDesc":
     "Pinoprotektahan ka ng batas pederal sa trabaho, sa pabahay, at sa mga pampublikong lugar. Ito ay batay sa kung sino ka. Kung ikaw ay nadiskrimina, magsampa ng kaso dito.",
   "lgbtq.transRights": "I-update ang Iyong Pangalan at ID",
@@ -101,7 +103,8 @@ export default {
     "Kung ang Iyong Pagsasalita ay Pinarusahan, Maaaring Tumulong ang ACLU",
   "freeSpeech.legalSupportDesc":
     "Pinarusahan ka ba ng gobyerno dahil sa pagsasalita, pagprotesta, o paglalathala? Maaaring mayroon kang kaso sa Unang Susog. Isumite ang iyong kwento para sa pagsusuri.",
-  "freeSpeech.knowRightsProtest": "Ano ang Gagawin Kung Arestuhin sa Isang Protesta",
+  "freeSpeech.knowRightsProtest":
+    "Ano ang Gagawin Kung Arestuhin sa Isang Protesta",
   "freeSpeech.knowRightsProtestDesc":
     "Sabihin lamang: \u2018Gusto ko ng abogado.\u2019 Saklaw ng gabay na ito ang pag-aresto, pagdetine, at pagkuha ng pulisya ng iyong telepono sa isang protesta.",
   "freeSpeech.phone": "212-679-5100",
@@ -127,8 +130,7 @@ export default {
   "workers.unemploymentDesc":
     "Kung nawalan ka ng trabaho, malamang na kwalipikado ka. Mag-apply online sa iyong estado. Nagbayad ka sa sistemang ito. Ito ang mga benepisyong iyong kinita.",
   "workers.phone": "1-866-4-USWAGE (1-866-487-2365)",
-  "workers.phoneDesc":
-    "Kagawaran ng Paggawa --- mga paglabag sa sahod at oras",
+  "workers.phoneDesc": "Kagawaran ng Paggawa --- mga paglabag sa sahod at oras",
 
   // Food
   "food.title": "Pagkain",
@@ -140,7 +142,8 @@ export default {
     "Maaari Ka Nang Maging Kwalipikado para sa Tulong sa Pagkain",
   "food.snapEligibilityDesc":
     "Milyun-milyong Amerikano ang kwalipikado para sa SNAP (mga food stamp) ngunit hindi kailanman nag-aaplay. Kung mahirap bayaran ang mga grocery, maaari kang makakuha ng buwanang tulong. Hindi mahalaga ang edad at laki ng pamilya.",
-  "food.schoolMeals": "Maaaring Kumain nang Libre ang Iyong mga Anak sa Paaralan",
+  "food.schoolMeals":
+    "Maaaring Kumain nang Libre ang Iyong mga Anak sa Paaralan",
   "food.schoolMealsDesc":
     "Kung mababa ang kita ng iyong pamilya, libre ang pagkain ng iyong mga anak sa paaralan. Libreng almusal at libreng tanghalian tuwing araw ng pasukan. Nakikilahok ang bawat pampublikong paaralan sa Amerika.",
   "food.foodBank": "Maghanap ng Libreng Pagkain Malapit sa Iyo",

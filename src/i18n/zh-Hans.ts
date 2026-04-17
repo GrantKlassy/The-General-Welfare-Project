@@ -37,8 +37,7 @@ export default {
 
   // Voting
   "voting.title": "投票",
-  "voting.cardDesc":
-    "登记投票。查找您的投票地点。了解选民身份证明（ID）规则。",
+  "voting.cardDesc": "登记投票。查找您的投票地点。了解选民身份证明（ID）规则。",
   "voting.pageDesc":
     "登记投票。查找您的投票地点。了解选民身份证明规则。报告问题。",
   "voting.registration": "登记投票",

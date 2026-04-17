@@ -1,4 +1,8 @@
 import { test, expect } from "@playwright/test";
+import fs from "node:fs";
+import path from "node:path";
+
+const RESULTS_DIR = path.join(process.cwd(), ".perf-results");
 
 const PAGES = [
   "/",
@@ -21,6 +25,15 @@ const BUDGETS = {
 };
 
 test.describe("Performance budgets", () => {
+  test.beforeAll(({}, testInfo) => {
+    // Fresh results dir on the project that actually produces results. Other
+    // projects skip the tests, but their beforeAll would race and wipe the
+    // dir after it was populated.
+    if (testInfo.project.name !== "budget-android-360x800") return;
+    fs.rmSync(RESULTS_DIR, { recursive: true, force: true });
+    fs.mkdirSync(RESULTS_DIR, { recursive: true });
+  });
+
   test.beforeEach(async ({}, testInfo) => {
     test.skip(
       testInfo.project.name !== "budget-android-360x800",
@@ -32,14 +45,37 @@ test.describe("Performance budgets", () => {
     test(`${url} meets performance budgets`, async ({ page }) => {
       await page.goto(url, { waitUntil: "load" });
 
-      const metrics = await page.evaluate(() => {
+      const metrics = await page.evaluate(async () => {
+        // Base.astro keeps body opacity:0 until fonts load, which delays FCP
+        // past the load event. Poll for the paint entry with PerformanceObserver
+        // as a fallback to catch late paint emissions.
+        let fcpEntry: PerformanceEntry | undefined = performance
+          .getEntriesByType("paint")
+          .find((e) => e.name === "first-contentful-paint");
+
+        if (!fcpEntry) {
+          fcpEntry = await new Promise<PerformanceEntry | undefined>(
+            (resolve) => {
+              const timer = setTimeout(() => resolve(undefined), 3000);
+              const obs = new PerformanceObserver((list) => {
+                const entry = list
+                  .getEntries()
+                  .find((e) => e.name === "first-contentful-paint");
+                if (entry) {
+                  clearTimeout(timer);
+                  obs.disconnect();
+                  resolve(entry);
+                }
+              });
+              obs.observe({ type: "paint", buffered: true });
+            },
+          );
+        }
+
         const nav = performance.getEntriesByType(
           "navigation",
         )[0] as PerformanceNavigationTiming;
-        const paintEntries = performance.getEntriesByType("paint");
-        const fcp = paintEntries.find(
-          (e) => e.name === "first-contentful-paint",
-        );
+        const fcp = fcpEntry;
         const resources = performance.getEntriesByType(
           "resource",
         ) as PerformanceResourceTiming[];
@@ -64,6 +100,12 @@ test.describe("Performance budgets", () => {
           domNodes: document.querySelectorAll("*").length,
         };
       });
+
+      const slug = url.replace(/[^\w]+/g, "_").replace(/^_|_$/g, "") || "home";
+      fs.writeFileSync(
+        path.join(RESULTS_DIR, `${slug}.json`),
+        JSON.stringify({ url, ...metrics }, null, 2),
+      );
 
       if (metrics.loadTime !== null) {
         expect(

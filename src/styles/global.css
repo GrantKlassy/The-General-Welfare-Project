@@ -2,10 +2,8 @@
 
 @theme {
   --font-sans: "Inclusive Sans", sans-serif;
-  --color-flag-red: #d93a4a;
-  --color-flag-red-deep: #b22234;
-  --color-flag-blue: #7b79c8;
-  --color-flag-blue-deep: #3c3b6e;
+  --color-flag-red: #b22234;
+  --color-flag-blue: #3c3b6e;
   --color-desc: #c9c9c9;
 }
 

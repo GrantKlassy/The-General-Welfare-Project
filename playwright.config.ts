@@ -13,6 +13,12 @@ export default defineConfig({
         ...devices["Desktop Chrome"],
         viewport: { width: 360, height: 800 },
         isMobile: true,
+        launchOptions: {
+          // Chrome quantizes performance.memory.usedJSHeapSize to 10 MB
+          // buckets for privacy. This flag returns the real value so the
+          // perf budget check and README actuals are meaningful.
+          args: ["--enable-precise-memory-info"],
+        },
       },
     },
     {

@@ -24,15 +24,18 @@ const isHome = currentPath === "/";
       </a>
     )
   }
-  <div class="flex gap-x-3">
+  <div class="lang-list w-full sm:w-auto" data-lang-list>
     {
       LOCALES.map(({ code, nativeName }) =>
         code === currentLocale ? (
-          <span class="py-1.5 text-white font-bold">{nativeName}</span>
+          <span class="lang-item py-1.5 text-white font-bold" data-lang-item>
+            {nativeName}
+          </span>
         ) : (
           <a
             href={localePath(code, currentPath)}
-            class="py-1.5 hover:text-white"
+            class="lang-item py-1.5 hover:text-white"
+            data-lang-item
             lang={code}
           >
             {nativeName}
@@ -42,3 +45,54 @@ const isHome = currentPath === "/";
     }
   </div>
 </nav>
+
+<style>
+  .lang-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 1.5rem;
+  }
+
+  .lang-item {
+    position: relative;
+  }
+
+  .lang-item:not(:first-child)::before {
+    content: "★";
+    position: absolute;
+    right: 100%;
+    width: 1.5rem;
+    text-align: center;
+    color: var(--color-flag-red);
+    pointer-events: none;
+  }
+
+  .lang-item.line-start::before {
+    content: none;
+  }
+</style>
+
+<script>
+  function updateSeparators() {
+    document
+      .querySelectorAll<HTMLElement>("[data-lang-list]")
+      .forEach((list) => {
+        const items = list.querySelectorAll<HTMLElement>("[data-lang-item]");
+        let prevTop: number | null = null;
+        items.forEach((item) => {
+          const top = item.getBoundingClientRect().top;
+          const isLineStart =
+            prevTop === null || Math.abs(top - prevTop) > 1;
+          item.classList.toggle("line-start", isLineStart);
+          prevTop = top;
+        });
+      });
+  }
+
+  updateSeparators();
+  window.addEventListener("resize", updateSeparators);
+  if (document.fonts) {
+    document.fonts.ready.then(updateSeparators);
+  }
+</script>

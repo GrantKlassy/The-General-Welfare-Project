@@ -34,9 +34,9 @@ const { locale, title, intro, callNow, getHelp, knowYourRights } = Astro.props;
 
   <section class="mt-10 sm:mt-12">
     <h2 class="text-center text-xl font-bold sm:text-2xl">
-      <span class="text-flag-blue">[[[</span> ★ {
-        t(locale, "common.callNow")
-      } ★ <span class="text-flag-blue">]]]</span>
+      <span class="text-flag-red">[[[</span> ★ {t(locale, "common.callNow")} ★ <span
+        class="text-flag-red">]]]</span
+      >
     </h2>
     <div class="mt-6 grid gap-6">
       {
@@ -54,7 +54,9 @@ const { locale, title, intro, callNow, getHelp, knowYourRights } = Astro.props;
 
   <section class="mt-10 sm:mt-12">
     <h2 class="text-center text-xl font-bold sm:text-2xl">
-      [[[ ★ {t(locale, "common.getHelp")} ★ ]]]
+      <span class="text-white">[[[</span> ★ {t(locale, "common.getHelp")} ★ <span
+        class="text-white">]]]</span
+      >
     </h2>
     <div class="mt-6 grid gap-6">
       {
@@ -71,9 +73,9 @@ const { locale, title, intro, callNow, getHelp, knowYourRights } = Astro.props;
 
   <section class="mt-10 sm:mt-12">
     <h2 class="text-center text-xl font-bold sm:text-2xl">
-      <span class="text-flag-red">[[[</span> ★ {
+      <span class="text-flag-blue">[[[</span> ★ {
         t(locale, "common.knowYourRights")
-      } ★ <span class="text-flag-red">]]]</span>
+      } ★ <span class="text-flag-blue">]]]</span>
     </h2>
     <div class="mt-6 grid gap-6">
       {

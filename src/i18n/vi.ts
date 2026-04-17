@@ -67,7 +67,8 @@ export default {
     "Các đạo luật bảo vệ bạn. Quyền của người chuyển giới. Hỗ trợ miễn phí.",
   "lgbtq.pageDesc":
     "Các đạo luật bảo vệ bạn. Quyền của người chuyển giới. Hỗ trợ miễn phí.",
-  "lgbtq.antiDiscrimination": "Phân biệt đối xử dựa trên bản dạng là bất hợp pháp",
+  "lgbtq.antiDiscrimination":
+    "Phân biệt đối xử dựa trên bản dạng là bất hợp pháp",
   "lgbtq.antiDiscriminationDesc":
     "Luật liên bang bảo vệ bạn tại nơi làm việc, trong vấn đề nhà ở và tại các không gian công cộng. Sự bảo vệ này dựa trên chính con người thật của bạn. Nếu bạn bị phân biệt đối xử, hãy nộp đơn khiếu nại tại đây.",
   "lgbtq.transRights": "Cập nhật Tên và Giấy tờ tùy thân",
@@ -102,9 +103,10 @@ export default {
     "Nếu lời nói của bạn bị trừng phạt, ACLU có thể hỗ trợ",
   "freeSpeech.legalSupportDesc":
     "Liệu chính quyền có trừng phạt bạn vì đã phát ngôn, biểu tình hay xuất bản tài liệu? Bạn có thể có cơ sở để khởi kiện dựa trên Tu chính án Thứ nhất. Hãy gửi câu chuyện của bạn để được xem xét.",
-  "freeSpeech.knowRightsProtest": "Cần làm gì nếu bị bắt giữ tại một cuộc biểu tình",
+  "freeSpeech.knowRightsProtest":
+    "Cần làm gì nếu bị bắt giữ tại một cuộc biểu tình",
   "freeSpeech.knowRightsProtestDesc":
-    "Chỉ nói duy nhất một câu: \"Tôi muốn có luật sư.\" Bản hướng dẫn này bao quát các tình huống liên quan đến việc bị bắt giữ, tạm giam, và việc cảnh sát thu giữ điện thoại của bạn trong khi biểu tình.",
+    'Chỉ nói duy nhất một câu: "Tôi muốn có luật sư." Bản hướng dẫn này bao quát các tình huống liên quan đến việc bị bắt giữ, tạm giam, và việc cảnh sát thu giữ điện thoại của bạn trong khi biểu tình.',
   "freeSpeech.phone": "212-679-5100",
   "freeSpeech.phoneDesc":
     "National Lawyers Guild (Hội Luật sư Quốc gia) — hỗ trợ về quyền tự do ngôn luận và các quyền tự do dân sự",
@@ -118,11 +120,13 @@ export default {
   "workers.wageHour":
     "Bạn xứng đáng nhận được trọn vẹn từng đồng tiền công mình đã làm ra",
   "workers.wageHourDesc":
-    "Ăn chặn tiền lương là hình thức trộm cắp lớn nhất tại Mỹ. Nếu sếp của bạn không trả lương tối thiểu, tiền làm thêm giờ, hoặc đã chiếm đoạt tiền \"tip\" (tiền boa) của bạn — pháp luật luôn đứng về phía bạn.",
-  "workers.safety": "Báo cáo điều kiện làm việc không an toàn — Một cách kín đáo",
+    'Ăn chặn tiền lương là hình thức trộm cắp lớn nhất tại Mỹ. Nếu sếp của bạn không trả lương tối thiểu, tiền làm thêm giờ, hoặc đã chiếm đoạt tiền "tip" (tiền boa) của bạn — pháp luật luôn đứng về phía bạn.',
+  "workers.safety":
+    "Báo cáo điều kiện làm việc không an toàn — Một cách kín đáo",
   "workers.safetyDesc":
     "OSHA (Cục An toàn và Sức khỏe Nghề nghiệp) bảo vệ người lao động. Hãy nộp đơn khiếu nại riêng tư về các điều kiện làm việc không an toàn. Sếp của bạn không được phép trừng phạt bạn vì việc này.",
-  "workers.complaint": "Nộp đơn khiếu nại về việc ăn chặn tiền lương — Hoàn toàn miễn phí",
+  "workers.complaint":
+    "Nộp đơn khiếu nại về việc ăn chặn tiền lương — Hoàn toàn miễn phí",
   "workers.complaintDesc":
     "Bộ Lao động sẽ tiến hành điều tra sếp của bạn hoàn toàn miễn phí. Bạn không cần phải thuê luật sư. Hãy nộp đơn trực tuyến ngay bây giờ.",
   "workers.unemployment": "Xin trợ cấp thất nghiệp",
@@ -138,7 +142,8 @@ export default {
     "SNAP (Phiếu thực phẩm). Thực phẩm miễn phí. Bữa ăn học đường miễn phí. Có thực phẩm dùng ngay hôm nay.",
   "food.pageDesc":
     "SNAP (Phiếu thực phẩm). Thực phẩm miễn phí. Bữa ăn học đường miễn phí. Hỗ trợ nhận thực phẩm ngay trong ngày.",
-  "food.snapEligibility": "Rất có thể bạn đã đủ điều kiện nhận hỗ trợ thực phẩm",
+  "food.snapEligibility":
+    "Rất có thể bạn đã đủ điều kiện nhận hỗ trợ thực phẩm",
   "food.snapEligibilityDesc":
     "Hàng triệu người Mỹ đủ điều kiện tham gia chương trình SNAP (phiếu thực phẩm) nhưng lại chưa bao giờ nộp đơn xin trợ cấp. Nếu bạn gặp khó khăn trong việc chi trả tiền mua thực phẩm, bạn có thể nhận được khoản hỗ trợ hàng tháng. Độ tuổi và quy mô gia đình đều không phải là rào cản.",
   "food.schoolMeals": "Con bạn có thể ăn miễn phí tại trường học",

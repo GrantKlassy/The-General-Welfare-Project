@@ -22,15 +22,19 @@ const locale = Astro.params.locale as Locale;
     <h1 class="text-3xl font-bold sm:text-4xl">{t(locale, "site.title")}</h1>
 
     <p class="mt-8 text-lg sm:mt-10 sm:text-xl">
-      <span class="text-flag-red">[[[</span> ★ {
-        t(locale, "common.knowYourRights")
-      } ★ <span class="text-flag-red">]]]</span>
-    </p>
-    <p class="text-lg sm:text-xl">[[[ ★ {t(locale, "common.getHelp")} ★ ]]]</p>
-    <p class="text-lg sm:text-xl">
-      <span class="text-flag-blue">[[[</span> ★ {t(locale, "common.callNow")} ★ <span
-        class="text-flag-blue">]]]</span
+      <span class="text-flag-red">[[[</span> ★ {t(locale, "common.callNow")} ★ <span
+        class="text-flag-red">]]]</span
       >
+    </p>
+    <p class="text-lg sm:text-xl">
+      <span class="text-white">[[[</span> ★ {t(locale, "common.getHelp")} ★ <span
+        class="text-white">]]]</span
+      >
+    </p>
+    <p class="text-lg sm:text-xl">
+      <span class="text-flag-blue">[[[</span> ★ {
+        t(locale, "common.knowYourRights")
+      } ★ <span class="text-flag-blue">]]]</span>
     </p>
 
     <div class="mt-6 grid gap-6 sm:mt-8 lg:grid-cols-2">

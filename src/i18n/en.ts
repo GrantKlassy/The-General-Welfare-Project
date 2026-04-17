@@ -56,8 +56,7 @@ export default {
   "voting.electionProtectionDesc":
     "If someone tries to stop you from voting, it is a federal crime. Report it and get help right now. Trained legal volunteers will help you free.",
   "voting.phone": "866-OUR-VOTE (866-687-8683)",
-  "voting.phoneDesc":
-    "Election Protection Hotline --- nonpartisan voter help",
+  "voting.phoneDesc": "Election Protection Hotline --- nonpartisan voter help",
 
   // LGBTQ+
   "lgbtq.title": "LGBTQ+ Rights",
@@ -94,8 +93,7 @@ export default {
   "freeSpeech.protest": "Your Right to Protest",
   "freeSpeech.protestDesc":
     "You can protest on public sidewalks and in parks with no permit. Learn what police can and cannot do. Learn what to do if your rights are broken.",
-  "freeSpeech.legalSupport":
-    "If Your Speech Was Punished, the ACLU May Help",
+  "freeSpeech.legalSupport": "If Your Speech Was Punished, the ACLU May Help",
   "freeSpeech.legalSupportDesc":
     "Did the government punish you for speaking, protesting, or publishing? You may have a First Amendment case. Submit your story for review.",
   "freeSpeech.knowRightsProtest": "What to Do If Arrested at a Protest",
