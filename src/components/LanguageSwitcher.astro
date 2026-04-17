@@ -82,8 +82,7 @@ const isHome = currentPath === "/";
         let prevTop: number | null = null;
         items.forEach((item) => {
           const top = item.getBoundingClientRect().top;
-          const isLineStart =
-            prevTop === null || Math.abs(top - prevTop) > 1;
+          const isLineStart = prevTop === null || Math.abs(top - prevTop) > 1;
           item.classList.toggle("line-start", isLineStart);
           prevTop = top;
         });
