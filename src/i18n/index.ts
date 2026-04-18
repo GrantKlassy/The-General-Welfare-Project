@@ -3,8 +3,10 @@ import es from "./es";
 import zhHans from "./zh-Hans";
 import vi from "./vi";
 import fil from "./fil";
+import ko from "./ko";
+import ja from "./ja";
 
-export type Locale = "en" | "es" | "zh-Hans" | "vi" | "fil";
+export type Locale = "en" | "es" | "zh-Hans" | "vi" | "fil" | "ko" | "ja";
 
 export const LOCALES = [
   { code: "en" as const, nativeName: "English" },
@@ -12,6 +14,8 @@ export const LOCALES = [
   { code: "zh-Hans" as const, nativeName: "中文" },
   { code: "vi" as const, nativeName: "Tiếng Việt" },
   { code: "fil" as const, nativeName: "Filipino" },
+  { code: "ko" as const, nativeName: "한국어" },
+  { code: "ja" as const, nativeName: "日本語" },
 ];
 
 const translations: Record<Locale, Record<string, string>> = {
@@ -20,6 +24,8 @@ const translations: Record<Locale, Record<string, string>> = {
   "zh-Hans": zhHans,
   vi,
   fil,
+  ko,
+  ja,
 };
 
 export function t(locale: Locale, key: string): string {

@@ -68,6 +68,22 @@ const {
         />
       )
     }
+    {
+      lang === "ko" && (
+        <style
+          is:inline
+          set:html={`body { font-family: "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", sans-serif; }`}
+        />
+      )
+    }
+    {
+      lang === "ja" && (
+        <style
+          is:inline
+          set:html={`body { font-family: "Hiragino Sans", "Yu Gothic", "Meiryo", "Noto Sans JP", sans-serif; }`}
+        />
+      )
+    }
   </head>
   <body class="min-h-screen font-sans antialiased">
     <Nav locale={lang} currentPath={currentPath} />
