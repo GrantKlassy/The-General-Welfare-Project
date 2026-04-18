@@ -10,7 +10,7 @@ Code last updated @ [2026-04-18](https://github.com/GrantKlassy/The-General-Welf
 
 ## What is this project
 
-I built a landing page to help underserved Americans access free resources and information. Every button names one of your rights and links straight to the agency or hotline that can actually help today — never to a search engine, never to an explainer. Optimized for low-end devices and available in five languages to reach the people who need it most.
+I built a landing page to help underserved Americans access free resources and information. Every button names one of your rights and links straight to the agency or hotline that can actually help today — never to a search engine, never to an explainer. Optimized for low-end devices and available in seven languages to reach the people who need it most.
 
 ## Optimizing for all Americans
 
@@ -50,7 +50,7 @@ I built a landing page to help underserved Americans access free resources and i
 
   <!-- metrics:playwright:end -->
 
-- Available in English, Spanish, Chinese, Vietnamese, and Filipino.
+- Available in English, Spanish, Chinese, Vietnamese, Filipino, Korean, and Japanese.
 
 #
 
