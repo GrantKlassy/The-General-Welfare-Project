@@ -1,5 +1,13 @@
 version: "3"
 
+# Repo-local custom tasks (optional). Any Taskfile.local.yml in the repo root
+# is loaded under the `local:` namespace — e.g. `task local:ship`. Invoke the
+# local `check` task (if defined) as part of the standard check fan-out.
+includes:
+  local:
+    taskfile: ./Taskfile.local.yml
+    optional: true
+
 tasks:
   check:
     desc: Run all standard repo checks
@@ -9,7 +17,13 @@ tasks:
       - task: check:license
       - task: check:history
       - task: check:last-updated
-      - task: site:check
+      - task: check:env-hygiene
+      - task: check:gitignore-baseline
+      - cmd: |
+          if [ -f Taskfile.local.yml ]; then
+            task local:check
+          fi
+        silent: true
 
   check:author:
     desc: Verify git identity is GrantKlassy
@@ -59,6 +73,16 @@ tasks:
     cmds:
       - ~/git/grantklassy/tools/update-last-updated --check .
 
+  check:env-hygiene:
+    desc: Verify .env hygiene (.env.example exists, .env is gitignored and not tracked)
+    cmds:
+      - ~/git/grantklassy/tools/rules/env_hygiene.sh .
+
+  check:gitignore-baseline:
+    desc: Verify .gitignore has baseline security-adjacent entries
+    cmds:
+      - ~/git/grantklassy/tools/rules/gitignore_baseline.sh .
+
   fix:badge:
     desc: Write the README "Code last updated" badge and stage it (pre-commit flow — uses staged files to predict substantivity)
     cmds:
@@ -67,29 +91,3 @@ tasks:
         if [ -f README.md ]; then
           git add README.md
         fi
-
-  dev:
-    desc: Run the Astro dev server with HMR (http://localhost:4321)
-    cmds:
-      - pnpm dev
-
-  build:
-    desc: Build the Astro site to dist/
-    cmds:
-      - pnpm build
-
-  preview:
-    desc: Preview the built site locally
-    cmds:
-      - pnpm preview
-
-  site:check:
-    desc: Astro TypeScript check and prettier format check
-    cmds:
-      - pnpm check
-      - pnpm format:check
-
-  site:format:
-    desc: Run prettier --write across the repo
-    cmds:
-      - pnpm format

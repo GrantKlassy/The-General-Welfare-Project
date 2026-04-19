@@ -22,3 +22,10 @@ playwright-report/
 
 # OS
 .DS_Store
+
+# Added by tools gitignore_baseline
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
