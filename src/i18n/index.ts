@@ -5,8 +5,19 @@ import vi from "./vi";
 import fil from "./fil";
 import ko from "./ko";
 import ja from "./ja";
+import ar from "./ar";
+import ht from "./ht";
 
-export type Locale = "en" | "es" | "zh-Hans" | "vi" | "fil" | "ko" | "ja";
+export type Locale =
+  | "en"
+  | "es"
+  | "zh-Hans"
+  | "vi"
+  | "fil"
+  | "ko"
+  | "ja"
+  | "ar"
+  | "ht";
 
 export const LOCALES = [
   { code: "en" as const, nativeName: "English" },
@@ -16,6 +27,8 @@ export const LOCALES = [
   { code: "fil" as const, nativeName: "Filipino" },
   { code: "ko" as const, nativeName: "한국어" },
   { code: "ja" as const, nativeName: "日本語" },
+  { code: "ar" as const, nativeName: "العربية" },
+  { code: "ht" as const, nativeName: "Kreyòl Ayisyen" },
 ];
 
 const translations: Record<Locale, Record<string, string>> = {
@@ -26,6 +39,8 @@ const translations: Record<Locale, Record<string, string>> = {
   fil,
   ko,
   ja,
+  ar,
+  ht,
 };
 
 export function t(locale: Locale, key: string): string {

@@ -1,0 +1,32 @@
+version: "3"
+
+# Repo-local tasks for The-General-Welfare-Project. Loaded under `local:`
+# namespace by the standard Taskfile.yml. Invoke with `task local:<name>`.
+
+tasks:
+  # Invoked by the standard check: fan-out at the end of `task check`.
+  check:
+    desc: Run repo-local checks (invoked after standard checks)
+    cmds:
+      - task: site:check
+
+  dev:
+    desc: Run the Astro dev server with HMR (http://localhost:4321)
+    cmds:
+      - pnpm dev
+
+  build:
+    desc: Build the Astro site to dist/
+    cmds:
+      - pnpm build
+
+  preview:
+    desc: Preview the built site locally
+    cmds:
+      - pnpm preview
+
+  site:check:
+    desc: Astro TypeScript check and prettier format check
+    cmds:
+      - pnpm check
+      - pnpm format:check

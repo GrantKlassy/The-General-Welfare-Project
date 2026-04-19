@@ -17,10 +17,12 @@ const {
   lang = "en",
   currentPath = "/",
 } = Astro.props;
+
+const dir = lang === "ar" ? "rtl" : "ltr";
 ---
 
 <!doctype html>
-<html lang={lang}>
+<html lang={lang} dir={dir}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -81,6 +83,14 @@ const {
         <style
           is:inline
           set:html={`body { font-family: "Hiragino Sans", "Yu Gothic", "Meiryo", "Noto Sans JP", sans-serif; }`}
+        />
+      )
+    }
+    {
+      lang === "ar" && (
+        <style
+          is:inline
+          set:html={`body { font-family: "SF Arabic", "Geeza Pro", "Noto Sans Arabic", "Segoe UI", Tahoma, sans-serif; }`}
         />
       )
     }
