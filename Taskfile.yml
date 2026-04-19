@@ -88,3 +88,8 @@ tasks:
     cmds:
       - pnpm check
       - pnpm format:check
+
+  site:format:
+    desc: Run prettier --write across the repo
+    cmds:
+      - pnpm format

@@ -97,7 +97,8 @@ export default {
   "freeSpeech.legalSupport": "إذا عوقبتَ بسبب حديثك، فقد تساعدك ACLU",
   "freeSpeech.legalSupportDesc":
     "هل عاقبتك الحكومة بسبب التحدث، أو الاحتجاج، أو النشر؟ قد تكون لديك قضية تستند إلى التعديل الأول للدستور. أرسل قصتك لمراجعتها.",
-  "freeSpeech.knowRightsProtest": "ما الذي يجب فعله في حال اعتقالك أثناء احتجاج",
+  "freeSpeech.knowRightsProtest":
+    "ما الذي يجب فعله في حال اعتقالك أثناء احتجاج",
   "freeSpeech.knowRightsProtestDesc":
     "قل فقط: \u201Cأريد محامياً\u201D. يغطي هذا الدليل إجراءات الاعتقال، والاحتجاز، ومصادرة الشرطة لهاتفك أثناء الاحتجاجات.",
   "freeSpeech.phone": "212-679-5100",

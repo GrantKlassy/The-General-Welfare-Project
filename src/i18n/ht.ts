@@ -57,7 +57,8 @@ export default {
   "voting.electionProtectionDesc":
     "Si yon moun eseye anpeche w vote, se yon krim federal. Rapòte li epi jwenn èd kounye a. Volontè legal ki resevwa fòmasyon ap ede w gratis.",
   "voting.phone": "866-OUR-VOTE (866-687-8683)",
-  "voting.phoneDesc": "Liy Dirèk Pwoteksyon Eleksyon --- èd pou votè ki pa patizan",
+  "voting.phoneDesc":
+    "Liy Dirèk Pwoteksyon Eleksyon --- èd pou votè ki pa patizan",
 
   // LGBTQ+
   "lgbtq.title": "Dwa LGBTQ+",
@@ -76,11 +77,9 @@ export default {
   "lgbtq.crisisResourcesDesc":
     "Sipò gratis ak prive nan men moun ki jwenn li. Chat, voye mesaj tèks, oswa rele. Ouvè pou nenpòt moun LGBTQ+, nenpòt ki lè.",
   "lgbtq.phone988": "988",
-  "lgbtq.phone988Desc":
-    "Suicide & Crisis Lifeline --- peze 3 pou sipò LGBTQ+",
+  "lgbtq.phone988Desc": "Suicide & Crisis Lifeline --- peze 3 pou sipò LGBTQ+",
   "lgbtq.phoneTrevor": "866-488-7386",
-  "lgbtq.phoneTrevorDesc":
-    "Pwojè Trevor la --- sipò kriz pou jèn LGBTQ+ yo",
+  "lgbtq.phoneTrevorDesc": "Pwojè Trevor la --- sipò kriz pou jèn LGBTQ+ yo",
 
   // Free Speech
   "freeSpeech.title": "Libète Lapawòl",
